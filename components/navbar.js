@@ -9,7 +9,20 @@ import { usePathname } from "next/navigation"
 import clsx from "clsx"
 
 import links from "@/data/navigation"
-import data from "@/data/site-details";
+import data from "@/data/site-details"
+
+const NavBrand = () => {
+  return (
+    <Link href="/" aria-label="Navigate to the home page" className="flex items-center space-x-2 text-lg font-bold">
+      <img
+        alt="GT"
+        src={data.logoLink}
+        className="h-10 w-auto"
+      />
+      <span>{data.title}</span>
+    </Link>
+  )
+}
 
 export default function NavBar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -21,14 +34,7 @@ export default function NavBar() {
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-20 items-center justify-between">
           <div className="flex lg:flex-1">
-            <Link href="/" aria-label="Navigate to the home page" className="flex items-center space-x-2 text-lg font-bold">
-              <img
-                alt="GT"
-                src={data.logoLink}
-                className="h-10 w-auto"
-              />
-              <span>{data.title}</span>
-            </Link>
+            <NavBrand />
           </div>
           <div className="flex lg:hidden">
             <button
@@ -53,14 +59,7 @@ export default function NavBar() {
         <div className="fixed inset-0 z-50" />
         <DialogPanel className="fixed inset-y-0 right-0 mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 z-50 w-full overflow-y-auto bg-bone-white-50 text-shark-950 font-nunito">
           <div className="flex items-center justify-between h-20">
-            <Link href="/" aria-label="Navigate to the home page" className="md:hidden flex items-center space-x-2 text-lg font-bold">
-              <img
-                alt="GT"
-                src={data.logoLink}
-                className="h-10 w-auto"
-              />
-              <span>{data.title}</span>
-            </Link>
+            <NavBrand />
             <button
               type="button"
               onClick={() => setMobileMenuOpen(false)}
