@@ -1,7 +1,10 @@
+import HeroHeader from "@/components/hero-header";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <p className="font-montserrat font-bold text-lg">Hello</p>
+    <>
+      <HeroHeader />
+    </>
   );
 }

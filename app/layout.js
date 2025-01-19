@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
         <header>
           <NavBar />
         </header>
-        <main className="mt-20 mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+        <main>
           {children}
         </main>
       </body>
