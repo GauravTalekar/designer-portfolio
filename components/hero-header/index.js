@@ -1,14 +1,8 @@
-import clsx from "clsx";
 import "./style.css"
-import { Fredericka_the_Great } from "next/font/google"
 import { SlSocialBehance, SlSocialInstagram, SlSocialLinkedin } from "react-icons/sl"
 import Link from "next/link";
 
-const frederickaTheGreat = Fredericka_the_Great({
-  variable: "--fredericka-the-great",
-  subsets: ["latin"],
-  weight: "400"
-});
+
 
 
 const HeroHeader = () => {
@@ -40,11 +34,11 @@ const HeroHeader = () => {
       </div>
       <div className="text-center mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
-          <p className={clsx("text-5xl md:text-6xl font-semibold tracking-tight text-shark-950 pd-4 md:pb-6", frederickaTheGreat.className)}>Hi I am</p>
-          <h2 className={clsx("text-7xl md:text-8xl font-semibold tracking-tight text-shark-950", frederickaTheGreat.className)}>
+          <p className="text-5xl md:text-6xl font-fredericka font-normal tracking-tight text-shark-950 pd-4 md:pb-6">Hi I am</p>
+          <h2 className="text-7xl md:text-8xl font-fredericka font-normal tracking-tight text-shark-950">
             Gaurav Talekar
           </h2>
-          <p className="mt-8 text-pretty text-xl md:text-2xl font-montserrat font-semibold text-cerise-600 relative">
+          <p className="mt-8 text-pretty text-xl md:text-2xl font-montserrat font-semibold text-cerise-600">
             <span className="relative">
               Illustrator & Graphic Designer
               <svg className="absolute left-[-20px] top-[-5px] h-[150%] w-[110%] -z-10" preserveAspectRatio="none" viewBox="0 0 187 30" fill="none" xmlns="http://www.w3.org/2000/svg">

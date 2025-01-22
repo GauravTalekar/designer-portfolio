@@ -67,6 +67,7 @@ export default {
       fontFamily: {
         montserrat: ["var(--font-montserrat)"],
         nunito: ["var(--font-nunito-sans)"],
+        fredericka: ["var(--fredericka-the-great)"],
       }
     },
   },

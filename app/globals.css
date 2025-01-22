@@ -18,3 +18,11 @@ body {
   color: var(--foreground);
   background: var(--background);
 }
+
+
+.hand-drawn-underline {
+  background-image: url("/images/svg/underline.svg");
+  background-position: 0 1.06em;
+  background-size: 100% 10%;
+  background-repeat: no-repeat;
+}
