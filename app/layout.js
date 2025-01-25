@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
         <header>
           <NavBar />
         </header>
-        <main>
+        <main className="bg-bone-white-50 relative">
           {children}
         </main>
       </body>

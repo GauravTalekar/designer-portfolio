@@ -9,7 +9,7 @@ import { usePathname } from "next/navigation"
 import clsx from "clsx"
 
 import links from "@/data/navigation"
-import data from "@/data/site-details"
+import { data } from "@/data/site-details"
 
 const NavBrand = () => {
   return (
@@ -48,7 +48,7 @@ export default function NavBar() {
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
             {links.map((item) => (
-              <Link key={item.title} href={item.url} className={clsx("font-semibold leading-6 hover:text-cerise-600", path == item.url ? "text-cerise-600" : "text-gray-900")}>
+              <Link key={item.title} href={item.url} className={clsx("font-semibold leading-6 hover:text-cerise-600 transition duration-300 ease-in", path == item.url ? "text-cerise-600" : "text-gray-900")}>
                 {item.title}
               </Link>
             ))}
@@ -76,7 +76,7 @@ export default function NavBar() {
                   <Link
                     key={item.title}
                     href={item.url}
-                    className={clsx("-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:bg-gray-50", path == item.url ? "text-cerise-600 bg-gray-50" : "")}
+                    className={clsx("-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:bg-gray-50 transition duration-300 ease-in", path == item.url ? "text-cerise-600 bg-gray-50" : "")}
                   >
                     {item.title}
                   </Link>

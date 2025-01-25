@@ -1,11 +1,13 @@
 import Image from "next/image"
+import Link from "next/link"
 import React from "react"
+
+import { MdArrowForward } from "react-icons/md"
 
 const AboutMe = () => {
   return (
     <section id="about-me" className="flex items-center justify-center mx-auto max-w-7xl px-6 lg:px-8 py-6 lg:py-8 text-shark-800 font-nunito">
       <div className="max-w-5xl mx-auto flex flex-col-reverse md:flex-row items-center gap-12">
-        {/* Text Section */}
         <div className="md:w-2/3">
           <h1 className="text-4xl md:text-5xl font-montserrat font-bold leading-tight text-shark-800">
             Meet Gaurav Talekar
@@ -23,9 +25,18 @@ const AboutMe = () => {
             </span>.
             When he&apos;s not designing, you might find him in a ceramic studio, crafting pottery.
           </p>
+          <div className="my-9">
+            <Link
+              className="cursor-pointer bg-shark-950 p-3 rounded-lg font-bold text-cerise-600 hover:text-dull-lavender-600 transition duration-300 ease-in"
+              title=""
+              href="/about"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Know More <MdArrowForward className="inline-block text-xl" />
+            </Link>
+          </div>
         </div>
-
-        {/* Image Section */}
         <div className="md:w-1/3 flex justify-center">
           <div className="w-72 h-72 md:w-96 md:h-96 relative">
             <Image
