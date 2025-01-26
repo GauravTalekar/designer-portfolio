@@ -9,10 +9,10 @@ const AboutMe = () => {
     <section id="about-me" className="flex items-center justify-center mx-auto max-w-7xl px-6 lg:px-8 py-6 lg:py-8 text-shark-800 font-nunito">
       <div className="flex flex-col-reverse md:flex-row items-center gap-16">
         <div className="md:w-2/3">
-          <h1 className="text-4xl md:text-5xl font-montserrat font-bold leading-tight text-shark-800">
+          <h1 className="heading">
             Meet Gaurav Talekar
           </h1>
-          <p className="mt-4 text-lg leading-relaxed">
+          <p className="mt-4 text-xl leading-relaxed">
             Gaurav Talekar is a <span className="text-cerise-600 font-semibold">Bremen, Germany</span> based designer who was born in <span className="text-cerise-600 font-semibold">Bombay, India</span>. His creative journey started at the age of 8 when he first began drawing in his school drawing book.
           </p>
           <p className="mt-4 text-lg leading-relaxed">
