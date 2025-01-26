@@ -30,8 +30,6 @@ const AboutMe = () => {
               className="cursor-pointer bg-shark-950 p-3 rounded font-montserrat text-xl text-cerise-600 hover:text-dull-lavender-600 transition duration-300 ease-in"
               title="Know more"
               href="/about"
-              target="_blank"
-              rel="noopener noreferrer"
             >
               Know More <MdArrowForward className="inline-block" />
             </Link>
