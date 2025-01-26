@@ -12,7 +12,7 @@ const AboutMe = () => {
           <h1 className="heading">
             Meet Gaurav Talekar
           </h1>
-          <p className="mt-4 text-xl leading-relaxed">
+          <p className="mt-4 text-lg leading-relaxed">
             Gaurav Talekar is a <span className="text-cerise-600 font-semibold">Bremen, Germany</span> based designer who was born in <span className="text-cerise-600 font-semibold">Bombay, India</span>. His creative journey started at the age of 8 when he first began drawing in his school drawing book.
           </p>
           <p className="mt-4 text-lg leading-relaxed">

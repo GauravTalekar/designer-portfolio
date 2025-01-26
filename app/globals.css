@@ -21,7 +21,7 @@ body {
 
 /* section-heading */
 .section-heading {
-  @apply tracking-wider whitespace-normal mt-24 mb-10 text-6xl not-italic leading-[70px] no-underline;
+  @apply tracking-wider whitespace-normal mt-24 mb-10 text-6xl not-italic leading-[70px] no-underline uppercase;
 }
 
 @media (min-width: 1280px) {
