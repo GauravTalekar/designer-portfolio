@@ -4,7 +4,7 @@ const ImageList = ({ images }) => {
   return (
     <>
       {images.map((img, idx) => (
-        <MasonaryItem key={idx} idx={idx} img={img} />
+        <MasonaryItem key={idx} img={img} />
       ))}
     </>
   );

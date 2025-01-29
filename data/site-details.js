@@ -13,7 +13,7 @@ export const socials = [
     logo: <SlSocialBehance />
   },
   {
-    link: "#",
+    link: "https://www.linkedin.com/in/gtalekar21/",
     title: "LinkedIn Profile",
     logo: <SlSocialLinkedin />
   },
