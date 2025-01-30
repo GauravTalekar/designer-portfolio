@@ -21,7 +21,7 @@ const AboutTemplate = ({ about }) => {
         paragraph.underline?.forEach((phrase) => {
           highlightMap.set(
             phrase.toLowerCase(),
-            `<strong class="text-dull-lavender-600 font-semibold relative underline decoration-wavy decoration-1 underline-offset-2">${phrase}</strong>`
+            `<strong class="text-dull-lavender-600 font-semibold relative">${phrase}</strong>`
           );
         });
 
