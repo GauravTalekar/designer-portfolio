@@ -2,7 +2,7 @@ import { SlSocialBehance, SlSocialInstagram, SlSocialLinkedin } from "react-icon
 
 export const data = {
   title: "Gaurav Talekar",
-  is: "Illustrator & Graphic Designer",
+  is: "Designer",
   logoLink: "/images/logo.svg",
 }
 

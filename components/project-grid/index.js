@@ -1,9 +1,9 @@
 import Link from "next/link"
 import { MdArrowForward } from "react-icons/md"
 import SectionHeader from "../section-header"
-import { images } from "@/data/projects"
 import ImageList from "./image-list"
 import MasonryGrid from "./masonry-grid"
+import { images } from "@/data/landing-masonry-images"
 
 
 const ProjectGrid = () => {
