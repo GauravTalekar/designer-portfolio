@@ -33,13 +33,12 @@ const ContactSection = () => {
               className="mt-6"
             >
               <p className="text-lg mt-4">
-                Let&apos;s collaborate and create something amazing! Feel free to reach out to me via the form or drop me a mail at gauravtalekar@gmail.com.
+                Let&apos;s collaborate and create something amazing! Feel free to reach out to me via the form or drop me a mail at <strong className="text-dull-lavender-600 font-semibold">gtalekar21@gmail.com</strong>.
               </p>
               <p className="text-lg mt-4">
                 You can check and connect with me on my other social handles.
               </p>
 
-              {/* Social Media Icons */}
               <div className="flex space-x-6 text-4xl md:text-4xl mt-6">
                 {
                   socials.map((social, idx) =>
