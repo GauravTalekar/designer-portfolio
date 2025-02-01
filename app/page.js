@@ -1,7 +1,7 @@
 import AboutMe from "@/components/about-me"
 import ContactSection from "@/components/contact/contact-section";
 import HeroHeader from "@/components/hero-header"
-import ProjectGrid from "@/components/project-grid";
+import MasonryGridSection from "@/components/masonry-grid";
 import ServicesSection from "@/components/services";
 
 export default function Home() {
@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <HeroHeader />
       <AboutMe />
-      <ProjectGrid />
+      <MasonryGridSection />
       <ServicesSection />
       <ContactSection />
     </>

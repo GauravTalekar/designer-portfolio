@@ -5,8 +5,8 @@ import React from "react"
 import { MdArrowForward } from "react-icons/md"
 import { LazyMotion, domAnimation } from "motion/react"
 import * as m from "motion/react-m"
-import AboutTemplate from "./about-template"
 import { about } from "@/data/site-details"
+import ParagraphTemplate from "../paragraph-template"
 
 const AboutMe = () => {
   return (
@@ -29,7 +29,7 @@ const AboutMe = () => {
               viewport={{ once: true, amount: 0.1 }}
               transition={{ duration: 0.5, delay: 0.5, ease: "easeOut" }}
             >
-              <AboutTemplate about={about} />
+              <ParagraphTemplate paragraphs={about} />
               
               <div className="my-9">
                 <Link

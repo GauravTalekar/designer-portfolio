@@ -1,4 +1,4 @@
-import MasonaryItem from "./masonary-item";
+import MasonaryItem from "./masonry-item";
 
 const ImageList = ({ images }) => {
   return (

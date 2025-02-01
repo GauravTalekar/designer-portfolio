@@ -1,7 +1,7 @@
-const AboutTemplate = ({ about }) => {
+const ParagraphTemplate = ({ paragraphs }) => {
   return (
     <>
-      {about.map((paragraph, index) => {
+      {paragraphs.map((paragraph, index) => {
         let modifiedText = paragraph.text;
 
         // Function to escape special regex characters
@@ -51,4 +51,4 @@ const AboutTemplate = ({ about }) => {
   );
 }
 
-export default AboutTemplate;
+export default ParagraphTemplate;

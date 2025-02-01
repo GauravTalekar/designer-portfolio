@@ -6,7 +6,7 @@ import MasonryGrid from "./masonry-grid"
 import { images } from "@/data/landing-masonry-images"
 
 
-const ProjectGrid = () => {
+const MasonryGridSection = () => {
   return (
     <section className="mx-auto max-w-7xl px-6 lg:px-8 py-6 lg:py-8 bg-bone-white-50">
       <SectionHeader
@@ -27,4 +27,4 @@ const ProjectGrid = () => {
   );
 };
 
-export default ProjectGrid
+export default MasonryGridSection

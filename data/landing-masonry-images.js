@@ -24,12 +24,12 @@ export const images = [
     height: 300,
   },
   {
-    src: "/images/projects/Between-the-lines.png",
-    alt: 'Project 2',
-    title: 'Project Title 2',
+    src: "https://res.cloudinary.com/dafnraofi/image/upload/v1738418769/Thumbnail_jnrzv1.jpg",
+    alt: 'Wings & Whiskers',
+    title: 'Wings & Whiskers',
     description: 'This is a brief description of project 2.',
-    width: 400,
-    height: 300,
+    width: 1080,
+    height: 1080,
   },
   {
     src: "/images/projects/Peakfit.jpg",
