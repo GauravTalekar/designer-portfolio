@@ -11,6 +11,13 @@ export async function generateStaticParams() {
   }));
 }
 
+function getDateInFormat(date) {
+  let months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  let formattedDate = months[date.getMonth()] + " " + date.getFullYear();
+
+  return formattedDate;
+}
+
 export default async function ProjectPage({ params }) {
   const slug = (await params)
   const project = projects.find((p) => p.link === slug.project);
@@ -53,7 +60,7 @@ export default async function ProjectPage({ params }) {
               <li className="list-group-item p-4 border-b">
                 <strong className="font-montserrat uppercase">Created On</strong>
                 <p className="capitalize">
-                  {project["made-in"]}
+                  {getDateInFormat(project["made-in"])}
                 </p>
               </li>
               <li className="list-group-item p-4">
