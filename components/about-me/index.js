@@ -33,7 +33,7 @@ const AboutMe = () => {
               
               <div className="my-9">
                 <Link
-                  className="cursor-pointer bg-shark-950 p-4 rounded font-montserrat text-xl text-cerise-600 hover:text-dull-lavender-600 hover:transform hover:scale-110 transition duration-300 ease-in"
+                  className="cursor-pointer bg-shark-950 p-4 rounded font-montserrat text-xl text-cerise-600 hover:text-dull-lavender-600 transition duration-300 ease-in"
                   title="Know more"
                   href="/about"
                 >

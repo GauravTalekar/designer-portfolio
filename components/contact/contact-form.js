@@ -14,7 +14,7 @@ const ContactForm = () => {
         initial="hidden"
         animate="visible"
         variants={formVariants}>
-        <form className="space-y-6">
+        <form className="space-y-6" action="https://formsubmit.co/gaurav.talekar.designer@gmail.com" method="POST">
           {/* Name and Email Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
 
@@ -57,9 +57,9 @@ const ContactForm = () => {
           {/* Submit Button */}
           <button
             type="submit"
-            className="w-full py-3 cursor-pointer bg-shark-950 rounded font-bold text-cerise-600 hover:text-dull-lavender-600 transition-all duration-300"
+            className="w-full py-3 cursor-pointer bg-shark-950 rounded font-montserrat text-xl text-cerise-600 hover:text-dull-lavender-600 transition duration-300 ease-in"
           >
-            Send
+            Send Message!
           </button>
         </form>
       </m.div>

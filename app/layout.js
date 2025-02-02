@@ -1,6 +1,7 @@
 import { Fredericka_the_Great, Montserrat, Nunito_Sans } from "next/font/google";
 import "./globals.css";
 import NavBar from "@/components/navbar";
+import Footer from "@/components/footer";
 
 const nunitoSans = Nunito_Sans({
   variable: "--font-nunito-sans",
@@ -35,6 +36,7 @@ export default function RootLayout({ children }) {
         <main className="bg-bone-white-50 relative">
           {children}
         </main>
+        <Footer />
       </body>
     </html>
   );
