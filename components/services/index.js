@@ -13,8 +13,7 @@ const ServicesSection = () => {
       <ServicesGrid services={services} />
       <div className="flex justify-center my-9">
         <Link
-          className="cursor-pointer bg-shark-950 p-4 rounded font-montserrat text-xl text-cerise-600 hover:text-dull-lavender-600 transition duration-300 ease-in"
-          title="More About Services"
+          className="inline-block transform cursor-pointer bg-shark-950 p-4 rounded text-cerise-600 hover:text-dull-lavender-600 hover:-translate-y-1 hover:scale-110 transition delay-150 duration-300 ease-in-out"
           href="/services"
         >
           Show More <MdArrowForward className="inline-block" />

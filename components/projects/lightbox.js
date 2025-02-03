@@ -1,8 +1,5 @@
 "use client";
 
-import { LazyMotion, domAnimation } from "motion/react"
-import * as m from "motion/react-m"
-
 import { useState } from "react";
 import Lightbox from "yet-another-react-lightbox";
 import Zoom from "yet-another-react-lightbox/plugins/zoom";
@@ -14,18 +11,10 @@ export default function ProjectLightbox({ images }) {
   const [index, setIndex] = useState(0);
 
   return (
-    <LazyMotion features={domAnimation}>
-
+    <>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {images.map((img, i) => (
-          <m.div
-            key={i}
-            whileTap={{ scale: 0.95 }}
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.1 }}
-            transition={{ duration: 0.5, delay: 0.5, ease: "easeOut" }}
-          >
+          <div key={i} className="fade-in transition-all ease-out duration-500 delay-200">
             <Image
               src={img.src}
               alt={img.alt}
@@ -34,7 +23,7 @@ export default function ProjectLightbox({ images }) {
               className="cursor-pointer rounded w-full shadow-md hover:scale-105 transition"
               onClick={() => { setOpen(true); setIndex(i); }}
             />
-          </m.div>
+          </div>
         ))}
       </div>
 
@@ -45,6 +34,6 @@ export default function ProjectLightbox({ images }) {
         index={index}
         plugins={[Zoom]}
       />
-    </LazyMotion >
+    </>
   );
 }

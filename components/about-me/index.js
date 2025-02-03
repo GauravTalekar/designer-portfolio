@@ -3,63 +3,42 @@ import Link from "next/link"
 import React from "react"
 
 import { MdArrowForward } from "react-icons/md"
-import { LazyMotion, domAnimation } from "motion/react"
-import * as m from "motion/react-m"
 import { about } from "@/data/site-details"
 import ParagraphTemplate from "../paragraph-template"
+import LinkButton from "../link-button"
 
 const AboutMe = () => {
   return (
-    <LazyMotion features={domAnimation}>
-      <section id="about-me" className="flex items-center justify-center mx-auto max-w-7xl px-6 lg:px-8 py-6 lg:py-8 text-shark-800 font-nunito">
-        <div className="flex flex-col-reverse md:flex-row items-center gap-16">
-          <div className="md:w-2/3">
-            <m.h2
-              className="heading"
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.1 }}
-              transition={{ duration: 0.5, ease: "easeOut" }}
-            >
-              Meet Gaurav Talekar
-            </m.h2>
-            <m.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.1 }}
-              transition={{ duration: 0.5, delay: 0.5, ease: "easeOut" }}
-            >
-              <ParagraphTemplate paragraphs={about} />
-              
-              <div className="my-9">
-                <Link
-                  className="cursor-pointer bg-shark-950 p-4 rounded font-montserrat text-xl text-cerise-600 hover:text-dull-lavender-600 transition duration-300 ease-in"
-                  title="Know more"
-                  href="/about"
-                >
-                  Know More <MdArrowForward className="inline-block" />
-                </Link>
-              </div>
-            </m.div>
+    <section id="about-me" className="flex items-center justify-center mx-auto max-w-7xl px-6 lg:px-8 py-6 lg:py-8 text-shark-800 font-nunito">
+      <div className="flex flex-col-reverse md:flex-row items-center gap-16">
+        <div className="md:w-2/3">
+          <h2 className="heading fade-in transition-all ease-out duration-500">
+            Meet Gaurav Talekar
+          </h2>
+          <div className="fade-in transition-all ease-out duration-500 delay-100">
+            <ParagraphTemplate paragraphs={about} />
           </div>
-          <m.div className="md:w-1/3 flex justify-center"
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.1 }}
-            transition={{ duration: 0.5, delay: 0.5, ease: "easeOut" }}
-          >
-            <div className="w-72 h-72 md:w-96 md:h-96 relative">
-              <Image
-                src="/images/gaurav-talekar.jpg"
-                alt="Gaurav Talekar Portrait"
-                className="rounded-full object-cover"
-                fill
-              />
-            </div>
-          </m.div>
+          <div className="my-9 fade-in transition-all ease-out duration-500 delay-200">
+            <Link
+              className="inline-block transform cursor-pointer bg-shark-950 p-4 rounded text-cerise-600 hover:text-dull-lavender-600 hover:-translate-y-1 hover:scale-110 transition delay-150 duration-300 ease-in-out"
+              href="/about"
+            >
+              Know More <MdArrowForward className="inline-block" />
+            </Link>
+          </div>
         </div>
-      </section >
-    </LazyMotion>
+        <div className="md:w-1/3 flex justify-center fade-in transition-all ease-out duration-500 delay-100">
+          <div className="w-72 h-72 md:w-96 md:h-96 relative">
+            <Image
+              src="/images/gaurav-talekar.jpg"
+              alt="Gaurav Talekar Portrait"
+              className="rounded-full object-cover"
+              fill
+            />
+          </div>
+        </div>
+      </div>
+    </section >
   )
 }
 

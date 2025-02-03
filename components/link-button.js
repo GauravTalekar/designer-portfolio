@@ -3,7 +3,7 @@ import clsx from "clsx"
 import Link from "next/link"
 
 
-const LinkButton = ({ text, link, title, clx, ...props }) => {
+const LinkButton = ({ link, title, clx, children, ...props }) => {
   return (
     <Link
       className={
@@ -17,7 +17,7 @@ const LinkButton = ({ text, link, title, clx, ...props }) => {
       href={link}
       {...props}
     >
-      {text}
+      {children}
     </Link>
   )
 }
