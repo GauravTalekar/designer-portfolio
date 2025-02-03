@@ -1,6 +1,6 @@
 export const images = [
   {
-    src: "https://res.cloudinary.com/dafnraofi/image/upload/v1738418769/Thumbnail_jnrzv1.jpg",
+    src: "https://res.cloudinary.com/du7prd881/image/upload/v1738504443/Wings-And-Whiskers/uzitetmuvbqe3ymfjnh6.jpg",
     alt: 'Wings And Whiskers',
     title: 'Wings And Whiskers',
     width: 1080,
@@ -16,7 +16,7 @@ export const images = [
     height: 1080,
   },
   {
-    src: "https://res.cloudinary.com/dafnraofi/image/upload/v1738418769/Thumbnail_jnrzv1.jpg",
+    src: "https://res.cloudinary.com/du7prd881/image/upload/v1738505424/Thumbnail_ad6kiw.jpg",
     alt: 'Nalini',
     title: 'Nalini',
     width: 1080,
@@ -32,19 +32,19 @@ export const images = [
     link: "coloreta",
   },
   {
-    src: "https://res.cloudinary.com/du7prd881/image/upload/v1738504441/Katze/r8zslx0gszhjcx9lpmys.jpg",
-    alt: 'Die Katze',
-    title: 'Die Katze',
-    link: "die-katze",
-    width: 1080,
-    height: 1080,
-  },
-  {
-    src: "https://res.cloudinary.com/dafnraofi/image/upload/v1738418769/Thumbnail_jnrzv1.jpg",
+    src: "https://res.cloudinary.com/du7prd881/image/upload/v1738505424/Thumbnail_ad6kiw.jpg",
     alt: 'Nalini',
     title: 'Nalini',
     width: 1080,
     height: 1080,
     link: "nalini",
+  },
+  {
+    src: "https://res.cloudinary.com/du7prd881/image/upload/v1738504443/Wings-And-Whiskers/uzitetmuvbqe3ymfjnh6.jpg",
+    alt: 'Wings And Whiskers',
+    title: 'Wings And Whiskers',
+    width: 1080,
+    height: 1080,
+    link: "wings-and-whiskers",
   },
 ];
