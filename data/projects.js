@@ -110,8 +110,8 @@ export const projects = [
     "link": "nalini",
     "about": [
       {
-        text: "Nalini—a Sanskrit word meaning Lotus—is more than a beauty care brand; it is a recognition of the journey toward self-realization and authentic beauty.",
-        highlight: ["Nalini—a Sanskrit word meaning Lotus—is"],
+        text: "Nalini—a Sanskrit word meaning Lotus is more than a beauty care brand; it is a recognition of the journey toward self-realization and authentic beauty.",
+        highlight: ["Nalini—a Sanskrit word meaning Lotus"],
       },
       {
         text: "Inspired by the lotus flower, Nalini embraces the philosophy of growth, purity, and transformation. Each product is crafted to empower, inspire, and nurture, encouraging you to rise above external constraints and embrace the oneness of your true essence.",
@@ -155,6 +155,64 @@ export const projects = [
       },
       {
         "src": "https://res.cloudinary.com/du7prd881/image/upload/v1738505422/img_1_hxysj3.jpg",
+        "alt": "Packaging mock image"
+      },
+    ]
+  },
+  {
+    "project-name": "Coloreta",
+    "link": "coloreta",
+    "about": [
+      {
+        text: "The branding for 'Coloreta' focuses on vibrancy, life, and ecological awareness, encapsulating the colorful and energetic essence of frogs.",
+        highlight: ["Coloreta"],
+      },
+      {
+        text: "The visual identity mirrors the diversity of rainforests while ensuring it remains modern and versatile for various product types.",
+      },
+      {
+        text: "Drawing inspiration from the kaleidoscopic variety of frogs found in the rainforests of South America and the lush forests of Equatorial Africa, the project blends illustration with nature's brilliance. Beyond stickers, the designs extend to lifestyle merchandise, including tote bags, hoodies, tea and coffee coasters, and fridge magnets, creating a versatile collection that merges aesthetic appeal with functional use.",
+        underline: ["stickers, the designs extend to lifestyle merchandise, including tote bags, hoodies, tea and coffee coasters, and fridge magnets"]
+      },
+      {
+        text: "The purpose of this project is to spread awareness of nature&apos;s creation and biodiversity through visual and practical designs.",
+      },
+    ],
+    "type": "Print",
+    "tools-used": ["Adobe Photoshop", "Adobe Illustrator", "Procreate"],
+    "made-in": new Date(2024, 10),
+    "thumbnail": "https://res.cloudinary.com/du7prd881/image/upload/v1738604459/Thumbnail_pnk52x.jpg",
+    "images-list": [
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1738604461/Img_3_mm87ar.jpg",
+        "alt": "Bag mock image"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1738604456/Img_4_zpltmu.jpg",
+        "alt": "Bag mock image"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1738604456/Img_1_qdnpf6.jpg",
+        "alt": "Bag mock image"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1738604461/Img_7_fbc3o2.jpg",
+        "alt": "Magnet mock image"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1738604452/Img_6_pdwgdz.jpg",
+        "alt": "Bag mock image"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1738604449/Img_2_myyflh.jpg",
+        "alt": "Bag mock image"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1738604445/Img_5_tys1gx.jpg",
+        "alt": "T-shirt mock image"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1738604448/Img_8_rywssw.jpg",
         "alt": "Packaging mock image"
       },
     ]
