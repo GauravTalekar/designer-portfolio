@@ -77,6 +77,7 @@ export default function NavBar() {
                     key={item.title}
                     href={item.url}
                     className={clsx("-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:bg-gray-50 transition duration-300 ease-in", path == item.url ? "text-cerise-600 bg-gray-50" : "")}
+                    onClick={() => setMobileMenuOpen(false)}
                   >
                     {item.title}
                   </Link>
