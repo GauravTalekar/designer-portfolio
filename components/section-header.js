@@ -1,19 +1,20 @@
-import clsx from "clsx"
+import clsx from "clsx";
 
 const SectionHeader = ({ title, clx }) => {
-
   return (
     <h2
-      className={
-        clsx(
-          "section-heading fade-in transition-all ease-out duration-500",
-          clx
-        )
-      }
+      className={clsx(
+        "tracking-wider uppercase transition-all ease-out duration-500 fade-in",
+        "my-10 text-4xl leading-10", // Small screens
+        "md:my-10 md:text-4xl md:leading-10", // Medium screens
+        "lg:my-16 lg:text-6xl lg:leading-10", // Large screens
+        clx
+      )}
+      aria-label={title}
     >
       {title}
     </h2>
-  )
-}
+  );
+};
 
-export default SectionHeader
+export default SectionHeader;

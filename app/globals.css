@@ -19,41 +19,6 @@ body {
   background: var(--background);
 }
 
-/* section-heading */
-.section-heading {
-  @apply tracking-wider mt-24 mb-10 text-6xl leading-[70px] uppercase;
-}
-
-@media (min-width: 1280px) {
-  .section-heading {
-    @apply mt-24 text-6xl;
-  }
-}
-
-@media (min-width: 1920px) {
-  .section-heading {
-    @apply mt-36 mb-20 text-[80px] leading-[90px];
-  }
-}
-
-@media (max-width: 991px) {
-  .section-heading {
-    @apply tracking-wide mt-10 mb-10 text-4xl leading-10;
-  }
-}
-
-@media (max-width: 767px) {
-  .section-heading {
-    @apply mt-8 mb-8 text-3xl;
-  }
-}
-
-@media (max-width: 479px) {
-  .section-heading {
-    @apply tracking-wider mt-10 mb-10 text-[35px] leading-10 flex;
-  }
-}
-
 /* heading */
 .heading {
   @apply tracking-wider uppercase mt-5 mb-5 text-6xl leading-[70px] block font-montserrat font-bold text-shark-800;
