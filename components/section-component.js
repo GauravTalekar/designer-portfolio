@@ -13,12 +13,14 @@ const SectionComponent = ({
     <section
       id={id}
       className={clsx(
-        `mx-auto ${maxWidth} px-6 lg:px-8 py-6 lg:py-8 text-shark-800 font-nunito my-6 lg:my-12 ${bgColor} ${border}`,
+        `px-6 lg:px-8 py-12 lg:py-20 text-shark-800 font-nunito ${bgColor} ${border}`,
         clx
       )}
       {...props}
     >
-      {children}
+      <div className={`mx-auto ${maxWidth}`}>
+        {children}
+      </div>
     </section>
   )
 }

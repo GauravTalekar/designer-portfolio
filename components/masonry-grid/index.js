@@ -9,8 +9,7 @@ import SectionComponent from "../section-component"
 
 const MasonryGridSection = () => {
   return (
-    <SectionComponent id="project-showcase-section" aria-label="Project Showcase Section">
-      <hr className="border-shark-950" />
+    <SectionComponent id="project-showcase-section" aria-label="Project Showcase Section" bgColor={"bg-white"}>
       <SectionHeader
         title={"My Work"}
         clx={"flex justify-center items-center text-center text-shark-800 font-montserrat font-bold"}

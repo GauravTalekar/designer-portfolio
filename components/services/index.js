@@ -10,7 +10,6 @@ import SectionComponent from "../section-component"
 const ServicesSection = () => {
   return (
     <SectionComponent id="services-section" aria-label="Services Section">
-      <hr className="border-shark-950" />
       <SectionHeader title={"Services"} clx={"flex justify-center items-center text-center text-shark-800 font-montserrat font-bold"} />
       <ServicesGrid services={services} />
       <div className="flex justify-center my-9">

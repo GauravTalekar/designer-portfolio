@@ -2,18 +2,18 @@ import ContactForm from "./contact-form"
 import { socials } from '@/data/site-details';
 import Link from 'next/link';
 import SectionComponent from "../section-component";
+import SectionHeader from "../section-header";
 
 const ContactSection = () => {
   return (
-    <SectionComponent id="contact-section" aria-label="Contact Section">
-      <hr className="border-shark-950" />
+    <SectionComponent id="contact-section" aria-label="Contact Section" bgColor={"bg-white"}>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-16 py-8 md:py-12">
-        <div className="flex flex-col justify-start align-top">
-          <h2
-            className="heading fade-in transition-all ease-out duration-500"
-          >
-            Lets work together
-          </h2>
+        <div>
+          <SectionHeader
+            clx="text-shark-800 font-montserrat font-bold fade-in transition-all ease-out duration-500"
+            title="Lets work together"
+          />
+
           <div className="mt-6 fade-in transition-all ease-out duration-500 delay-200">
             <p className="text-lg mt-4">
               Let&apos;s collaborate and create something amazing! Feel free to reach out to me via the form or drop me a mail at <strong className="text-dull-lavender-600 font-semibold">gtalekar21@gmail.com</strong>.
@@ -41,7 +41,7 @@ const ContactSection = () => {
             </div>
           </div>
         </div>
-        <div className="fade-in transition-all ease-out duration-500 delay-300">
+        <div className="mt-10 lg:my-16 fade-in transition-all ease-out duration-500 delay-300">
           <ContactForm />
         </div>
       </div>
