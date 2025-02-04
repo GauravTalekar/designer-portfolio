@@ -5,10 +5,11 @@ import React from "react"
 import { MdArrowForward } from "react-icons/md"
 import { about } from "@/data/site-details"
 import ParagraphTemplate from "../paragraph-template"
+import SectionComponent from "../section-component"
 
 const AboutMe = () => {
   return (
-    <section id="about-me" className="mx-auto max-w-7xl px-6 lg:px-8 py-6 lg:py-8 text-shark-800 font-nunito">
+    <SectionComponent id="about-me" aria-label="About Section">
       {/* <div className="flex flex-col-reverse md:flex-row items-center gap-16">
         <div className="md:w-2/3">
           <h2 className="heading fade-in transition-all ease-out duration-500">
@@ -50,7 +51,7 @@ const AboutMe = () => {
               />
             </div>
           </div>
-          <h2 className="mt-10 mb-10 text-4xl md:text-6xl fade-in transition-all ease-out duration-500 delay-200">
+          <h2 className="mt-10 mb-10 text-4xl md:text-6xl font-montserrat fade-in transition-all ease-out duration-500 delay-200">
             I&apos;m Gaurav Talekar, a UX/UI designer specializing in creating user-friendly mobile apps based in Bremen, Germany.
           </h2>
           <div className="fade-in transition-all ease-out duration-500 delay-300">
@@ -68,7 +69,7 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
-    </section >
+    </SectionComponent>
   )
 }
 

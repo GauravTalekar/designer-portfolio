@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${nunitoSans.variable} ${montserrat.variable} ${frederickaTheGreat.variable} antialiased m-0 p-0 min-h-screen text-base bg-bone-white-50 text-shark-950 font-normal`}
       >
-        <header>
+        <header className="h-20">
           <NavBar />
         </header>
         <main className="bg-bone-white-50 relative">

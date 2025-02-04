@@ -4,11 +4,12 @@ import SectionHeader from "../section-header"
 import ImageList from "./image-list"
 import MasonryGrid from "./masonry-grid"
 import { images } from "@/data/landing-masonry-images"
+import SectionComponent from "../section-component"
 
 
 const MasonryGridSection = () => {
   return (
-    <section className="mx-auto max-w-7xl px-6 lg:px-8 py-6 lg:py-8 bg-bone-white-50">
+    <SectionComponent id="project-showcase-section" aria-label="Project Showcase Section">
       <hr className="border-shark-950" />
       <SectionHeader
         title={"My Work"}
@@ -23,7 +24,7 @@ const MasonryGridSection = () => {
           Show More <MdArrowForward className="inline-block" />
         </Link>
       </div>
-    </section>
+    </SectionComponent>
   );
 };
 

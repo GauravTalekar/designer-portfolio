@@ -1,10 +1,11 @@
 import ContactForm from "./contact-form"
 import { socials } from '@/data/site-details';
 import Link from 'next/link';
+import SectionComponent from "../section-component";
 
 const ContactSection = () => {
   return (
-    <section id="contact-me" className="mx-auto max-w-7xl px-6 lg:px-8 py-6 lg:py-8 text-shark-800 font-nunito">
+    <SectionComponent id="contact-section" aria-label="Contact Section">
       <hr className="border-shark-950" />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-16 py-8 md:py-12">
         <div className="flex flex-col justify-start align-top">
@@ -44,7 +45,7 @@ const ContactSection = () => {
           <ContactForm />
         </div>
       </div>
-    </section>
+    </SectionComponent>
   )
 }
 

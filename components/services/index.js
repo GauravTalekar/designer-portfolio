@@ -4,11 +4,12 @@ import SectionHeader from "../section-header"
 import ServicesGrid from "./services-grid"
 
 import { services } from "@/data/services"
+import SectionComponent from "../section-component"
 
 
 const ServicesSection = () => {
   return (
-    <section className="mx-auto max-w-7xl px-6 lg:px-8 py-6 lg:py-8 bg-bone-white-50">
+    <SectionComponent id="services-section" aria-label="Services Section">
       <hr className="border-shark-950" />
       <SectionHeader title={"Services"} clx={"flex justify-center items-center text-center text-shark-800 font-montserrat font-bold"} />
       <ServicesGrid services={services} />
@@ -20,7 +21,7 @@ const ServicesSection = () => {
           Show More <MdArrowForward className="inline-block" />
         </Link>
       </div>
-    </section>
+    </SectionComponent>
   )
 }
 
