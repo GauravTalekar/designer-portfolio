@@ -2,22 +2,24 @@ import Image from "next/image"
 
 const ServicesGrid = ({ services }) => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
       {services.map((service, idx) => (
         <div
           key={idx}
           className="bg-white px-8 py-6 border rounded-xl hover:shadow-md fade-in transition-all ease-out duration-500 delay-200"
         >
-          <div className="mb-4">
-            <Image
-              src={service.icon}
-              alt={`${service.title} icon`}
-              className="w-16 h-16 mr-4"
-              height={512}
-              width={512}
-            />
+          <div className="flex items-start space-x-4 mb-4">
+            <div className="w-16 h-16 flex-shrink-0">
+              <Image
+                src={service.icon}
+                alt={`${service.title} icon`}
+                className="w-16 h-16"
+                height={512}
+                width={512}
+              />
+            </div>
+            <h3 className="text-xl md:text-2xl flex-grow font-montserrat font-semibold">{service.title}</h3>
           </div>
-          <h3 className="text-2xl font-montserrat font-semibold mb-4">{service.title}</h3>
           <ul className="font-nunito list-inside">
             {service.offering.map((item, idx) => (
               <li key={idx} className="flex items-center space-x-3 text-lg">

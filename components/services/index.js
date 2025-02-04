@@ -9,7 +9,9 @@ import { services } from "@/data/services"
 const ServicesSection = () => {
   return (
     <section className="mx-auto max-w-7xl px-6 lg:px-8 py-6 lg:py-8 bg-bone-white-50">
+      <hr className="border-shark-950" />
       <SectionHeader title={"Services"} clx={"flex justify-center items-center text-center text-shark-800 font-montserrat font-bold"} />
+      <hr className="border-shark-950" />
       <ServicesGrid services={services} />
       <div className="flex justify-center my-9">
         <Link

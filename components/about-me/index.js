@@ -9,7 +9,7 @@ import LinkButton from "../link-button"
 
 const AboutMe = () => {
   return (
-    <section id="about-me" className="flex items-center justify-center mx-auto max-w-7xl px-6 lg:px-8 py-6 lg:py-8 text-shark-800 font-nunito">
+    <section id="about-me" className="mx-auto max-w-7xl px-6 lg:px-8 py-6 lg:py-8 text-shark-800 font-nunito">
       <div className="flex flex-col-reverse md:flex-row items-center gap-16">
         <div className="md:w-2/3">
           <h2 className="heading fade-in transition-all ease-out duration-500">

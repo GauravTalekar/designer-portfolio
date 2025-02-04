@@ -12,7 +12,7 @@ const breakpointColumnsObj = {
 const MasonryGrid = ({ imageList }) => {
   return (
     <Masonry
-      className="flex gap-4 overflow-clip fade-in transition-all ease-out duration-500 delay-100"
+      className="flex gap-4 overflow-clip fade-in transition-all ease-out duration-500 delay-100 mt-3"
       columnClassName="bg-clip-padding overflow-clip masonry-columns"
       breakpointCols={breakpointColumnsObj}
     >
