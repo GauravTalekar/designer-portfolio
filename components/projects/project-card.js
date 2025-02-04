@@ -23,7 +23,7 @@ const ProjectCard = ({ src, alt, title, link }) => {
           <p className="text-dull-lavender-50 text-lg font-montserrat uppercase mt-24">LEARN MORE</p>
         </div>
         <div className="absolute bottom-0 left-0 right-0 bg-black/50 text-white text-center md:hidden lg:hidden">
-          <h3 className="text-sm font-semibold p-2">{title}</h3>
+          <h3 className="text-sm font-montserrat uppercase p-2">{title}</h3>
         </div>
       </Link>
     </li>
