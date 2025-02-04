@@ -4,8 +4,6 @@ import SectionHeader from "../section-header"
 import ImageList from "./image-list"
 import MasonryGrid from "./masonry-grid"
 import { images } from "@/data/landing-masonry-images"
-import LinkButton from "../link-button"
-import Image from "next/image"
 
 
 const MasonryGridSection = () => {
@@ -16,7 +14,6 @@ const MasonryGridSection = () => {
         title={"My Work"}
         clx={"flex justify-center items-center text-center text-shark-800 font-montserrat font-bold"}
       />
-      <hr className="border-shark-950" />
       <MasonryGrid imageList={<ImageList images={images} />} />
       <div className="flex justify-center my-9">
         <Link
