@@ -3,7 +3,7 @@ import Link from "next/link"
 
 const Footer = () => {
   return (
-    <footer className="bg-white text-shark-950 font-nunito drop-shadow-[0_-2px_2px_rgba(0,0,0,0.05)]">
+    <footer className="text-shark-950 font-nunito drop-shadow-[0_-2px_2px_rgba(0,0,0,0.05)]">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0 font-montserrat">
@@ -16,10 +16,10 @@ const Footer = () => {
               <span className="self-center text-2xl font-semibold whitespace-nowrap">{data.title}</span>
             </Link>
           </div>
-          <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+          <div className="grid grid-cols-2 gap-8 sm:gap-6">
             <div>
               <h2 className="mb-6 text-sm font-montserrat font-semibold text-gray-900 uppercase">Resources</h2>
-              <ul className="text-gray-500 dark:text-gray-400 font-medium">
+              <ul className="text-shark-950 font-medium">
                 <li className="mb-4">
                   <Link
                     className="hover:text-cerise-600 transition delay-150 duration-300 ease-in-out"
@@ -47,8 +47,8 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h2 className="mb-6 text-sm font-montserrat font-semibold text-gray-900 uppercase">Follow Me</h2>
-              <ul className="text-gray-500 dark:text-gray-400 font-medium">
+              <h2 className="mb-6 text-sm font-montserrat font-semibold text-shark-950 uppercase">Follow Me</h2>
+              <ul className="text-shark-950 font-medium">
                 {
                   socials.map((social, idx) =>
                     <li className="mb-4" key={idx}>
@@ -68,9 +68,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <hr className="my-6 border-gray-300 sm:mx-auto lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 What's mine is mine, what's yours is yours.
+          <span className="text-sm text-shark-950 sm:text-center">© 2025 What's mine is mine, what's yours is yours.
           </span>
           <div className="flex mt-4 sm:justify-center sm:mt-0">
             {

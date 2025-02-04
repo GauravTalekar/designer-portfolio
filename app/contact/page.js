@@ -1,5 +1,6 @@
 import ContactForm from "@/components/contact/contact-form"
 import FadeInObserver from "@/components/fade-in-observer"
+import SectionComponent from "@/components/section-component"
 import SectionHeader from "@/components/section-header"
 import { socials } from "@/data/site-details"
 import Link from "next/link"
@@ -8,7 +9,7 @@ const ContactPage = () => {
   return (
     <>
       <FadeInObserver />
-      <section id="contact-me" className="mx-auto max-w-7xl px-6 lg:px-8 py-6 lg:py-8 mt-20 text-shark-800 font-nunito">
+      <SectionComponent id="contact-section" aria-label="Contact Section" bgColor="bg-white">
         <SectionHeader title={"Lets work together"} clx={"text-shark-800 font-montserrat font-bold"} />
         <div className="grid grid-cols-1 gap-16">
           <div className="flex flex-col justify-start align-top">
@@ -43,7 +44,7 @@ const ContactPage = () => {
             <ContactForm />
           </div>
         </div>
-      </section>
+      </SectionComponent>
     </>
   )
 }

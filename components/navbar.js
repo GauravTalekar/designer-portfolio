@@ -39,7 +39,7 @@ export default function NavBar() {
   };
 
   return (
-    <nav className="fixed top-0 w-full z-40 flex-none lg:z-50 bg-white text-shark-950 font-nunito shadow-sm" aria-label="Main navigation">
+    <nav className="fixed top-0 w-full z-40 flex-none lg:z-50 bg-white text-shark-950 font-nunito shadow-md" aria-label="Main navigation">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-20 items-center justify-between">
           <div className="flex lg:flex-1">

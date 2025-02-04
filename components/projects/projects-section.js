@@ -1,9 +1,10 @@
+import SectionComponent from "../section-component";
 import SectionHeader from "../section-header";
 import ProjectList from "./project-list";
 
 const ProjectsSection = () => {
   return (
-    <section id="project-list" className="mx-auto max-w-7xl px-6 lg:px-8 py-6 lg:py-8 mt-20 text-shark-800 font-nunito">
+    <SectionComponent id="project-list" aria-label="Project List Section" bgColor="bg-white">
       <SectionHeader
         title={"All Projects"}
         clx={"flex justify-center items-center text-center text-shark-800 font-montserrat font-bold"}
@@ -11,7 +12,7 @@ const ProjectsSection = () => {
       <div className="mt-6 inline-block">
         <ProjectList />
       </div>
-    </section>
+    </SectionComponent>
   )
 }
 

@@ -3,7 +3,7 @@ import LinkButton from "../link-button"
 
 const HeroHeader = () => {
   return (
-    <header className="h-screen mt-10 flex items-center justify-center relative overflow-hidden magicpattern">
+    <header className="h-screen flex items-center justify-center relative overflow-hidden magicpattern">
       <div
         aria-hidden="true"
         className="hidden sm:absolute sm:-z-10 sm:-top-10 sm:right-1/2 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"

@@ -42,7 +42,7 @@ const ParagraphTemplate = ({ paragraphs }) => {
         return (
           <p
             key={index}
-            className="mt-4 text-lg leading-relaxed"
+            className={`${index === 0 ? '' : 'mt-4'} leading-relaxed`}
             dangerouslySetInnerHTML={{ __html: modifiedText }}
           />
         );
