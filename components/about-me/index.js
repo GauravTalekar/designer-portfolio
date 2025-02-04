@@ -51,7 +51,7 @@ const AboutMe = () => {
             </div>
           </div>
           <h2 className="mt-10 mb-10 text-4xl md:text-6xl fade-in transition-all ease-out duration-500 delay-200">
-            I&apos;m Callum Hayes, a UX/UI designer specializing in creating user-friendly mobile apps based in London, UK.
+            I&apos;m Gaurav Talekar, a UX/UI designer specializing in creating user-friendly mobile apps based in Bremen, Germany.
           </h2>
           <div className="fade-in transition-all ease-out duration-500 delay-300">
             <ParagraphTemplate paragraphs={[{
