@@ -121,6 +121,10 @@ export const projects = [
       },
     ],
     "type": "Print",
+    "published-on": {
+      "name": "Grinkin Magazine",
+      "link": "https://www.griffingreen.org/"
+    },
     "tools-used": ["Adobe Photoshop", "Adobe Illustrator", "Procreate"],
     "made-in": new Date(2023, 10),
     "thumbnail": "https://res.cloudinary.com/du7prd881/image/upload/v1738505424/Thumbnail_ad6kiw.jpg",

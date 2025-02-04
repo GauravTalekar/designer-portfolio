@@ -4,6 +4,7 @@ import ProjectLightbox from "@/components/projects/lightbox";
 import SectionComponent from "@/components/section-component";
 import SectionHeader from "@/components/section-header";
 import { projects } from "@/data/projects";
+import Link from "next/link";
 
 export async function generateStaticParams() {
   return projects.map((project) => ({
@@ -53,6 +54,7 @@ export default async function ProjectPage({ params }) {
                   {getDateInFormat(project["made-in"])}
                 </p>
               </li>
+              <PublishedOnComponent publishedOnData={project["published-on"]} />
               <li className="list-group-item p-4">
                 <strong className="font-montserrat uppercase">Created With</strong>
                 <p className="capitalize">{project["tools-used"].join(", ")}</p>
@@ -68,3 +70,35 @@ export default async function ProjectPage({ params }) {
     </>
   );
 }
+
+const PublishedOnComponent = ({ publishedOnData }) => {
+  // Check if "published-on" key exists
+  if (!publishedOnData) {
+    return null; // Return nothing if "published-on"
+  }
+
+  const { name, link } = publishedOnData;
+
+  return (
+    <li className="list-group-item p-4 border-b">
+      <strong className="font-montserrat uppercase">Published On</strong>
+      {link ? (
+        // Render Next.js Link if "link" exists
+        <Link
+          title={name}
+          href={link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block cursor-pointer text-dull-lavender-600 hover:text-cerise-600 transition delay-150 duration-300 ease-in-out"
+        >
+          {name}
+        </Link>
+      ) : (
+        // Render a <p> tag if "link" doesn't exist
+        <p className="text-shark-800">
+          {name}
+        </p>
+      )}
+    </li>
+  );
+};
