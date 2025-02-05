@@ -22,6 +22,7 @@ export default function ProjectLightbox({ images }) {
               height={800}
               className="cursor-pointer rounded w-full shadow-md hover:scale-105 transition"
               onClick={() => { setOpen(true); setIndex(i); }}
+              title="Click to view"
             />
           </div>
         ))}

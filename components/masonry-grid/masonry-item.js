@@ -16,6 +16,7 @@ const MasonaryItem = ({ img }) => {
           height={img.height}
           loading="lazy"
           className="rounded h-full w-full"
+          title={`Click to Learn more about ${img.title}`}
         />
         <div className="absolute rounded inset-0 bg-cerise-900/60 opacity-0 md:group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center justify-center p-3">
           <h3 className="text-dull-lavender-50 text-3xl font-montserrat font-semibold uppercase text-center">
