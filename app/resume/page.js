@@ -1,6 +1,7 @@
 import FadeInObserver from "@/components/fade-in-observer"
 import ParagraphTemplate from "@/components/paragraph-template"
 import SectionComponent from "@/components/section-component"
+import { data } from "@/data/site-details"
 import Link from "next/link"
 
 import { HiArrowDownTray } from "react-icons/hi2"
@@ -26,7 +27,7 @@ const ResumePage = () => {
         <div className="flex flex-col text-center md:flex-row mt-4 gap-4 fade-in transition-all ease-out duration-500 delay-300">
           <Link
             className="inline-block transform cursor-pointer bg-shark-950 p-4 rounded text-cerise-600 hover:text-dull-lavender-600 hover:-translate-y-1 transition delay-150 duration-300 ease-in-out"
-            href="#"
+            href={data.resume.english}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -34,7 +35,7 @@ const ResumePage = () => {
           </Link>
           <Link
             className="inline-block transform cursor-pointer bg-shark-950 p-4 rounded text-cerise-600 hover:text-dull-lavender-600 hover:-translate-y-1 transition delay-150 duration-300 ease-in-out"
-            href="#"
+            href={data.resume.german}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -48,13 +49,13 @@ const ResumePage = () => {
             Education
           </h3>
           <div className="mt-6 text-lg fade-in transition-all ease-out duration-500 delay-200">
-            <h4 className="font-montserrat"><strong className="font-semibold">Bachelor in Information Technology</strong>, University of Mumbai, Bombay, India, 2018-2024</h4>
+            <h4 className="font-montserrat"><strong className="font-semibold">Master in Digital Media</strong>, University of Bremen & University of the Arts Bremen, Bremen, Germany, 2018-2024</h4>
             <ul className="list-inside list-disc">
               <li>Graduated with Honors, GPA: 3.8/4.0</li>
             </ul>
           </div>
           <div className="mt-6 text-lg fade-in transition-all ease-out duration-500 delay-200">
-            <h4 className="font-montserrat"><strong className="font-semibold">Master in Digital Media</strong>, University of Bremen & University of the Arts Bremen, Bremen, Germany, 2008-2011</h4>
+            <h4 className="font-montserrat"><strong className="font-semibold">Bachelor in Information Technology</strong>, University of Mumbai, Bombay, India, 2008-2011</h4>
             <ul className="list-inside list-disc">
               <li>Graduated with Honors, GPA: 3.8/4.0</li>
             </ul>
@@ -65,7 +66,7 @@ const ResumePage = () => {
             Experience
           </h3>
           <div className="mt-6 text-lg fade-in transition-all ease-out duration-500 delay-200">
-            <h4 className="font-montserrat"><strong className="font-semibold">UI/UX designer</strong>, Contact Software, Bremen, Germany, 2019-2023</h4>
+            <h4 className="font-montserrat"><strong className="font-semibold capitalize">UI/UX designer</strong>, Contact Software, Bremen, Germany, August 2019–August 2023</h4>
             <ul className="list-inside list-disc">
               <li>
                 Assisted in creating website wireframes and mock-ups, working closely with senior designers to refine
@@ -83,13 +84,16 @@ const ResumePage = () => {
             </ul>
           </div>
           <div className="mt-6 text-lg fade-in transition-all ease-out duration-500 delay-200">
-            <h4 className="font-montserrat"><strong className="font-semibold">UI designer</strong>, Webbrand, Kirchweyhe, Germany, 2019-2023</h4>
+            <h4 className="font-montserrat"><strong className="font-semibold capitalize">UI designer</strong>, Webbrand, Kirchweyhe, Germany, April 2019–July 2019</h4>
             <ul className="list-inside list-disc">
-              <li>Website design | Adobe XD | Wireframe design | content management system</li>
+              <li>Designing and implementing web design utilizing the Adobe suite.</li>
+              <li>{"Gained hands-on experience with a content management system called 'Contao', managing content updates and website maintenance tasks."}</li>
+              <li>Collaborated closely with the development team to implement HTML and CSS code, ensuring seamless integration and functionality.</li>
+              <li>{"Designed and implemented responsive websites, focusing on UI/UX best practices to improve usability and aesthetics."}</li>
             </ul>
           </div>
           <div className="mt-6 text-lg fade-in transition-all ease-out duration-500 delay-200">
-            <h4 className="font-montserrat"><strong className="font-semibold">Front-end developer</strong>, Tata Power SED, Bombay, India, 2015-2018</h4>
+            <h4 className="font-montserrat"><strong className="font-semibold capitalize">Front-end developer</strong>, Tata Power SED, Bombay, India, July 2015–October 2018</h4>
             <ul className="list-inside list-disc">
               <li>
                 Developed comprehensive wireframes and screen designs for Border management system,
@@ -146,7 +150,7 @@ const ResumePage = () => {
             <h4 className="font-montserrat font-semibold">UI/UX Design</h4>
             <ul className="list-inside list-disc">
               <li>
-                {"User research, wireframing, interaction design, usability testing"}
+                {"User research, Wireframing, Interaction Design, Usability Testing"}
               </li>
             </ul>
           </div>
@@ -162,7 +166,7 @@ const ResumePage = () => {
             <h4 className="font-montserrat font-semibold">Soft Skills</h4>
             <ul className="list-inside list-disc">
               <li>
-                {"Creative thinking, teamwork, problem-solving, attention to detail, trend awareness, Project Management"}
+                {"Teamwork, Problem-solving, Project Management, Work Ethic, Storytelling"}
               </li>
             </ul>
           </div>

@@ -4,6 +4,10 @@ export const data = {
   title: "Gaurav Talekar",
   is: "Designer",
   logoLink: "/images/logo.svg",
+  resume: {
+    english: "https://drive.google.com/file/d/1JLp2L20SpLqG79l5HM9wr3aTM1B47g99/view",
+    german: "https://drive.google.com/file/d/1C23b6o3l1A2U-A5Bpu-MAK4RpHqczpmM/view"
+  }
 }
 
 export const socials = [
