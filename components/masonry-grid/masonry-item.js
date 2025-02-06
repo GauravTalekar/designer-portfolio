@@ -8,7 +8,7 @@ const MasonaryItem = ({ img }) => {
       <Link
         className="overflow-hidden rounded shadow-sm hover:shadow-md relative inline-block group"
         href={`/work/${img.link}`}
-        title="Click to know more about screen title">
+        title={`Click to Learn more about ${img.title}`}>
         <Image
           src={img.src}
           alt={img.alt}

@@ -16,7 +16,7 @@ const ContactSection = () => {
 
           <div className="mt-6 fade-in transition-all ease-out duration-500 delay-200">
             <p className="text-lg mt-4">
-              Let&apos;s collaborate and create something amazing! Feel free to reach out to me via the form or drop a mail at <strong className="text-dull-lavender-600 font-semibold">gtalekar21@gmail.com</strong>.
+              Lets collaborate and create something amazing! Feel free to reach out to me via the form or drop a mail at <strong className="text-dull-lavender-600 font-semibold">gtalekar21@gmail.com</strong>.
             </p>
             <p className="text-lg mt-4">
               You can check and connect with me on my social handles.
