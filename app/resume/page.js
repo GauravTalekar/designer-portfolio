@@ -1,6 +1,7 @@
 import FadeInObserver from "@/components/fade-in-observer"
 import ParagraphTemplate from "@/components/paragraph-template"
 import SectionComponent from "@/components/section-component"
+import SectionHeader from "@/components/section-header"
 import { data } from "@/data/site-details"
 import Link from "next/link"
 
@@ -11,9 +12,13 @@ const ResumePage = () => {
     <>
       <FadeInObserver />
       <SectionComponent id="resume-section-header" aria-label="Resume Section Header">
-        <h2 className="mt-10 mb-6 text-4xl md:text-6xl font-montserrat fade-in transition-all ease-out duration-500 delay-200">
+        {/* <h2 className="mt-10 mb-6 text-4xl md:text-6xl font-montserrat fade-in transition-all ease-out duration-500 delay-200">
           Graduation Behind. Dedication Ahead.
-        </h2>
+        </h2> */}
+        <SectionHeader
+          title={"Graduation Behind. Dedication Ahead."}
+          clx={"text-shark-800 font-montserrat font-bold"}
+        />
         <div className="font-nunito text-xl fade-in transition-all ease-out duration-500 delay-300">
           <ParagraphTemplate paragraphs={[
             {

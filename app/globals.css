@@ -42,6 +42,19 @@ body {
   }
 }
 
+.overflow-x-auto {
+  scroll-snap-type: x mandatory;
+}
+
+.overflow-x-auto::-webkit-scrollbar {
+  display: none;
+}
+
+.overflow-x-auto {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 .fade-in {
   opacity: 0;
   transform: translateY(20px);

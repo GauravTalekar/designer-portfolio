@@ -5,8 +5,8 @@ export const data = {
   is: "Designer",
   logoLink: "/images/logo.svg",
   resume: {
-    english: "https://drive.google.com/file/d/1JLp2L20SpLqG79l5HM9wr3aTM1B47g99/view",
-    german: "https://drive.google.com/file/d/1C23b6o3l1A2U-A5Bpu-MAK4RpHqczpmM/view"
+    english: "https://drive.google.com/file/d/1JLp2L20SpLqG79l5HM9wr3aTM1B47g99/view?usp=drive_link",
+    german: "https://drive.google.com/file/d/1snqx4_NOtxdACtvEQ29PPBA2pbxCV-w_/view?usp=drive_link"
   }
 }
 
