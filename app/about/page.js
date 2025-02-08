@@ -54,7 +54,7 @@ const AboutPage = () => {
 
         <div className="flex flex-col lg:flex-row gap-4 text-lg font-nunito fade-in transition-all ease-out duration-500 delay-100">
           <p>
-            As I step away from the digital canvas, my hands find their way to clay and soil. Unconsciously the process of Shaping clay inspires me to appreciate form, texture, and flow in design—lessons I often bring back to my digital work.
+            As I step away from the digital canvas, my hands find their way to clay and soil. Unconsciously the process of shaping clay inspires me to appreciate form, texture, and flow in design—lessons I often bring back to my digital work.
           </p>
           <p>
             Gardening, on the other hand, brings me back to the roots—quite literally. It’s my quiet rebellion against the fast pace of the online world. Observing plants grow, each leaf, allows me to slow down and notice the details that often go unseen.
