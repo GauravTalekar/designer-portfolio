@@ -21,6 +21,7 @@ const frederickaTheGreat = Fredericka_the_Great({
 });
 
 export const metadata = {
+  metadataBase: new URL(`https://${data.domain}`),
   title: 'Gaurav Talekar - Graphic Designer Portfolio',
   description: 'Explore the creative works and services of Gaurav Talekar, a professional graphic designer specializing in branding, illustration, and digital design.',
   keywords: ['Graphic Design', 'Branding', 'Illustration', 'Digital Design', 'Portfolio'],
