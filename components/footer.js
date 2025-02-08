@@ -76,7 +76,7 @@ const Footer = () => {
             {
               socials.map((social, idx) =>
                 <Link
-                  className="cursor-pointer bg-shark-950 p-3 m-3 rounded-lg font-bold text-white  hover:text-cerise-600 transition delay-150 duration-300 ease-in-out"
+                  className="cursor-pointer bg-shark-950 p-3 m-1 rounded-lg font-bold text-white  hover:text-cerise-600 transition delay-150 duration-300 ease-in-out"
                   title={social.title}
                   href={social.link}
                   target="_blank"
