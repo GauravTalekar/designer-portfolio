@@ -13,17 +13,17 @@ export const data = {
 export const socials = [
   {
     link: "https://www.behance.net/gtalekar21",
-    title: "Behance Profile",
+    title: "Behance",
     logo: <SlSocialBehance />
   },
   {
     link: "https://www.linkedin.com/in/gtalekar21/",
-    title: "LinkedIn Profile",
+    title: "LinkedIn",
     logo: <SlSocialLinkedin />
   },
   {
     link: "https://www.instagram.com/gtalekar21/",
-    title: "Instagram Profile",
+    title: "Instagram",
     logo: <SlSocialInstagram />
   },
 ]
