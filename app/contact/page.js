@@ -5,10 +5,6 @@ import SectionHeader from "@/components/section-header"
 import { socials } from "@/data/site-details"
 import Link from "next/link"
 
-export const metadata = {
-  title: 'Contact Gaurav Talekar',
-};
-
 export async function generateMetadata() {
   return {
     title: "Contact Gaurav Talekar",
