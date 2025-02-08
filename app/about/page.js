@@ -46,9 +46,9 @@ const AboutPage = () => {
       <SectionComponent id="about-section-header" aria-label="About Section Header">
         <div className="flex flex-col-reverse md:flex-row items-center gap-6 md:gap-16">
           <div className="md:w-2/3">
-            <h2 className="heading fade-in transition-all ease-out duration-500" aria-level="2">
+            <h1 className="heading fade-in transition-all ease-out duration-500" aria-level="2">
               Meet Gaurav Talekar
-            </h2>
+            </h1>
             <div className="fade-in transition-all ease-out duration-500 delay-100 font-nunito text-lg">
               <ParagraphTemplate paragraphs={about} />
             </div>

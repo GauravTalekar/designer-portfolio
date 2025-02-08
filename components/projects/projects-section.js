@@ -8,6 +8,7 @@ const ProjectsSection = ({ projects, currentPage, totalPages, queryParams }) => 
   return (
     <SectionComponent id="project-list" aria-label="List of project created by Gaurav Talekar" bgColor="bg-white">
       <SectionHeader
+        headingLevel="h1"
         title={"Projects"}
         clx={"flex justify-center items-center text-center text-shark-800 font-montserrat font-bold"}
       />

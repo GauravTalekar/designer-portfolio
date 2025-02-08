@@ -25,9 +25,9 @@ const ProjectCard = ({ src, alt, title, link }) => {
           className="absolute inset-0 bg-cerise-900/60 opacity-0 md:group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center justify-center p-3"
           aria-hidden="true"
         >
-          <h3 className="text-dull-lavender-50 text-3xl font-montserrat font-semibold uppercase text-center">
+          <h2 className="text-dull-lavender-50 text-3xl font-montserrat font-semibold uppercase text-center">
             {title}
-          </h3>
+          </h2>
           <p className="text-dull-lavender-50 text-lg font-montserrat uppercase mt-3">
             Learn More
           </p>
@@ -38,7 +38,7 @@ const ProjectCard = ({ src, alt, title, link }) => {
           className="absolute bottom-0 left-0 right-0 bg-black/50 text-white text-center md:hidden lg:hidden p-2"
           aria-hidden="true"
         >
-          <h3 className="text-sm font-montserrat uppercase">{title}</h3>
+          <h2 className="text-sm font-montserrat uppercase">{title}</h2>
         </div>
       </Link>
     </div>

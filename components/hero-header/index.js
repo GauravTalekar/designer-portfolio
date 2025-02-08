@@ -33,9 +33,9 @@ const HeroHeader = () => {
           <p className="text-5xl md:text-6xl font-fredericka font-normal tracking-tight text-shark-950 pd-4 md:pb-6 fade-in transition-all ease-out duration-500">
             Hi I am
           </p>
-          <h2 className="text-7xl md:text-8xl font-fredericka font-normal tracking-tight text-shark-950 fade-in transition-all ease-out duration-500 delay-100">
+          <h1 className="text-7xl md:text-8xl font-fredericka font-normal tracking-tight text-shark-950 fade-in transition-all ease-out duration-500 delay-100">
             {data.title}
-          </h2>
+          </h1>
           <strong className="block mt-8 text-pretty text-xl md:text-2xl font-montserrat font-semibold text-cerise-600 fade-in transition-all ease-out duration-500 delay-150 uppercase">
             {data.is}
           </strong>

@@ -1,8 +1,11 @@
 import clsx from "clsx";
 
-const SectionHeader = ({ title, clx }) => {
+const SectionHeader = ({ title, clx, headingLevel = "h2" }) => {
+  // Define the heading tag based on the headingLevel prop
+  const HeadingTag = headingLevel;
+
   return (
-    <h2
+    <HeadingTag
       className={clsx(
         "tracking-wider uppercase transition-all ease-out duration-500 fade-in",
         "my-10 text-4xl leading-10", // Small screens
@@ -13,7 +16,7 @@ const SectionHeader = ({ title, clx }) => {
       aria-label={title}
     >
       {title}
-    </h2>
+    </HeadingTag>
   );
 };
 

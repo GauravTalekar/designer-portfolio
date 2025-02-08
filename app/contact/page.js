@@ -38,7 +38,7 @@ const ContactPage = () => {
     <>
       <FadeInObserver />
       <SectionComponent id="contact-section" aria-label="Contact Gaurav Talekar" bgColor="bg-white">
-        <SectionHeader title={"Lets work together"} clx={"text-shark-800 font-montserrat font-bold"} />
+        <SectionHeader headingLevel = "h1" title={"Lets work together"} clx={"text-shark-800 font-montserrat font-bold"} />
         <div className="grid grid-cols-1 gap-16">
           <div className="flex flex-col justify-start align-top">
             <div className="fade-in transition-all ease-out duration-500 delay-200">
