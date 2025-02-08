@@ -12,6 +12,7 @@ import { MdArrowForward } from "react-icons/md";
 
 export async function generateMetadata() {
   return {
+    metadataBase: new URL(`https://${data.domain}`),
     title: "About Gaurav Talekar - Designer & Artist",
     description: "Discover more about Gaurav Talekar, a passionate designer, and learn about his journey, passions, and personal life beyond designing.",
     openGraph: {

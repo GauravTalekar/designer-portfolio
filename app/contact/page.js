@@ -7,6 +7,7 @@ import Link from "next/link"
 
 export async function generateMetadata() {
   return {
+    metadataBase: new URL(`https://${data.domain}`),
     title: "Contact Gaurav Talekar",
     description: "Want to learn more or discuss about our next plans lets connect.",
     openGraph: {

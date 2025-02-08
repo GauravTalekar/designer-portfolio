@@ -5,6 +5,7 @@ import { data } from "@/data/site-details";
 
 export async function generateMetadata() {
   return {
+    metadataBase: new URL(`https://${data.domain}`),
     title: "Projects Created By - Gaurav Talekar",
     description: "Explore Gaurav Talekar's projects and details about each artifact crafted with details.",
     openGraph: {
