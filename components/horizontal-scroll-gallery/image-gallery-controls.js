@@ -24,7 +24,7 @@ const ImageGalleryControls = ({ children }) => {
     <div className="relative">
       <button
         onClick={scrollLeft}
-        className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-3 rounded-full z-10"
+        className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-800/70 text-white p-3 rounded-full z-10"
         aria-label="Scroll Left"
       >
         <HiChevronLeft />
