@@ -6,7 +6,7 @@ import SearchFilter from "./search-filter";
 
 const ProjectsSection = ({ projects, currentPage, totalPages, queryParams }) => {
   return (
-    <SectionComponent id="project-list" aria-label="Project List Section" bgColor="bg-white">
+    <SectionComponent id="project-list" aria-label="List of project created by Gaurav Talekar" bgColor="bg-white">
       <SectionHeader
         title={"Projects"}
         clx={"flex justify-center items-center text-center text-shark-800 font-montserrat font-bold"}

@@ -22,7 +22,7 @@ export default function ProjectLightbox({ images }) {
               height={800}
               className="cursor-pointer rounded w-full shadow-md hover:-translate-y-2 transition"
               onClick={() => { setOpen(true); setIndex(i); }}
-              title="Click to view"
+              title={`View mock of ${img.alt}`}
             />
           </div>
         ))}

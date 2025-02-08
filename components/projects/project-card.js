@@ -1,13 +1,13 @@
-import Image from "next/image"
-import Link from "next/link"
+import Image from "next/image";
+import Link from "next/link";
 
 const ProjectCard = ({ src, alt, title, link }) => {
   return (
-    <li className="group relative overflow-hidden">
+    <div className="group relative overflow-hidden">
       <Link
-        className="overflow-hidden rounded shadow-sm hover:shadow-md relative inline-block group"
+        className="overflow-hidden rounded shadow-sm hover:shadow-md relative inline-block group focus:outline-none focus:ring-0"
         href={`/work/${link}`}
-        title={`Click to know more about ${title}`}
+        title={`View details of ${title}`}
         aria-label={`View details of ${title}`}
       >
         <Image
@@ -17,23 +17,32 @@ const ProjectCard = ({ src, alt, title, link }) => {
           height={1080}
           loading="lazy"
           className="rounded h-full w-full"
+          quality={85}
         />
 
-        <div className="absolute rounded inset-0 bg-cerise-900/60 opacity-0 md:group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center justify-center p-3">
+        {/* Overlay for hover effect */}
+        <div
+          className="absolute inset-0 bg-cerise-900/60 opacity-0 md:group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center justify-center p-3"
+          aria-hidden="true"
+        >
           <h3 className="text-dull-lavender-50 text-3xl font-montserrat font-semibold uppercase text-center">
             {title}
           </h3>
-          <p className="text-dull-lavender-50 text-lg font-montserrat uppercase mt-3">LEARN MORE</p>
+          <p className="text-dull-lavender-50 text-lg font-montserrat uppercase mt-3">
+            Learn More
+          </p>
         </div>
-        <div className="absolute rounded inset-0 bg-cerise-900/60 opacity-0 max-md:group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center justify-center p-3">
-          <p className="text-dull-lavender-50 text-lg font-montserrat uppercase">LEARN MORE</p>
-        </div>
-        <div className="absolute bottom-0 left-0 right-0 bg-black/50 text-white text-center md:hidden lg:hidden">
-          <h3 className="text-sm font-montserrat uppercase p-2">{title}</h3>
+
+        {/* Mobile View Overlay */}
+        <div
+          className="absolute bottom-0 left-0 right-0 bg-black/50 text-white text-center md:hidden lg:hidden p-2"
+          aria-hidden="true"
+        >
+          <h3 className="text-sm font-montserrat uppercase">{title}</h3>
         </div>
       </Link>
-    </li>
-  )
-}
+    </div>
+  );
+};
 
-export default ProjectCard
+export default ProjectCard;

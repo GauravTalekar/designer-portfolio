@@ -2,6 +2,7 @@ import { Fredericka_the_Great, Montserrat, Nunito_Sans } from "next/font/google"
 import "./globals.css";
 import NavBar from "@/components/navbar";
 import Footer from "@/components/footer";
+import { data } from "@/data/site-details";
 
 const nunitoSans = Nunito_Sans({
   variable: "--font-nunito-sans",
@@ -23,11 +24,11 @@ export const metadata = {
   title: 'Gaurav Talekar - Graphic Designer Portfolio',
   description: 'Explore the creative works and services of Gaurav Talekar, a professional graphic designer specializing in branding, illustration, and digital design.',
   keywords: ['Graphic Design', 'Branding', 'Illustration', 'Digital Design', 'Portfolio'],
-  authors: [{ name: 'Gaurav Talekar', url: 'https://example.com' }],
+  authors: [{ name: 'Gaurav Talekar', url: `https://${data.domain}` }],
   openGraph: {
     title: 'Gaurav Talekar - Graphic Designer Portfolio',
     description: 'Discover the portfolio of Gaurav Talekar, showcasing projects in branding, illustration, and digital design.',
-    url: 'https://example.com',
+    url: `https://${data.domain}`,
     siteName: 'Gaurav Talekar Portfolio',
     images: [
       {

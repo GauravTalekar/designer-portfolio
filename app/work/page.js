@@ -2,6 +2,10 @@ import FadeInObserver from "@/components/fade-in-observer";
 import ProjectsSection from "@/components/projects/projects-section";
 import { projects as allProjects } from "@/data/projects";
 
+export const metadata = {
+  title: 'Projects Created By - Gaurav Talekar',
+};
+
 const ITEMS_PER_PAGE = 6;
 
 export default async function Work({ searchParams }) {
