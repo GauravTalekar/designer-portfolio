@@ -3,11 +3,13 @@ import Link from "next/link"
 
 const ProjectCard = ({ src, alt, title, link }) => {
   return (
-    <li className="group relative overflow-hidden fade-in transition-all ease-out duration-500 delay-200">
+    <li className="group relative overflow-hidden">
       <Link
         className="overflow-hidden rounded shadow-sm hover:shadow-md relative inline-block group"
         href={`/work/${link}`}
-        title={`Click to know more about ${title}`}>
+        title={`Click to know more about ${title}`}
+        aria-label={`View details of ${title}`}
+      >
         <Image
           src={src}
           alt={alt}

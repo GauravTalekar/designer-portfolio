@@ -221,4 +221,133 @@ export const projects = [
       },
     ]
   },
+  {
+    "project-name": "Fornir",
+    "link": "fornir",
+    "about": [
+      {
+        text: "Furniture design embracing the grid design style with a focus on minimalism is a contemporary approach that blends precision, functionality, and simplicity.",
+        highlight: ["grid design style", "minimalism"],
+      },
+      {
+        text: "This aesthetic draws inspiration from the use of a grid system, creating a harmonious balance between form and function. Neutral color palettes, such as whites, grays, and earth tones, are commonly employed to enhance the sense of simplicity and create a calming atmosphere.",
+      },
+    ],
+    "type": "Website",
+    "tools-used": ["Figma", "Adobe Photoshop", "Adobe Illustrator", "Adobe Indesign"],
+    "made-in": new Date(2023, 7),
+    "thumbnail": "https://res.cloudinary.com/du7prd881/image/upload/v1739015431/Homepage_dkul0x.png",
+    "images-list": [
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739015431/Homepage_dkul0x.png",
+        "alt": "Homepage mock image"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739015431/About_Us_lod48w.png",
+        "alt": "About-us mock image"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739015432/Shop_ln3crb.png",
+        "alt": "Shop mock image"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739015431/Testimonies_xhotrw.png",
+        "alt": "Testimonies mock image"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739015431/Contact_Us_gm9klu.png",
+        "alt": "Contact us mock image"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739015433/Full_Page_etgbm5.png",
+        "alt": "Full page mock image"
+      },
+    ]
+  },
+  {
+    "project-name": "für das Leben",
+    "link": "fur-das-eben",
+    "about": [
+      {
+        text: "'für das Leben' is an evocative illustration series that explores the intricate interplay between work, passion, and the rhythm of everyday life.",
+        highlight: ["für das Leben"],
+      },
+      {
+        text: "Through expressive visuals, it captures the essence of people navigating their careers and creative pursuits, showcasing the delicate balance and interwoven connection between these aspects. This series celebrates the beauty of a life lived with purpose, where work fuels passion, and passion enriches work, reflecting the harmonious dance of dedication and dreams.",
+      },
+    ],
+    "type": "Website",
+    "tools-used": ["Figma", "Adobe Photoshop", "Adobe Illustrator", "Procreate"],
+    "made-in": new Date(2024, 6),
+    "thumbnail": "https://res.cloudinary.com/du7prd881/image/upload/v1739018814/Working4_yr9ff5.jpg",
+    "images-list": [
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739018814/Working4_yr9ff5.jpg",
+        "alt": "Hero mock image"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739018713/Working2_mrolc5.jpg",
+        "alt": "Hero mock image"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739018712/Working_dbag81.jpg",
+        "alt": "Hero mock image"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739018709/Working5_jksc56.jpg",
+        "alt": "Hero mock image"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739018705/Working3_sjkcmn.jpg",
+        "alt": "Hero mock image"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739018702/Working6_azcmmq.jpg",
+        "alt": "Hero mock image"
+      },
+    ]
+  },
+  {
+    "project-name": "PeakFit",
+    "link": "asd",
+    "about": [
+      {
+        text: "PeakFit is a modern, dynamic fitness brand designed to inspire individuals to reach the pinnacle of their physical and mental potential.",
+        highlight: ["PeakFit"],
+      },
+      {
+        text: "The brand embodies strength, movement, and empowerment, creating an environment that motivates members to push boundaries and achieve their fitness goals. As part of this project, we crafted a compelling brand identity and accompanying illustrations for PeakFit's landing page, ensuring every visual and design element reflects the brand's core values and mission.",
+      },
+    ],
+    "type": "Website",
+    "tools-used": ["Figma", "Procreate", "Adobe Illustrator", "Adobe Indesign"],
+    "made-in": new Date(2024, 3),
+    "thumbnail": "https://res.cloudinary.com/du7prd881/image/upload/v1739019079/Mainfile_uxgail.jpg",
+    "images-list": [
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739019079/Mainfile_uxgail.jpg",
+        "alt": "Logo image"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739019004/Mainfile5_jh0ndj.jpg",
+        "alt": "Hero mock image"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739019000/Mainfile3_qzzzli.jpg",
+        "alt": "Hero mock image"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739018995/Mainfile2_lo23pc.jpg",
+        "alt": "Hero mock image"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739018994/Mainfile7_ol845e.jpg",
+        "alt": "Hero mock image"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739018991/Mainfile4_egfnow.jpg",
+        "alt": "Hero mock image"
+      },
+    ]
+  },
 ];
