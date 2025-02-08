@@ -1,3 +1,5 @@
+import { projectTypeFilter } from "@/data/site-details";
+
 const SearchFilter = ({ q = "", type = "", sort = "desc" }) => {
   return (
     <form method="GET" className="flex w-full flex-wrap gap-4 items-end font-nunito" aria-label="Project filter form">
@@ -21,8 +23,9 @@ const SearchFilter = ({ q = "", type = "", sort = "desc" }) => {
           className="h-12 px-4 bg-white text-gray-800 shadow-md hover:shadow-lg outline-none border-b-2 border-cerise-600 focus:border-dull-lavender-600 transition-all duration-300"
         >
           <option value="">All</option>
-          <option value="Print">Print</option>
-          <option value="Digital">Digital</option>
+          {
+            projectTypeFilter.map((type, idx) => <option key={idx} value={type}>{type}</option>)
+          }
           {/* Add more options as needed */}
         </select>
       </div>

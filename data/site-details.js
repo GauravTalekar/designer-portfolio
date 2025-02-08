@@ -41,3 +41,8 @@ export const about = [
     underline: ["typography, design, animation, and print"]
   },
 ]
+
+export const projectTypeFilter = [
+  "Print",
+  "Website",
+]
