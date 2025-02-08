@@ -2,7 +2,7 @@ import ContactForm from "@/components/contact/contact-form"
 import FadeInObserver from "@/components/fade-in-observer"
 import SectionComponent from "@/components/section-component"
 import SectionHeader from "@/components/section-header"
-import { socials } from "@/data/site-details"
+import { data, socials } from "@/data/site-details"
 import Link from "next/link"
 
 export async function generateMetadata() {

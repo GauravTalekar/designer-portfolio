@@ -1,6 +1,7 @@
 import FadeInObserver from "@/components/fade-in-observer";
 import ProjectsSection from "@/components/projects/projects-section";
 import { projects as allProjects } from "@/data/projects";
+import { data } from "@/data/site-details";
 
 export async function generateMetadata() {
   return {
