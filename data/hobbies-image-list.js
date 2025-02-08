@@ -1,46 +1,50 @@
 export const images = [
   {
-    src: 'https://res.cloudinary.com/du7prd881/image/upload/v1738865221/CircleVases_rukvva.jpg',
+    src: 'https://res.cloudinary.com/du7prd881/image/upload/v1739021068/Vase-circles_khlazq.jpg',
     alt: 'Circle Vases',
   },
   {
-    src: 'https://res.cloudinary.com/du7prd881/image/upload/v1738865304/Plantas-4_oze4vx.jpg',
+    src: 'https://res.cloudinary.com/du7prd881/image/upload/v1739021078/Plantas-4_ioegfa.jpg',
     alt: 'Plantas',
   },
   {
-    src: 'https://res.cloudinary.com/du7prd881/image/upload/v1738865276/WhiteVases_b06g1u.jpg',
+    src: 'https://res.cloudinary.com/du7prd881/image/upload/v1739021068/Two-Vases-with-circle_mfxu1f.jpg',
     alt: 'White Vases',
   },
   {
-    src: 'https://res.cloudinary.com/du7prd881/image/upload/v1738865295/Plantas-3_jzaiqa.jpg',
+    src: 'https://res.cloudinary.com/du7prd881/image/upload/v1739021104/Plantas-3_ext4s1.jpg',
     alt: 'Plantas',
   },
   {
-    src: 'https://res.cloudinary.com/du7prd881/image/upload/v1738865261/Pinkvases_zqr6yq.jpg',
+    src: 'https://res.cloudinary.com/du7prd881/image/upload/v1739021071/pink-cup_fh1bx1.jpg',
     alt: 'Pink Vases',
   },
   {
-    src: 'https://res.cloudinary.com/du7prd881/image/upload/v1738865294/Plantas-2_llb9yt.jpg',
+    src: 'https://res.cloudinary.com/du7prd881/image/upload/v1739021078/Plantas_2_mckfnb.jpg',
     alt: 'Plantas',
   },
   {
-    src: 'https://res.cloudinary.com/du7prd881/image/upload/v1738865319/Plantas-1_xef1pr.jpg',
+    src: 'https://res.cloudinary.com/du7prd881/image/upload/v1739021077/Plantas_1_mmblvd.jpg',
     alt: 'Plantas',
   },
   {
-    src: 'https://res.cloudinary.com/du7prd881/image/upload/v1738865239/GreenVases_wbtisd.jpg',
+    src: 'https://res.cloudinary.com/du7prd881/image/upload/v1739021067/Turqouise-Green-vase_ltbiff.jpg',
     alt: 'Green Vases',
   },
   {
-    src: 'https://res.cloudinary.com/du7prd881/image/upload/v1738865230/Blackvase_uk5hfr.jpg',
+    src: 'https://res.cloudinary.com/du7prd881/image/upload/v1739021067/Black-Vase_stn0jr.jpg',
     alt: 'Black Vases',
   },
   {
-    src: 'https://res.cloudinary.com/du7prd881/image/upload/v1738865227/cup_1_wol7au.jpg',
+    src: 'https://res.cloudinary.com/du7prd881/image/upload/v1739021067/cup_cegflp.jpg',
     alt: 'Cup',
   },
   {
-    src: 'https://res.cloudinary.com/du7prd881/image/upload/v1738865225/Tea_Cup_cu4coz.jpg',
-    alt: 'Tea Cup',
+    src: 'https://res.cloudinary.com/du7prd881/image/upload/v1739021067/Two-Ears_haaa44.jpg',
+    alt: 'Two Ears Cup',
+  },
+  {
+    src: 'https://res.cloudinary.com/du7prd881/image/upload/v1739021067/DonutVase_rcjg7n.jpg',
+    alt: 'Donut Vases',
   }
 ]
