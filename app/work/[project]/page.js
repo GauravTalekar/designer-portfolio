@@ -33,8 +33,6 @@ export async function generateMetadata({ params }) {
       images: [
         {
           url: project["thumbnail"],
-          width: 1080,
-          height: 1080,
           alt: `Thumbnail for ${project["project-name"]}`
         },
       ],
