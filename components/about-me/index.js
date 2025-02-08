@@ -1,13 +1,13 @@
-import Image from "next/image"
-import Link from "next/link"
+import Image from "next/image";
+import Link from "next/link";
 
-import { MdArrowForward } from "react-icons/md"
-import ParagraphTemplate from "../paragraph-template"
-import SectionComponent from "../section-component"
+import { MdArrowForward } from "react-icons/md";
+import ParagraphTemplate from "../paragraph-template";
+import SectionComponent from "../section-component";
 
 const AboutMe = () => {
   return (
-    <SectionComponent id="about-me" aria-label="About Section">
+    <SectionComponent id="about-me" aria-label="About Gaurav Talekar">
       <div>
         <div>
           <div className="fade-in transition-all ease-out duration-500 delay-100">
@@ -17,6 +17,8 @@ const AboutMe = () => {
                 alt="Gaurav Talekar Portrait"
                 className="rounded-full object-cover"
                 fill
+                priority
+                sizes="(max-width: 768px) 100vw"
               />
             </div>
           </div>
@@ -30,16 +32,18 @@ const AboutMe = () => {
           </div>
           <div className="my-9 fade-in transition-all ease-out duration-500 delay-400">
             <Link
-              className="inline-block transform cursor-pointer bg-shark-950 p-4 rounded text-cerise-600 hover:text-dull-lavender-600 hover:-translate-y-1 hover:scale-110 transition delay-150 duration-300 ease-in-out"
+              className="inline-flex items-center bg-shark-950 px-5 py-3 rounded text-cerise-600 hover:text-dull-lavender-600 hover:-translate-y-1 transition duration-300 ease-in-out"
               href="/about"
+              aria-label="Learn more about Gaurav Talekar"
             >
-              Know More <MdArrowForward className="inline-block" />
+              Know More
+              <MdArrowForward className="ml-2" aria-hidden="true" />
             </Link>
           </div>
         </div>
       </div>
     </SectionComponent>
-  )
-}
+  );
+};
 
-export default AboutMe
+export default AboutMe;

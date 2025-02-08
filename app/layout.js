@@ -20,8 +20,35 @@ const frederickaTheGreat = Fredericka_the_Great({
 });
 
 export const metadata = {
-  title: "Gaurav Talekar",
-  description: "Graphic Designer Portfolio",
+  title: 'Gaurav Talekar - Graphic Designer Portfolio',
+  description: 'Explore the creative works and services of Gaurav Talekar, a professional graphic designer specializing in branding, illustration, and digital design.',
+  keywords: ['Graphic Design', 'Branding', 'Illustration', 'Digital Design', 'Portfolio'],
+  authors: [{ name: 'Gaurav Talekar', url: 'https://example.com' }],
+  openGraph: {
+    title: 'Gaurav Talekar - Graphic Designer Portfolio',
+    description: 'Discover the portfolio of Gaurav Talekar, showcasing projects in branding, illustration, and digital design.',
+    url: 'https://example.com',
+    siteName: 'Gaurav Talekar Portfolio',
+    images: [
+      {
+        url: '/opengraph-image.jpg',
+        width: 3372,
+        height: 2752,
+        alt: 'Gaurav Talekar Portfolio',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    // site: '@yourtwitterhandle',
+    // creator: '@yourtwitterhandle',
+    title: 'Gaurav Talekar - Graphic Designer Portfolio',
+    description: 'Explore the creative works of Gaurav Talekar in branding, illustration, and digital design.',
+    images: ['/twitter-image.jpg'],
+  },
+  manifest: '/site.webmanifest',
 };
 
 export default function RootLayout({ children }) {

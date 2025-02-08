@@ -20,7 +20,7 @@ const NavBrand = () => {
         src={data.logoLink}
         width={68}
         height={68}
-        className="h-10 w-auto"
+        className="h-10 w-auto rounded-full"
         priority // Ensure the logo is loaded quickly for better SEO
       />
       <span>{data.title}</span>

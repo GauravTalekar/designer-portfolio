@@ -3,7 +3,7 @@ import { SlSocialBehance, SlSocialInstagram, SlSocialLinkedin } from "react-icon
 export const data = {
   title: "Gaurav Talekar",
   is: "Designer",
-  logoLink: "/images/logo.svg",
+  logoLink: "/android-chrome-512x512.png",
   resume: {
     english: "https://drive.google.com/file/d/1JLp2L20SpLqG79l5HM9wr3aTM1B47g99/view?usp=drive_link",
     german: "https://drive.google.com/file/d/1snqx4_NOtxdACtvEQ29PPBA2pbxCV-w_/view?usp=drive_link"
