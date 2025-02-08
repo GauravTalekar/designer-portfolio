@@ -1,26 +1,32 @@
 import FadeInObserver from "@/components/fade-in-observer";
 import ParagraphTemplate from "@/components/paragraph-template";
 import SectionComponent from "@/components/section-component";
-import SectionHeader from "@/components/section-header";
 import { data } from "@/data/site-details";
+import clsx from "clsx";
 import Link from "next/link";
 import { HiArrowDownTray } from "react-icons/hi2";
+
+export const metadata = {
+  title: "Gaurav Talekar - Resume",
+  description: "Explore my professional journey, including my education, experience, and skills in UI/UX design, web development, and more. Download my resume in English or German.",
+};
 
 const ResumePage = () => {
   return (
     <>
       <FadeInObserver />
-      
+
       {/* Main Resume Section */}
       <SectionComponent id="resume-section-header" aria-label="Resume Section Header" role="article">
-        <h1 className="text-3xl font-bold font-montserrat mb-8 text-shark-800">
+        <h1 className={clsx(
+          "tracking-wider uppercase transition-all ease-out duration-500 fade-in",
+          "my-10 text-4xl leading-10", // Small screens
+          "md:my-10 md:text-4xl md:leading-10", // Medium screens
+          "lg:my-12 lg:text-6xl lg:leading-[60px]", // Large screens
+          "text-shark-800 font-montserrat font-bold"
+        )}>
           Graduation Behind. Dedication Ahead.
         </h1>
-
-        <SectionHeader
-          title={"Professional Summary"}
-          clx={"text-shark-800 font-montserrat font-bold"}
-        />
         <div className="font-nunito text-xl fade-in transition-all ease-out duration-500 delay-300">
           <ParagraphTemplate paragraphs={[
             {

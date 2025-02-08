@@ -1,21 +1,22 @@
-import FadeInObserver from "@/components/fade-in-observer"
-import ImageGallery from "@/components/horizontal-scroll-gallery/image-gallery"
-import ParagraphTemplate from "@/components/paragraph-template"
-import SectionComponent from "@/components/section-component"
-import SectionHeader from "@/components/section-header"
-import { images } from "@/data/hobbies-image-list"
-import { about, data } from "@/data/site-details"
-import Image from "next/image"
-import Link from "next/link"
-import { MdArrowForward } from "react-icons/md"
+import FadeInObserver from "@/components/fade-in-observer";
+import ImageGallery from "@/components/horizontal-scroll-gallery/image-gallery";
+import ParagraphTemplate from "@/components/paragraph-template";
+import SectionComponent from "@/components/section-component";
+import SectionHeader from "@/components/section-header";
+import { images } from "@/data/hobbies-image-list";
+import { about, data } from "@/data/site-details";
+import Image from "next/image";
+import Link from "next/link";
+import { MdArrowForward } from "react-icons/md";
+
 
 export async function generateMetadata() {
   return {
-    title: "About Gaurav Talekar - Developer & Creator",
-    description: "Discover more about Gaurav Talekar, a passionate full-stack developer, and learn about his journey, passions, and personal life beyond coding.",
+    title: "About Gaurav Talekar - Designer & Artist",
+    description: "Discover more about Gaurav Talekar, a passionate designer, and learn about his journey, passions, and personal life beyond designing.",
     openGraph: {
-      title: "About Gaurav Talekar - Developer & Creator",
-      description: "Discover more about Gaurav Talekar, a passionate full-stack developer, and learn about his journey, passions, and personal life beyond coding.",
+      title: "About Gaurav Talekar - Designer & Artist",
+      description: "Discover more about Gaurav Talekar, a passionate designer, and learn about his journey, passions, and personal life beyond designing.",
       url: `https://${data.domain}/about`,
       images: [
         {
@@ -29,8 +30,8 @@ export async function generateMetadata() {
     },
     twitter: {
       card: 'summary_large_image',
-      title: "About Gaurav Talekar - Developer & Creator",
-      description: "Discover more about Gaurav Talekar, a passionate full-stack developer, and learn about his journey, passions, and personal life beyond coding.",
+      title: "About Gaurav Talekar - Designer & Artist",
+      description: "Discover more about Gaurav Talekar, a passionate designer, and learn about his journey, passions, and personal life beyond designing.",
       images: ["/images/gaurav-talekar.jpg"],
     },
   }
@@ -96,6 +97,6 @@ const AboutPage = () => {
       </SectionComponent>
     </>
   )
-}
+};
 
-export default AboutPage
+export default AboutPage;
