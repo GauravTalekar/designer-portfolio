@@ -6,10 +6,33 @@ import clsx from "clsx";
 import Link from "next/link";
 import { HiArrowDownTray } from "react-icons/hi2";
 
-export const metadata = {
-  title: "Gaurav Talekar - Resume",
-  description: "Explore my professional journey, including my education, experience, and skills in UI/UX design, web development, and more. Download my resume in English or German.",
-};
+
+export async function generateMetadata() {
+  return {
+    title: "Gaurav Talekar - Resume",
+    description: "Explore my professional journey, including my education, experience, and skills in UI/UX design, web development, and more. Download my resume in English or German.",
+    openGraph: {
+      title: "Gaurav Talekar - Resume",
+      description: "Explore my professional journey, including my education, experience, and skills in UI/UX design, web development, and more. Download my resume in English or German.",
+      url: `https://${data.domain}/about`,
+      images: [
+        {
+          url: "/images/gaurav-talekar.jpg",
+          width: 1080,
+          height: 1080,
+          alt: "Portrait of Gaurav Talekar"
+        },
+      ],
+      type: "website",
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: "Gaurav Talekar - Resume",
+      description: "Explore my professional journey, including my education, experience, and skills in UI/UX design, web development, and more. Download my resume in English or German.",
+      images: ["/images/gaurav-talekar.jpg"],
+    },
+  }
+}
 
 const ResumePage = () => {
   return (

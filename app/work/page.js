@@ -6,6 +6,33 @@ export const metadata = {
   title: 'Projects Created By - Gaurav Talekar',
 };
 
+export async function generateMetadata() {
+  return {
+    title: "Projects Created By - Gaurav Talekar",
+    description: "Explore Gaurav Talekar's projects and details about each artifact crafted with details.",
+    openGraph: {
+      title: "Projects Created By - Gaurav Talekar",
+      description: "Explore Gaurav Talekar's projects and details about each artifact crafted with details.",
+      url: `https://${data.domain}/about`,
+      images: [
+        {
+          url: "/images/gaurav-talekar.jpg",
+          width: 1080,
+          height: 1080,
+          alt: "Portrait of Gaurav Talekar"
+        },
+      ],
+      type: "website",
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: "Projects Created By - Gaurav Talekar",
+      description: "Explore Gaurav Talekar's projects and details about each artifact crafted with details.",
+      images: ["/images/gaurav-talekar.jpg"],
+    },
+  }
+}
+
 const ITEMS_PER_PAGE = 6;
 
 export default async function Work({ searchParams }) {

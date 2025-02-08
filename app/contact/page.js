@@ -9,6 +9,33 @@ export const metadata = {
   title: 'Contact Gaurav Talekar',
 };
 
+export async function generateMetadata() {
+  return {
+    title: "Contact Gaurav Talekar",
+    description: "Want to learn more or discuss about our next plans lets connect.",
+    openGraph: {
+      title: "Contact Gaurav Talekar",
+      description: "Want to learn more or discuss about our next plans lets connect.",
+      url: `https://${data.domain}/about`,
+      images: [
+        {
+          url: "/images/gaurav-talekar.jpg",
+          width: 1080,
+          height: 1080,
+          alt: "Portrait of Gaurav Talekar"
+        },
+      ],
+      type: "website",
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: "Contact Gaurav Talekar",
+      description: "Want to learn more or discuss about our next plans lets connect.",
+      images: ["/images/gaurav-talekar.jpg"],
+    },
+  }
+}
+
 const ContactPage = () => {
   return (
     <>
