@@ -26,6 +26,9 @@ export async function generateMetadata({ params }) {
   return {
     title: `${project["project-name"]} - Project by Gaurav Talekar`,
     description: description,
+    alternates: {
+      canonical: `https://${data.domain}/work/${slug.project}`,
+    },
     openGraph: {
       title: `${project["project-name"]} - Project by Gaurav Talekar`,
       description: description,

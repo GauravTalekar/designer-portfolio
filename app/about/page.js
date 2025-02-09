@@ -14,6 +14,9 @@ export async function generateMetadata() {
   return {
     metadataBase: new URL(`https://${data.domain}`),
     title: "About Gaurav Talekar - Designer & Artist",
+    alternates: {
+      canonical: `https://${data.domain}/about`,
+    },
     description: "Discover more about Gaurav Talekar, a passionate designer, and learn about his journey, passions, and personal life beyond designing.",
     openGraph: {
       title: "About Gaurav Talekar - Designer & Artist",

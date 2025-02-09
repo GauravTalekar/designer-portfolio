@@ -13,6 +13,9 @@ export async function generateMetadata() {
     description: "Explore my professional journey, including my education, experience, and skills in UI/UX design, web development, and more. Download my resume in English or German.",
     openGraph: {
       title: "Gaurav Talekar - Resume",
+      alternates: {
+        canonical: `https://${data.domain}/resume`,
+      },
       description: "Explore my professional journey, including my education, experience, and skills in UI/UX design, web development, and more. Download my resume in English or German.",
       url: `https://${data.domain}/resume`,
       images: [

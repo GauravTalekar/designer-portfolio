@@ -9,6 +9,9 @@ export async function generateMetadata() {
   return {
     metadataBase: new URL(`https://${data.domain}`),
     title: "Contact Gaurav Talekar",
+    alternates: {
+      canonical: `https://${data.domain}/contact`,
+    },
     description: "Want to learn more or discuss about our next plans lets connect.",
     openGraph: {
       title: "Contact Gaurav Talekar",

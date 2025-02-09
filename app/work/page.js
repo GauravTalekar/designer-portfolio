@@ -7,6 +7,9 @@ export async function generateMetadata() {
   return {
     metadataBase: new URL(`https://${data.domain}`),
     title: "Projects Created By - Gaurav Talekar",
+    alternates: {
+      canonical: `https://${data.domain}/work`,
+    },
     description: "Explore Gaurav Talekar's projects and details about each artifact crafted with details.",
     openGraph: {
       title: "Projects Created By - Gaurav Talekar",

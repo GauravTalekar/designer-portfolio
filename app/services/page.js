@@ -8,6 +8,9 @@ import Image from "next/image"
 export async function generateMetadata() {
   return {
     title: "Gaurav Talekar - Services",
+    alternates: {
+      canonical: `https://${data.domain}/services`,
+    },
     description: "Discover services offered by Gaurav Talekar",
     openGraph: {
       title: "Gaurav Talekar - Services",
