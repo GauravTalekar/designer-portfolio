@@ -7,7 +7,7 @@ const MasonryItem = ({ img }) => {
       <Link
         href={`/work/${img.link}`}
         aria-label={`Learn more about ${img.title}`}
-        className="overflow-hidden rounded shadow-sm hover:shadow-md relative inline-block group"
+        className="overflow-hidden rounded shadow-md hover:shadow-lg relative inline-block group"
       >
         <Image
           src={img.src}
