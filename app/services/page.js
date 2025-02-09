@@ -11,10 +11,10 @@ export async function generateMetadata() {
     alternates: {
       canonical: `https://${data.domain}/services`,
     },
-    description: "Discover services offered by Gaurav Talekar",
+    description: "Discover services offered by Gaurav Talekar and process used to implement and provide these services.",
     openGraph: {
       title: "Gaurav Talekar - Services",
-      description: "Discover services offered by Gaurav Talekar",
+      description: "Discover services offered by Gaurav Talekar and process used to implement and provide these services.",
       url: `https://${data.domain}/services`,
       images: [
         {
@@ -29,7 +29,7 @@ export async function generateMetadata() {
     twitter: {
       card: 'summary_large_image',
       title: "Gaurav Talekar - Services",
-      description: "Discover services offered by Gaurav Talekar",
+      description: "Discover services offered by Gaurav Talekar and process used to implement and provide these services.",
       images: ["/images/gaurav-talekar.jpg"],
     },
   }
