@@ -16,7 +16,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }) {
   const slug = (await params)
   const project = projects.find((p) => p.link === slug.project);
-  
+
   let joinedDescription = project["about"].map(item => item.text).join('. ');
   const maxLength = 10000;
   const description = joinedDescription.length > maxLength
@@ -66,6 +66,7 @@ export default async function ProjectPage({ params }) {
       <FadeInObserver />
       <SectionComponent id="project-section" aria-label="Project Overview Section" bgColor="bg-white">
         <SectionHeader
+          headingLevel="h1"
           title={project["project-name"]}
           clx={"flex justify-center items-center text-center text-shark-800 font-montserrat font-bold"}
         />
