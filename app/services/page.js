@@ -80,7 +80,7 @@ const ServicesPage = () => {
                         width="16"
                         height="16"
                         transform="rotate(-45 0.686295 12)"
-                        fill="#EC2E90"
+                        fill="#212121"
                       />
                     </svg>
 
@@ -109,7 +109,7 @@ const ServicesPage = () => {
                     ></span>
                   )}
                   <div
-                    className="inline-flex h-14 w-14 shrink-0 items-center justify-center rounded-xl border border-gray-300 bg-gray-50 transition-all duration-200 group-hover:border-gray-900 group-hover:bg-gray-900">
+                    className="inline-flex h-14 w-14 shrink-0 items-center justify-center rounded-xl border border-gray-300 bg-gray-50 transition-all duration-200 group-hover:border-shark-950 group-hover:bg-shark-950">
 
                     <Image
                       src={process.icon}
@@ -121,10 +121,10 @@ const ServicesPage = () => {
                   </div>
                   <div className="ml-6 lg:ml-0 lg:mt-3">
                     <h2
-                      className="text-xl font-bold text-gray-900 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
+                      className="text-xl font-bold text-shark-950 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
                       {idx + 1}{". "}{process.title}
                     </h2>
-                    <p className="mt-2 text-lg text-gray-700">{process.details}</p>
+                    <p className="mt-2 text-lg text-shark-900">{process.details}</p>
                   </div>
                 </li>
               ))
