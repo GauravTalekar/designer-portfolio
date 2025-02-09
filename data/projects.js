@@ -309,7 +309,7 @@ export const projects = [
   },
   {
     "project-name": "PeakFit",
-    "link": "asd",
+    "link": "peakfit",
     "about": [
       {
         text: "PeakFit is a modern, dynamic fitness brand designed to inspire individuals to reach the pinnacle of their physical and mental potential.",
