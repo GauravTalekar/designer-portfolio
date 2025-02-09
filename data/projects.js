@@ -2,6 +2,7 @@ export const projects = [
   {
     "project-name": "Wings And Whiskers",
     "link": "wings-and-whiskers",
+    lastModified: new Date('02, 09, 2025'),
     "about": [
       {
         text: "Wings And Whiskers is a lifestyle brand for socks and tote bags which uses illustration series celebrating the beauty of insects and butterflies through vibrant and intricate designs. ",
@@ -57,6 +58,7 @@ export const projects = [
   {
     "project-name": "Die Katze",
     "link": "die-katze",
+    lastModified: new Date('02, 09, 2025'),
     "about": [
       {
         text: "The Katze Sticker Series brings the charm of cats to life with bold, minimalistic illustrations that celebrate their playful and endearing nature.",
@@ -108,6 +110,7 @@ export const projects = [
   {
     "project-name": "Nalini",
     "link": "nalini",
+    lastModified: new Date('02, 09, 2025'),
     "about": [
       {
         text: "Nalini—a Sanskrit word meaning Lotus is more than a beauty care brand; it is a recognition of the journey toward self-realization and authentic beauty.",
@@ -166,6 +169,7 @@ export const projects = [
   {
     "project-name": "Coloreta",
     "link": "coloreta",
+    lastModified: new Date('02, 09, 2025'),
     "about": [
       {
         text: "The branding for 'Coloreta' focuses on vibrancy, life, and ecological awareness, encapsulating the colorful and energetic essence of frogs.",
@@ -224,6 +228,7 @@ export const projects = [
   {
     "project-name": "Fornir",
     "link": "fornir",
+    lastModified: new Date('02, 09, 2025'),
     "about": [
       {
         text: "Furniture design embracing the grid design style with a focus on minimalism is a contemporary approach that blends precision, functionality, and simplicity.",
@@ -267,6 +272,7 @@ export const projects = [
   {
     "project-name": "für das Leben",
     "link": "fur-das-eben",
+    lastModified: new Date('02, 09, 2025'),
     "about": [
       {
         text: "'für das Leben' is an evocative illustration series that explores the intricate interplay between work, passion, and the rhythm of everyday life.",
@@ -310,6 +316,7 @@ export const projects = [
   {
     "project-name": "PeakFit",
     "link": "peakfit",
+    lastModified: new Date('02, 09, 2025'),
     "about": [
       {
         text: "PeakFit is a modern, dynamic fitness brand designed to inspire individuals to reach the pinnacle of their physical and mental potential.",
