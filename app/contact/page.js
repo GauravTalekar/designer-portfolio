@@ -13,7 +13,7 @@ export async function generateMetadata() {
     openGraph: {
       title: "Contact Gaurav Talekar",
       description: "Want to learn more or discuss about our next plans lets connect.",
-      url: `https://${data.domain}/about`,
+      url: `https://${data.domain}/contact`,
       images: [
         {
           url: "/images/gaurav-talekar.jpg",

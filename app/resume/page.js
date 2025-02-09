@@ -14,7 +14,7 @@ export async function generateMetadata() {
     openGraph: {
       title: "Gaurav Talekar - Resume",
       description: "Explore my professional journey, including my education, experience, and skills in UI/UX design, web development, and more. Download my resume in English or German.",
-      url: `https://${data.domain}/about`,
+      url: `https://${data.domain}/resume`,
       images: [
         {
           url: "/images/gaurav-talekar.jpg",

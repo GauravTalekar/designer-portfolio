@@ -11,7 +11,7 @@ export async function generateMetadata() {
     openGraph: {
       title: "Projects Created By - Gaurav Talekar",
       description: "Explore Gaurav Talekar's projects and details about each artifact crafted with details.",
-      url: `https://${data.domain}/about`,
+      url: `https://${data.domain}/work`,
       images: [
         {
           url: "/images/gaurav-talekar.jpg",
