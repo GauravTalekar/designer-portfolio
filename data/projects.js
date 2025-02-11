@@ -228,7 +228,7 @@ export const projects = [
   {
     "project-name": "Fornir",
     "link": "fornir",
-    lastModified: new Date('02, 09, 2025'),
+    lastModified: new Date('02, 11, 2025'),
     "about": [
       {
         text: "Furniture design embracing the grid design style with a focus on minimalism is a contemporary approach that blends precision, functionality, and simplicity.",
@@ -241,38 +241,38 @@ export const projects = [
     "type": "Website",
     "tools-used": ["Figma", "Adobe Photoshop", "Adobe Illustrator", "Adobe Indesign"],
     "made-in": new Date(2023, 7),
-    "thumbnail": "https://res.cloudinary.com/du7prd881/image/upload/v1739015431/Homepage_dkul0x.png",
+    "thumbnail": "https://res.cloudinary.com/du7prd881/image/upload/v1739291365/Main_jzs7ws.jpg",
     "images-list": [
       {
-        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739015431/Homepage_dkul0x.png",
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739291365/Main_jzs7ws.jpg",
         "alt": "Homepage mock image"
       },
       {
-        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739015431/About_Us_lod48w.png",
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739291393/2_zrth7v.jpg",
         "alt": "About-us mock image"
       },
       {
-        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739015432/Shop_ln3crb.png",
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739291392/3_rtnejs.jpg",
         "alt": "Shop mock image"
       },
       {
-        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739015431/Testimonies_xhotrw.png",
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739291391/4_dlydiz.jpg",
         "alt": "Testimonies mock image"
       },
       {
-        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739015431/Contact_Us_gm9klu.png",
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739291392/5_lyszvm.jpg",
         "alt": "Contact us mock image"
       },
       {
-        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739015433/Full_Page_etgbm5.png",
-        "alt": "Full page mock image"
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739291391/1_owljxe.jpg",
+        "alt": "Hero mock image"
       },
     ]
   },
   {
     "project-name": "für das Leben",
     "link": "fur-das-eben",
-    lastModified: new Date('02, 09, 2025'),
+    lastModified: new Date('02, 11, 2025'),
     "about": [
       {
         text: "'für das Leben' is an evocative illustration series that explores the intricate interplay between work, passion, and the rhythm of everyday life.",
@@ -285,30 +285,30 @@ export const projects = [
     "type": "Website",
     "tools-used": ["Figma", "Adobe Photoshop", "Adobe Illustrator", "Procreate"],
     "made-in": new Date(2024, 6),
-    "thumbnail": "https://res.cloudinary.com/du7prd881/image/upload/v1739018814/Working4_yr9ff5.jpg",
+    "thumbnail": "https://res.cloudinary.com/du7prd881/image/upload/v1739291597/1_izihmp.jpg",
     "images-list": [
       {
-        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739018814/Working4_yr9ff5.jpg",
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739291636/2_e89pu5.jpg",
         "alt": "Hero mock image"
       },
       {
-        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739018713/Working2_mrolc5.jpg",
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739291639/4_k6m8qt.jpg",
         "alt": "Hero mock image"
       },
       {
-        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739018712/Working_dbag81.jpg",
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739291638/3_n0hfsr.jpg",
         "alt": "Hero mock image"
       },
       {
-        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739018709/Working5_jksc56.jpg",
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739291638/3_n0hfsr.jpg",
         "alt": "Hero mock image"
       },
       {
-        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739018705/Working3_sjkcmn.jpg",
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739291639/5_h395u1.jpg",
         "alt": "Hero mock image"
       },
       {
-        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739018702/Working6_azcmmq.jpg",
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739291684/1_syuqds.jpg",
         "alt": "Hero mock image"
       },
     ]
@@ -329,30 +329,34 @@ export const projects = [
     "type": "Website",
     "tools-used": ["Figma", "Procreate", "Adobe Illustrator", "Adobe Indesign"],
     "made-in": new Date(2024, 3),
-    "thumbnail": "https://res.cloudinary.com/du7prd881/image/upload/v1739019079/Mainfile_uxgail.jpg",
+    "thumbnail": "https://res.cloudinary.com/du7prd881/image/upload/v1739291750/1_lzrnom.jpg",
     "images-list": [
       {
-        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739019079/Mainfile_uxgail.jpg",
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739291780/7_xlxnbp.jpg",
         "alt": "Logo image"
       },
       {
-        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739019004/Mainfile5_jh0ndj.jpg",
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739291779/6_rg4m02.jpg",
         "alt": "Hero mock image"
       },
       {
-        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739019000/Mainfile3_qzzzli.jpg",
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739291778/1_xm7spn.jpg",
         "alt": "Hero mock image"
       },
       {
-        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739018995/Mainfile2_lo23pc.jpg",
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739291778/5_lvo6gq.jpg",
         "alt": "Hero mock image"
       },
       {
-        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739018994/Mainfile7_ol845e.jpg",
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739291777/4_vubn8e.jpg",
         "alt": "Hero mock image"
       },
       {
-        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739018991/Mainfile4_egfnow.jpg",
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739291776/3_ipfpaj.jpg",
+        "alt": "Hero mock image"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739291776/2_ilhch7.jpg",
         "alt": "Hero mock image"
       },
     ]
