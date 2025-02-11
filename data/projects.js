@@ -316,7 +316,7 @@ export const projects = [
   {
     "project-name": "PeakFit",
     "link": "peakfit",
-    lastModified: new Date('02, 09, 2025'),
+    lastModified: new Date('02, 11, 2025'),
     "about": [
       {
         text: "PeakFit is a modern, dynamic fitness brand designed to inspire individuals to reach the pinnacle of their physical and mental potential.",
@@ -358,6 +358,169 @@ export const projects = [
       {
         "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739291776/2_ilhch7.jpg",
         "alt": "Hero mock image"
+      },
+    ]
+  },
+  {
+    "project-name": "Fix und Fertig",
+    "link": "fix-und-fertig",
+    lastModified: new Date('02, 11, 2025'),
+    "about": [
+      {
+        text: "'Fix und Fertig' is an editorial design exploration project that explores various ways people experience exhaustion from digital work. Through a series of creative illustrations, the project depicts different forms of tiredness, burnout, and the impact of prolonged screen time on the mind and body.",
+        highlight: ["Fix und Fertig"],
+      },
+      {
+        text: "Each illustration showcases a unique artistic style, reflecting the diverse ways digital fatigue can manifest, from physical exhaustion to emotional burnout.",
+      },
+      {
+        text: "The project uses humor and visual storytelling to capture the shared experience of feeling 'Fix und Fertig', a German phrase meaning completely worn out or exhausted.",
+        underline: ["a German phrase meaning completely worn out or exhausted"]
+      }
+    ],
+    "type": "Editorial Design",
+    "tools-used": ["Procreate", "Adobe Photoshop", "Adobe Illustrator", "Adobe Indesign"],
+    "made-in": new Date(2024, 10),
+    "thumbnail": "https://res.cloudinary.com/du7prd881/image/upload/v1739292248/Thumbnail_aefwiu.jpg",
+    "images-list": [
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739292243/8_uus8dr.jpg",
+        "alt": "Book Print"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739292242/3_qi0qf2.jpg",
+        "alt": "Book Print"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739292242/5_r3hkhp.jpg",
+        "alt": "Book Print"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739292241/7_hrrlos.jpg",
+        "alt": "Book Print"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739292241/6_o0bejk.jpg",
+        "alt": "Book Print"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739292238/4_egaaql.jpg",
+        "alt": "Book Print"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739292237/1_pfnva8.jpg",
+        "alt": "Book Print"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739292236/2_nb7iim.jpg",
+        "alt": "Book Print"
+      },
+    ]
+  },
+  {
+    "project-name": "Pasta Werk",
+    "link": "pasta-werk",
+    lastModified: new Date('02, 11, 2025'),
+    "about": [
+      {
+        text: "A figurative branding project amalgamating body and food where body acts as a medium through which food considered as material flows to fill the void space, making them unique in their own ways.",
+      },
+      {
+        text: "The concept works on the theory of 'we are what we eat' centering pasta as the actor of the play. Since, pasta has much importance in our daily life and is considered as a staple food in some cultures. ",
+        underline: ["we are what we eat"],
+      },
+      {
+        text: "Also, as a personal attachment, pasta has always been the saver for something quick and easy. One of the central points of departure in this project is to be schooled with various kinds of pasta shapes that exist and drawing a parallelism to that with the skeleton. Engaging audiences with educational content about the origins, shapes, and cultural significance of pasta, linking it to their own identity and personal stories.",
+      }
+    ],
+    "type": "Illustration",
+    "published-on": {
+      "name": "Pastel Serenity",
+      "link": "https://www.instagram.com/pastelserenityzine/?hl=en"
+    },
+    "tools-used": ["Procreate", "Adobe Photoshop", "Adobe Illustrator"],
+    "made-in": new Date(2023, 11),
+    "thumbnail": "https://res.cloudinary.com/du7prd881/image/upload/v1739292792/Thumbnail_makt4g.jpg",
+    "images-list": [
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739292781/8_fts3qr.jpg",
+        "alt": "Packaging mock"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739292794/6_ov8nag.jpg",
+        "alt": "Door print mock"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739292770/7_hhem84.jpg",
+        "alt": "Packaging mock"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739292767/4_powzd0.jpg",
+        "alt": "Packaging mock"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739292767/2_jwstvh.jpg",
+        "alt": "Packaging mock"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739292765/3_falwaq.jpg",
+        "alt": "Packaging mock"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739292765/1_djj2wd.jpg",
+        "alt": "Banner print mock"
+      },
+    ]
+  },
+  {
+    "project-name": "Between The Lines",
+    "link": "between-the-lines",
+    lastModified: new Date('02, 11, 2025'),
+    "about": [
+      {
+        text: "This project involves designing a collection of five vibrant bookmarks, each featuring a digital illustration of people wearing colorful, stylish clothing.",
+      },
+      {
+        text: "The designs aim to celebrate diversity in fashion and culture while combining functionality with artistic creativity. These bookmarks are perfect for readers who appreciate bold and fashionable designs.",
+        underline: ["bookmarks", "fashionable designs"],
+      },
+    ],
+    "type": "Print",
+    "tools-used": ["Procreate", "Adobe Illustrator"],
+    "made-in": new Date(2024, 2),
+    "thumbnail": "https://res.cloudinary.com/du7prd881/image/upload/v1739293248/Thumbnail_se9zva.jpg",
+    "images-list": [
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739293243/1_dqplaz.jpg",
+        "alt": "Bookmark mock"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739293239/2_uzhzq4.jpg",
+        "alt": "Bookmark mock"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739293240/3_ntardu.jpg",
+        "alt": "Bookmark mock"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739293243/4_ohdr0o.jpg",
+        "alt": "Bookmark mock"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739293248/5_bcwe1k.jpg",
+        "alt": "Bookmark mock"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739293241/6_sod1ig.jpg",
+        "alt": "Bookmark mock"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739293245/7_xurupe.jpg",
+        "alt": "Bookmark mock"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739293247/8_dkl9qc.jpg",
+        "alt": "Bookmark mock"
       },
     ]
   },

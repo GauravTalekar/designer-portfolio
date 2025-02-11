@@ -46,5 +46,6 @@ export const about = [
 export const projectTypeFilter = [
   "Print",
   "Website",
-  "Editorial",
+  "Editorial Design",
+  "Illustration",
 ]
