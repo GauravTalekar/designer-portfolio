@@ -79,4 +79,20 @@ export const images = [
     height: 1080,
     link: "between-the-lines",
   },
+  {
+    src: "https://res.cloudinary.com/du7prd881/image/upload/v1739604580/Thumbnail_anpp5i.jpg",
+    alt: 'TARTA DE LIMÓN',
+    title: 'TARTA DE LIMÓN',
+    width: 1080,
+    height: 1080,
+    link: "tarta-de-limon",
+  },
+  {
+    src: "https://res.cloudinary.com/du7prd881/image/upload/v1739604394/thumbnail_njjol3.jpg",
+    alt: 'VEGANEN KOCHLÖFFEL',
+    title: 'VEGANEN KOCHLÖFFEL',
+    width: 1080,
+    height: 1080,
+    link: "veganen-kochloffel",
+  },
 ];

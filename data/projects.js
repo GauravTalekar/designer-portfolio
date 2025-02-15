@@ -524,4 +524,109 @@ export const projects = [
       },
     ]
   },
+  {
+    "project-name": "TARTA DE LIMÓN",
+    "link": "tarta-de-limon",
+    lastModified: new Date('02, 15, 2025'),
+    "published-on": {
+      "name": "Grinkin Magazine",
+      "link": "https://www.griffingreen.org/"
+    },
+    "about": [
+      {
+        text: "Yellow is a color associated with royalty, happiness and warmth. It's also most often related to deities in many religions (Hinduism and Ancient Egypt) and a symbol for knowledge. But beyond its historical significance, yellow holds a unique power—it captures attention, demands recognition, and shines light where shadows prevail. 'TARTA DE LIMÓN' is an editorial issue that does just that.",
+        highlight: ["TARTA DE LIMÓN"],
+      },
+      {
+        text: "The issue sheds light on not-so-known occupations that work behind the scenes to infuse our lives with brightness. Just as yellow radiates optimism, the individuals featured in this issue embody a quiet brilliance. Whether through craftsmanship, service, or labor, their contributions often go unnoticed, yet they are indispensable. 'TARTA DE LIMÓN' serves as both a spotlight and a celebration—an invitation to acknowledge, appreciate, and honor their work. In the same way that a lemon pie balances sweetness with tartness, this issue blends recognition with reality, reminding us that even in life's most unexpected corners, there is light worth celebrating.",
+      },
+    ],
+    "type": "Editorial Design",
+    "tools-used": ["Procreate", "Adobe Photoshop", "Adobe Illustrator"],
+    "made-in": new Date(2023, 2),
+    "thumbnail": "https://res.cloudinary.com/du7prd881/image/upload/v1739604580/Thumbnail_anpp5i.jpg",
+    "images-list": [
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739604581/4_jzlssu.jpg",
+        "alt": "Book Print"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739604580/7_idwiis.jpg",
+        "alt": "Book Print"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739604580/8_qlqasj.jpg",
+        "alt": "Book Print"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739604579/6_heasgs.jpg",
+        "alt": "Book Print"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739604579/1_xmdcn1.jpg",
+        "alt": "Book Print"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739604579/5_rt4zzz.jpg",
+        "alt": "Book Print"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739604579/2_unltkr.jpg",
+        "alt": "Book Print"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739604578/3_jy1ryx.jpg",
+        "alt": "Book Print"
+      },
+    ]
+  },
+  {
+    "project-name": "VEGANEN KOCHLÖFFEL",
+    "link": "veganen-kochloffel",
+    lastModified: new Date('02, 15, 2025'),
+    "about": [
+      {
+        text: "'VEGANEN KOCHLÖFFEL' is a vibrant editorial issue dedicated to celebrating the benefits of a vegan lifestyle and highlighting its positive impact on the environment. 'VEGANEN KOCHLÖFFEL' goes beyond being just a collection of recipes and lifestyle tips—it is a call to action.",
+        highlight: ["VEGANEN KOCHLÖFFEL"],
+      },
+      {
+        text: "The project's playful and approachable style, featuring oversized, flat designs and clean typography, aims to make the idea of veganism accessible and appealing to a wide audience. This editorial issue is crafted for a broad audience, from individuals already committed to veganism to those exploring plant-based alternatives for the first time.",
+        underline: ["playful and approachable style, featuring oversized, flat designs and clean typography"],
+      },
+      {
+        text: "Through the use of bold, flat, modern illustrations paired with bright, lively colors, the project seeks to capture attention and inspire action.",
+        underline: ["bold, flat, modern illustrations paired with bright, lively colors"],
+      },
+    ],
+    "type": "Editorial Design",
+    "tools-used": ["Procreate", "Adobe Photoshop", "Adobe Illustrator"],
+    "made-in": new Date(2024, 11),
+    "thumbnail": "https://res.cloudinary.com/du7prd881/image/upload/v1739604394/thumbnail_njjol3.jpg",
+    "images-list": [
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739604394/6_nl3dhk.jpg",
+        "alt": "Book Print"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739604394/5_rvwakd.jpg",
+        "alt": "Book Print"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739604393/3_qfp9bb.jpg",
+        "alt": "Book Print"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739604393/2_w4edxd.jpg",
+        "alt": "Book Print"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739604393/1_ytgk3q.jpg",
+        "alt": "Book Print"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1739604393/4_slaa5h.jpg",
+        "alt": "Book Print"
+      },
+    ]
+  },
 ];
