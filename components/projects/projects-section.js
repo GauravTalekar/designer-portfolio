@@ -12,14 +12,14 @@ const ProjectsSection = ({ projects, currentPage, totalPages, queryParams }) => 
         title={"Projects"}
         clx={"flex justify-center items-center text-center text-shark-800 font-montserrat font-bold"}
       />
-      <div className="mt-6 flex justify-center">
+      <div className="mt-12 flex justify-center">
         <SearchFilter
           q={queryParams?.q || ""}
           type={queryParams?.type || ""}
           sort={queryParams?.sort || "desc"}
         />
       </div>
-      <div className="mt-6 inline-block">
+      <div className="mt-16 inline-block">
         <ProjectList projects={projects} />
       </div>
       <Pagination currentPage={currentPage} totalPages={totalPages} queryParams={queryParams} />

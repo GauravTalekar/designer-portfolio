@@ -9,7 +9,7 @@ const ServicesGrid = ({ services }) => {
           className="bg-white px-8 py-6 border rounded-xl hover:shadow-md fade-in transition-all duration-500 ease-out delay-200"
           aria-labelledby={`service-title-${idx}`}
         >
-          <div className="flex items-start space-x-4 mb-4">
+          <div className="flex items-center space-x-4 mb-4">
             <figure className="w-16 h-16 flex-shrink-0">
               <Image
                 src={service.icon}

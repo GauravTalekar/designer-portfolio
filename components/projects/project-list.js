@@ -3,7 +3,7 @@ import ProjectCard from "./project-card";
 const ProjectList = ({ projects }) => {
   return (
     <ul
-      className="columns-1 md:columns-2 gap-4 space-y-4"
+      className="columns-1 md:columns-3 gap-4 space-y-4"
       role="list"
       aria-label="List of projects"
     >
