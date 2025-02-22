@@ -48,12 +48,12 @@ const ContactPage = () => {
               <p className="text-lg mt-4">
                 Lets collaborate and create something amazing! Feel free to reach out to me via the form or drop a mail at {" "}
                 <Link
-                  href="mailto:gtalekar21@gmail.com"
+                  href="mailto:gaurav.talekar.designer@gmail.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-dull-lavender-600 font-semibold underline"
                 >
-                  gtalekar21@gmail.com
+                  gaurav.talekar.designer@gmail.com
                 </Link>.
               </p>
               <p className="text-lg mt-4">

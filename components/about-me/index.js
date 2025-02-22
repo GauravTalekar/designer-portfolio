@@ -23,11 +23,11 @@ const AboutMe = () => {
             </div>
           </div>
           <h2 className="mt-10 mb-10 text-4xl md:text-6xl font-montserrat fade-in transition-all ease-out duration-500 delay-200">
-            I&apos;m Gaurav Talekar, a UX/UI designer specializing in creating user-friendly mobile apps based in Bremen, Germany.
+            I am Gaurav Talekar, an illustrator, graphic and UX/UI-designer specialized in transforming concepts into engaging and impactful visual storytelling. I am based in Bremen, Germany.
           </h2>
           <div className="font-nunito text-xl fade-in transition-all ease-out duration-500 delay-300">
             <ParagraphTemplate paragraphs={[{
-              text: "Leveraging insights in user psychology and aesthetics, my approach enhances functionality with visual elegance, further enriching the sleek, user-friendly mobile apps I specialize in."
+              text: "From pixels to prototypes, my approach employs insights from human psychology and aesthetics to bring ideas to life with style and purpose."
             }]} />
           </div>
           <div className="my-9 fade-in transition-all ease-out duration-500 delay-400">
