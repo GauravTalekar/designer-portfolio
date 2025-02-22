@@ -95,4 +95,20 @@ export const images = [
     height: 1080,
     link: "veganen-kochloffel",
   },
+  {
+    src: "https://res.cloudinary.com/du7prd881/image/upload/v1740217472/thumbnail_mkyvx8.jpg",
+    alt: 'Ironing Stories',
+    title: 'Ironing Stories',
+    width: 1080,
+    height: 1080,
+    link: "ironing-stories",
+  },
+  {
+    src: "https://res.cloudinary.com/du7prd881/image/upload/v1740217971/thumbnail_crieag.jpg",
+    alt: 'THE RED STUHL',
+    title: 'THE RED STUHL',
+    width: 1080,
+    height: 1080,
+    link: "the-red-stuhl",
+  },
 ];

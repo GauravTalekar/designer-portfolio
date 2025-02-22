@@ -629,4 +629,106 @@ export const projects = [
       },
     ]
   },
+  {
+    "project-name": "Ironing Stories",
+    "link": "ironing-stories",
+    lastModified: new Date('02, 15, 2025'),
+    "about": [
+      {
+        text: "The series 'Ironing Stories' is a celebration of the complex choreography involved in ironing clothes to perfection, highlighting the skills and patience that defines this profession. Each piece in 'Ironing Stories' tells a tale of resilience and dedication.",
+        highlight: ["Ironing Stories"],
+      },
+      {
+        text: "From the break of dawn to the quiet mumble of coal irons and the sound of fabric, the work brings to life the routines and realities of the Ironwallahs (a person who irons clothes, they collect, and delivery clothes entrusted to them for ironing). ",
+      },
+      {
+        text: "The work travels into the personal narratives behind this profession. It is stories of dreams pressed into every crease, and of the silent pride in delivering impeccable service. Ironing Stories captures the textures, the moments, and the soul of a profession that, though often overlooked, remains stitched into the fabric of daily existence. This is a tribute to the hands that smooth out the wrinkles of our lives—one press at a time.",
+      },
+    ],
+    "type": "Editorial Design",
+    "tools-used": ["Procreate", "Adobe Photoshop", "Adobe Illustrator"],
+    "made-in": new Date(2023, 5),
+    "thumbnail": "https://res.cloudinary.com/du7prd881/image/upload/v1740217472/thumbnail_mkyvx8.jpg",
+    "images-list": [
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740217474/6_gpcpem.jpg",
+        "alt": "Book Print"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740217472/5_fpjlqz.jpg",
+        "alt": "Book Print"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740217472/1_fwcupf.jpg",
+        "alt": "Book Print"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740217472/3_hqgy3o.jpg",
+        "alt": "Book Print"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740217471/2_u3hdqh.jpg",
+        "alt": "Book Print"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740217471/04_ytod80.jpg",
+        "alt": "Book Print"
+      },
+    ]
+  },
+  {
+    "project-name": "THE RED STUHL",
+    "link": "the-red-stuhl",
+    lastModified: new Date('02, 15, 2025'),
+    "published-on": {
+      "name": "Humankind Zine",
+      "link": "https://www.humankindzine.com/issue-five"
+    },
+    "about": [
+      {
+        text: "The project 'THE RED STUHL' celebrates the cultural richness, warmth, and communal spirit of street food through the symbolic representation of The Red Stuhl.",
+        highlight: ["THE RED STUHL"],
+      },
+      {
+        text: "The red chair, however, was more than simply a piece of furniture or a food vendor to those who knew it well. It served as a symbol of the neighborhood and a place where people from all walks of life could come together to share a love of fine cuisine. It was also a source of warmth on chilly winter nights, its vibrant hues shining out against the city's gloomy backdrop. But it was not just the physical comforts of the red chair that made it so beloved. It was the people behind it, the tireless chefs and servers who worked tirelessly to create dishes that not only satisfied hunger but also lifted the spirits.",
+      },
+      {
+        text: "By blending visual storytelling with thought-provoking narratives, this project aims to pay tribute to the humble yet powerful presence of The Red Stuhl, reminding us that food is not just livelihood—it is a language of connection, joy, and heritage.",
+      },
+    ],
+    "type": "Editorial Design",
+    "tools-used": ["Procreate", "Adobe Photoshop", "Adobe Illustrator"],
+    "made-in": new Date(2024, 8),
+    "thumbnail": "https://res.cloudinary.com/du7prd881/image/upload/v1740217971/thumbnail_crieag.jpg",
+    "images-list": [
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740217940/4_z0zfss.jpg",
+        "alt": "Book Print"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740217933/1_uxpgl7.jpg",
+        "alt": "Book Print"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740217472/1_fwcupf.jpg",
+        "alt": "Book Print"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740217932/2_zbnbpi.jpg",
+        "alt": "Book Print"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740217932/3_lun0wy.jpg",
+        "alt": "Book Print"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740217932/6_rqlvau.jpg",
+        "alt": "Book Print"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740217931/7_ecu7wi.jpg",
+        "alt": "Book Print"
+      },
+    ]
+  },
 ];
