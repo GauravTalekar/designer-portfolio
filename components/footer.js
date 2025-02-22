@@ -11,7 +11,7 @@ const Footer = () => {
               <img
                 alt="GT"
                 src={data.logoLink}
-                className="h-10 me-3 rounded-full"
+                className="h-10 me-3 rounded-md"
               />
               <span className="self-center text-2xl font-medium whitespace-nowrap">{data.title}</span>
             </Link>
