@@ -48,7 +48,7 @@ const ServicesGrid = ({ services }) => {
                   />
                 </svg>
 
-                <span>{item}</span>
+                <span className="capitalize">{item}</span>
               </li>
             ))}
           </ul>

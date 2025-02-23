@@ -731,4 +731,183 @@ export const projects = [
       },
     ]
   },
+  {
+    "project-name": "Artha",
+    "link": "artha",
+    "about": [
+      {
+        text: "The project 'ARTHA' is a testament to Artha's commitment to innovation, demonstrating how typography can be both an artistic expression and a storytelling medium in the digital branding space.",
+        highlight: ["'ARTHA'"],
+      },
+      {
+        text: "Artha, an innovative identity digital solutions company, pushes the boundaries of creativity and technology.  The visual composition not only captures attention but also aligns with the company's mission to redefine digital identity through bold and unconventional design choices. The work embodies the company's experimental spirit through bold typography, reflecting its drive to explore new limits in digital identity solutions.",
+      },
+      {
+        text: "Designed with adaptability in mind, the poster seamlessly integrates into various advertising mockups, from towering city billboards to sleek urban posters.",
+        underline: ["urban posters", "billboards"]
+      },
+    ],
+    "type": "Graphic Design",
+    "tools-used": ["Adobe Illustrator", "Adobe Indesign"],
+    "made-in": new Date(2024, 11),
+    "thumbnail": "https://res.cloudinary.com/du7prd881/image/upload/v1740292688/thumbnail_bxcxyz.jpg",
+    "images-list": [
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740292689/2_hodp75.jpg",
+        "alt": "Poster"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740292679/1_jcoc13.jpg",
+        "alt": "Hoarding Print"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740292658/3_azens3.jpg",
+        "alt": "Advertising Banner"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740292658/4_ujrvy8.jpg",
+        "alt": "Advertising Banner"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740292657/5_vmayu8.jpg",
+        "alt": "Card"
+      },
+    ]
+  },
+  {
+    "project-name": "Fernmeldeturm Bremen",
+    "link": "fernmeldeturm-bremen",
+    "about": [
+      {
+        text: "The project 'FERNMELDETURM - BREMEN' focuses on promoting tourism in Bremen Walle through an engaging poster design. The poster highlights the iconic Walle Television Tower, a symbol of Bremen's resilience and architectural excellence.",
+        highlight: ["'FERNMELDETURM - BREMEN'"],
+      },
+      {
+        text: "The color scheme used in the design incorporates a combination of Werder Bremen colors and the key logo of Bremen, ensuring a strong local identity and visual appeal. By blending tradition with modern aesthetics, this project aims to attract visitors and showcase Bremen as a must-visit destination.",
+      },
+    ],
+    "type": "Graphic Design",
+    "tools-used": ["Adobe Illustrator", "Adobe Indesign"],
+    "made-in": new Date(2024, 10),
+    "thumbnail": "https://res.cloudinary.com/du7prd881/image/upload/v1740293459/thumbnail_h0culn.jpg",
+    "images-list": [
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740293434/1_ns2rxk.jpg",
+        "alt": "Stamp mockup"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740293421/2_bcwwur.jpg",
+        "alt": "Hoarding Print"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740293421/3_t3kdm8.jpg",
+        "alt": "Advertising Banner"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740293420/6_p8qlqb.jpg",
+        "alt": "Advertising Banner"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740293420/5_mnrwxs.jpg",
+        "alt": "Advertising Banner"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740293420/4_h2gjpb.jpg",
+        "alt": "Card"
+      },
+    ]
+  },
+  {
+    "project-name": "Gloss Matte",
+    "link": "gloss-matte",
+    "about": [
+      {
+        text: "'Gloss & Matte' is a compelling graphic design project that explores the dynamic interplay between different shades of lipsticks and the multifaceted roles that women play in society. Through the contrast of glossy and matte textures, this project establishes a visual parallelism that underscores the boldness, strength, and versatility of modern women.",
+        highlight: ["'Gloss & Matte'"],
+      },
+      {
+        text: "The designer utilizes striking typography and a powerful color palette to create an immersive experience that not only celebrates beauty but also empowers the viewer to acknowledge the significant contributions of women in various domains. Whether it's a glossy red or a deep matte plum, each shade tells a story, reflecting moods, personalities, and statements. 'Gloss & Matte' builds upon this symbolism, demonstrating how different lipstick finishes represent the different personas and responsibilities that women embody daily.",
+      },
+      {
+        text: "'Gloss & Matte' is more than just a graphic design project; it is a movement that highlights the depth, complexity, and brilliance of women in society. By merging bold typography with symbolic lipstick textures, the designer creates a visually arresting experience that leaves a lasting impact. ",
+      },
+    ],
+    "type": "Graphic Design",
+    "tools-used": ["Adobe Illustrator", "Adobe Indesign", "Procreate"],
+    "made-in": new Date(2024, 9),
+    "thumbnail": "https://res.cloudinary.com/du7prd881/image/upload/v1740296567/thumbnail_qpyoei.jpg",
+    "images-list": [
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740296567/4_b0xexd.jpg",
+        "alt": "Hoarding Print"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740296566/5_vz4kdn.jpg",
+        "alt": "Advertising Banner"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740296629/1_bvgtwj.jpg",
+        "alt": "Advertising Banner"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740296566/3_parlrl.jpg",
+        "alt": "Advertising Banner"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740296567/6_au20xe.jpg",
+        "alt": "Card"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740296566/2_tna1r2.jpg",
+        "alt": "Card"
+      },
+    ]
+  },
+  {
+    "project-name": "Sombra",
+    "link": "sombra",
+    "about": [
+      {
+        text: "The graphic poster design for Sombra, a Spanish drama film, is a bold and visually arresting piece that blends modern design aesthetics with the thematic depth of the film. Departing from conventional tones associated with mystery and drama, the design embraces a daring use of vibrant pink as its dominant color, creating a striking and unexpected visual identity.",
+        highlight: ["Sombra"],
+      },
+      {
+        text: "The color pink, often associated with femininity and softness, is reimagined here as a symbol of intensity, defiance, and emotional rawness, reflecting the film’s complex themes of identity, resilience, and self-discovery. To break away from traditional palettes dominated by blacks, grays, and muted tones, the creative decision was made to lean into pink as a statement color. This choice not only challenges conventional notions of darkness but also makes the poster immediately stand out in a crowded market.",
+      },
+    ],
+    "type": "Graphic Design",
+    "tools-used": ["Adobe Illustrator", "Adobe Indesign"],
+    "made-in": new Date(2024, 9),
+    "thumbnail": "https://res.cloudinary.com/du7prd881/image/upload/v1740297155/thumbnail_q2cfep.jpg",
+    "images-list": [
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740297157/7_hwg75k.jpg",
+        "alt": "Hoarding Print"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740297156/6_dgjpn7.jpg",
+        "alt": "Advertising Banner"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740297156/3_m7ciin.jpg",
+        "alt": "Stamps Mockup"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740297155/1_e4dmsg.jpg",
+        "alt": "CD Cover Mockup"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740297155/5_bpge2j.jpg",
+        "alt": "Advertising Banner"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740297154/4_inf9sh.jpg",
+        "alt": "Advertising Banner"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740297154/2_gwscri.jpg",
+        "alt": "Poster"
+      },
+    ]
+  },
 ];
