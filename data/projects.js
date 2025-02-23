@@ -2,7 +2,7 @@ export const projects = [
   {
     "project-name": "Wings And Whiskers",
     "link": "wings-and-whiskers",
-    lastModified: new Date('02, 09, 2025'),
+    lastModified: new Date(2025,1, 23),
     "about": [
       {
         text: "Wings And Whiskers is a lifestyle brand for socks and tote bags which uses illustration series celebrating the beauty of insects and butterflies through vibrant and intricate designs. ",
@@ -58,7 +58,7 @@ export const projects = [
   {
     "project-name": "Die Katze",
     "link": "die-katze",
-    lastModified: new Date('02, 09, 2025'),
+    lastModified: new Date(2025,1, 23),
     "about": [
       {
         text: "The Katze Sticker Series brings the charm of cats to life with bold, minimalistic illustrations that celebrate their playful and endearing nature.",
@@ -110,7 +110,7 @@ export const projects = [
   {
     "project-name": "Nalini",
     "link": "nalini",
-    lastModified: new Date('02, 09, 2025'),
+    lastModified: new Date(2025,1, 23),
     "about": [
       {
         text: "Nalini—a Sanskrit word meaning Lotus is more than a beauty care brand; it is a recognition of the journey toward self-realization and authentic beauty.",
@@ -169,7 +169,7 @@ export const projects = [
   {
     "project-name": "Coloreta",
     "link": "coloreta",
-    lastModified: new Date('02, 09, 2025'),
+    lastModified: new Date(2025,1, 23),
     "about": [
       {
         text: "The branding for 'Coloreta' focuses on vibrancy, life, and ecological awareness, encapsulating the colorful and energetic essence of frogs.",
@@ -228,7 +228,7 @@ export const projects = [
   {
     "project-name": "Fornir",
     "link": "fornir",
-    lastModified: new Date('02, 11, 2025'),
+    lastModified: new Date(2025,1, 23),
     "about": [
       {
         text: "Furniture design embracing the grid design style with a focus on minimalism is a contemporary approach that blends precision, functionality, and simplicity.",
@@ -272,7 +272,7 @@ export const projects = [
   {
     "project-name": "für das Leben",
     "link": "fur-das-eben",
-    lastModified: new Date('02, 11, 2025'),
+    lastModified: new Date(2025,1, 23),
     "about": [
       {
         text: "'für das Leben' is an evocative illustration series that explores the intricate interplay between work, passion, and the rhythm of everyday life.",
@@ -316,7 +316,7 @@ export const projects = [
   {
     "project-name": "PeakFit",
     "link": "peakfit",
-    lastModified: new Date('02, 11, 2025'),
+    lastModified: new Date(2025,1, 23),
     "about": [
       {
         text: "PeakFit is a modern, dynamic fitness brand designed to inspire individuals to reach the pinnacle of their physical and mental potential.",
@@ -364,7 +364,7 @@ export const projects = [
   {
     "project-name": "Fix und Fertig",
     "link": "fix-und-fertig",
-    lastModified: new Date('02, 11, 2025'),
+    lastModified: new Date(2025,1, 23),
     "about": [
       {
         text: "'Fix und Fertig' is an editorial design exploration project that explores various ways people experience exhaustion from digital work. Through a series of creative illustrations, the project depicts different forms of tiredness, burnout, and the impact of prolonged screen time on the mind and body.",
@@ -420,7 +420,7 @@ export const projects = [
   {
     "project-name": "Pasta Werk",
     "link": "pasta-werk",
-    lastModified: new Date('02, 11, 2025'),
+    lastModified: new Date(2025,1, 23),
     "about": [
       {
         text: "A figurative branding project amalgamating body and food where body acts as a medium through which food considered as material flows to fill the void space, making them unique in their own ways.",
@@ -475,7 +475,7 @@ export const projects = [
   {
     "project-name": "Between The Lines",
     "link": "between-the-lines",
-    lastModified: new Date('02, 11, 2025'),
+    lastModified: new Date(2025,1, 23),
     "about": [
       {
         text: "This project involves designing a collection of five vibrant bookmarks, each featuring a digital illustration of people wearing colorful, stylish clothing.",
@@ -527,7 +527,7 @@ export const projects = [
   {
     "project-name": "TARTA DE LIMÓN",
     "link": "tarta-de-limon",
-    lastModified: new Date('02, 15, 2025'),
+    lastModified: new Date(2025,1, 23),
     "published-on": {
       "name": "Grinkin Magazine",
       "link": "https://www.griffingreen.org/"
@@ -583,7 +583,7 @@ export const projects = [
   {
     "project-name": "VEGANEN KOCHLÖFFEL",
     "link": "veganen-kochloffel",
-    lastModified: new Date('02, 15, 2025'),
+    lastModified: new Date(2025,1, 23),
     "about": [
       {
         text: "'VEGANEN KOCHLÖFFEL' is a vibrant editorial issue dedicated to celebrating the benefits of a vegan lifestyle and highlighting its positive impact on the environment. 'VEGANEN KOCHLÖFFEL' goes beyond being just a collection of recipes and lifestyle tips—it is a call to action.",
@@ -632,7 +632,7 @@ export const projects = [
   {
     "project-name": "Ironing Stories",
     "link": "ironing-stories",
-    lastModified: new Date('02, 15, 2025'),
+    lastModified: new Date(2025,1, 23),
     "about": [
       {
         text: "The series 'Ironing Stories' is a celebration of the complex choreography involved in ironing clothes to perfection, highlighting the skills and patience that defines this profession. Each piece in 'Ironing Stories' tells a tale of resilience and dedication.",
@@ -679,7 +679,7 @@ export const projects = [
   {
     "project-name": "THE RED STUHL",
     "link": "the-red-stuhl",
-    lastModified: new Date('02, 15, 2025'),
+    lastModified: new Date(2025,1, 23),
     "published-on": {
       "name": "Humankind Zine",
       "link": "https://www.humankindzine.com/issue-five"
@@ -734,6 +734,7 @@ export const projects = [
   {
     "project-name": "Artha",
     "link": "artha",
+    lastModified: new Date(2025,1, 23),
     "about": [
       {
         text: "The project 'ARTHA' is a testament to Artha's commitment to innovation, demonstrating how typography can be both an artistic expression and a storytelling medium in the digital branding space.",
@@ -777,6 +778,7 @@ export const projects = [
   {
     "project-name": "Fernmeldeturm Bremen",
     "link": "fernmeldeturm-bremen",
+    lastModified: new Date(2025,1, 23),
     "about": [
       {
         text: "The project 'FERNMELDETURM - BREMEN' focuses on promoting tourism in Bremen Walle through an engaging poster design. The poster highlights the iconic Walle Television Tower, a symbol of Bremen's resilience and architectural excellence.",
@@ -820,6 +822,7 @@ export const projects = [
   {
     "project-name": "Gloss Matte",
     "link": "gloss-matte",
+    lastModified: new Date(2025,1, 23),
     "about": [
       {
         text: "'Gloss & Matte' is a compelling graphic design project that explores the dynamic interplay between different shades of lipsticks and the multifaceted roles that women play in society. Through the contrast of glossy and matte textures, this project establishes a visual parallelism that underscores the boldness, strength, and versatility of modern women.",
@@ -866,6 +869,7 @@ export const projects = [
   {
     "project-name": "Sombra",
     "link": "sombra",
+    lastModified: new Date(2025,1, 23),
     "about": [
       {
         text: "The graphic poster design for Sombra, a Spanish drama film, is a bold and visually arresting piece that blends modern design aesthetics with the thematic depth of the film. Departing from conventional tones associated with mystery and drama, the design embraces a daring use of vibrant pink as its dominant color, creating a striking and unexpected visual identity.",
