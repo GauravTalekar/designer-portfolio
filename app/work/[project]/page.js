@@ -78,28 +78,30 @@ export default async function ProjectPage({ params }) {
             <ParagraphTemplate paragraphs={project.about} />
           </div>
           <div className="md:w-1/3 flex justify-center fade-in transition-all ease-out duration-500 delay-200">
-            <ul className="list-group border border-gray-400 h-full w-full text-base" aria-label="Project Details">
-              <li className="list-group-item p-4 border-b text-lg font-montserrat">
-                <strong className="font-montserrat uppercase">Summary</strong>
-              </li>
-              <li className="list-group-item p-4 border-b">
-                <strong className="font-montserrat uppercase">Type</strong>
-                <p className="capitalize">
-                  {project.type}
-                </p>
-              </li>
-              <li className="list-group-item p-4 border-b">
-                <strong className="font-montserrat uppercase">Created On</strong>
-                <p className="capitalize">
-                  {getDateInFormat(project["made-in"])}
-                </p>
-              </li>
-              <PublishedOnComponent publishedOnData={project["published-on"]} />
-              <li className="list-group-item p-4">
-                <strong className="font-montserrat uppercase">Created With</strong>
-                <p className="capitalize">{project["tools-used"].join(", ")}</p>
-              </li>
-            </ul>
+            <div className="h-full w-full">
+              <ul className="list-group border border-gray-400 w-full text-base" aria-label="Project Details">
+                <li className="list-group-item p-4 border-b text-lg font-montserrat">
+                  <strong className="font-montserrat uppercase">Summary</strong>
+                </li>
+                <li className="list-group-item p-4 border-b">
+                  <strong className="font-montserrat uppercase">Type</strong>
+                  <p className="capitalize">
+                    {project.type}
+                  </p>
+                </li>
+                <li className="list-group-item p-4 border-b">
+                  <strong className="font-montserrat uppercase">Created On</strong>
+                  <p className="capitalize">
+                    {getDateInFormat(project["made-in"])}
+                  </p>
+                </li>
+                <PublishedOnComponent publishedOnData={project["published-on"]} />
+                <li className="list-group-item p-4">
+                  <strong className="font-montserrat uppercase">Created With</strong>
+                  <p className="capitalize">{project["tools-used"].join(", ")}</p>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
 
