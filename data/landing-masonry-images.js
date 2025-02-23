@@ -143,4 +143,12 @@ export const images = [
     height: 1080,
     link: "sombra",
   },
+  {
+    src: "https://res.cloudinary.com/du7prd881/image/upload/v1740314532/thumbnail_lgdfuu.jpg",
+    alt: 'Oscuridad',
+    title: 'Oscuridad',
+    width: 1080,
+    height: 1080,
+    link: "oscuridad",
+  },
 ];

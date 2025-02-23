@@ -914,4 +914,41 @@ export const projects = [
       },
     ]
   },
+  {
+    "project-name": "Oscuridad",
+    "link": "oscuridad",
+    lastModified: new Date(2025,1, 23),
+    "about": [
+      {
+        text: "The project is designed to promote the Spanish movie Oscuridad, a powerful drama that highlights the grim realities faced by children in South Asia—particularly in India, Bangladesh, Pakistan, and Nepal—who are deprived of education due to poverty, child labor, and systemic neglect. The film delves into themes of inequality, resilience, and the transformative power of education, highlighting the struggles of these children in a world that often overlooks them.",
+        highlight: ["Oscuridad"],
+      },
+      {
+        text: "The design features bold typography, with the letters containing masked images of children's faces, symbolizing their silent voices and hidden struggles. The color palette is dark and somber, reflecting the movie's title (Oscuridad means 'darkness'), with subtle hints of light or hope to convey the potential for change.",
+        underline: ["(Oscuridad means 'darkness')"]
+      },
+    ],
+    "type": "Graphic Design",
+    "tools-used": ["Adobe Illustrator", "Adobe Indesign"],
+    "made-in": new Date(2024, 7),
+    "thumbnail": "https://res.cloudinary.com/du7prd881/image/upload/v1740314532/thumbnail_lgdfuu.jpg",
+    "images-list": [
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740314532/3_fftp8l.jpg",
+        "alt": "Hoarding Print"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740314532/1_nwsoab.jpg",
+        "alt": "Advertising Banner"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740314532/2_ffoshd.jpg",
+        "alt": "Advertising Banner"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740314532/4_gm0nxm.jpg",
+        "alt": "Advertising Banner"
+      },
+    ]
+  },
 ];
