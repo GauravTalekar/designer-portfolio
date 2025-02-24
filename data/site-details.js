@@ -2,7 +2,7 @@ import { SlSocialBehance, SlSocialInstagram, SlSocialLinkedin } from "react-icon
 
 export const data = {
   title: "Gaurav Talekar",
-  domain: "gaurav-talekar.vercel.app",
+  domain: "gauravtalekar.com",
   is: "Designer",
   logoLink: "/android-chrome-512x512.png",
   resume: {
