@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { MdArrowForward } from "react-icons/md";
 import SectionHeader from "../section-header";
-import ImageList from "./image-list";
 import MasonryGrid from "./masonry-grid";
 import { images } from "@/data/landing-masonry-images";
 import SectionComponent from "../section-component";
@@ -20,9 +19,7 @@ const MasonryGridSection = () => {
       />
 
       {/* Masonry Grid with Image List */}
-      <MasonryGrid
-        imageList={<ImageList images={images} />}
-      />
+      <MasonryGrid imageList={images} />
 
       {/* Show More Link */}
       <div className="flex justify-center my-9">
