@@ -6,7 +6,14 @@ import MasonryGrid from "./masonry-grid";
 import { images } from "@/data/landing-masonry-images";
 import SectionComponent from "../section-component";
 
-const MasonryGridSection = () => {
+const getRandomImages = (images, count) => {
+  const shuffled = images.sort(() => 0.5 - Math.random()); // Shuffle the array
+  return shuffled.slice(0, count); // Get the first 'count' items
+};
+
+const MasonryGridSection = async () => {
+  const randomImages = getRandomImages(images, 6);
+
   return (
     <SectionComponent
       id="project-showcase-section"
@@ -21,7 +28,7 @@ const MasonryGridSection = () => {
 
       {/* Masonry Grid with Image List */}
       <MasonryGrid
-        imageList={<ImageList images={images} />}
+        imageList={<ImageList images={randomImages} />}
       />
 
       {/* Show More Link */}
