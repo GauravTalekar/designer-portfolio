@@ -12,7 +12,7 @@ export const projects = [
         text: "The brand brings nature's charm into everyday life through its products, offering a whimsical way to showcase the wonder of the insect world in functional forms. The purpose of this brand is to create a deeper connection with nature by reimagining the smallest creatures in the most dynamic form.",
       },
     ],
-    "type": "Print",
+    "type": "Branding and identity",
     "tools-used": ["Adobe Photoshop", "Adobe Illustrator", "Procreate"],
     "made-in": new Date(2024, 7),
     "thumbnail": "https://res.cloudinary.com/du7prd881/image/upload/v1738504443/Wings-And-Whiskers/uzitetmuvbqe3ymfjnh6.jpg",
@@ -433,7 +433,7 @@ export const projects = [
         text: "Also, as a personal attachment, pasta has always been the saver for something quick and easy. One of the central points of departure in this project is to be schooled with various kinds of pasta shapes that exist and drawing a parallelism to that with the skeleton. Engaging audiences with educational content about the origins, shapes, and cultural significance of pasta, linking it to their own identity and personal stories.",
       }
     ],
-    "type": "Illustration",
+    "type": "Branding and identity",
     "published-on": {
       "name": "Pastel Serenity",
       "link": "https://www.instagram.com/pastelserenityzine/?hl=en"
