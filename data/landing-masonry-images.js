@@ -159,4 +159,12 @@ export const images = [
     height: 1080,
     link: "melody-in-color",
   },
+  {
+    src: "https://res.cloudinary.com/du7prd881/image/upload/v1740739349/thumbnail_qn7fkn.jpg",
+    alt: 'Inside Out',
+    title: 'Inside Out',
+    width: 1080,
+    height: 1080,
+    link: "inside-out",
+  },
 ];

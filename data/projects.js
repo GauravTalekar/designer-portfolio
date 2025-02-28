@@ -1000,4 +1000,45 @@ export const projects = [
       },
     ]
   },
+  {
+    "project-name": "Inside Out",
+    "link": "inside-out",
+    lastModified: new Date(2025,2, 28),
+    "about": [
+      {
+        text: "Inside Out is a sticker-based project that offers a unique perspective on daily life, creating a visual lens through which viewers can observe human activities from a window-like viewpoint. Each sticker illustration captures relatable moments—whether it's self-care, reflection, or simple acts of daily living—framing them as scenes from within personal spaces.",
+        highlight: ["sticker illustration,visual lens,self-care"],
+      },
+      {
+        text: "With a vibrant color palette and bold compositions, the project transforms ordinary experiences into snapshots, emphasizing the beauty of routine and isolation. By peering through these illustrated windows, Inside Out invites viewers to reflect on the shared yet deeply personal nature of daily existence.",
+        underline: ["Inside Out"]
+      },
+    ],
+    "type": "Print",
+    "tools-used": ["Adobe Illustrator", "Procreate"],
+    "made-in": new Date(2024, 4),
+    "thumbnail": "https://res.cloudinary.com/du7prd881/image/upload/v1740739349/thumbnail_qn7fkn.jpg",
+    "images-list": [
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740739350/3_qwdcdz.jpg",
+        "alt": "Two stickers"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740739349/2_lgtydo.jpg",
+        "alt": "Rollout sticker"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740739349/4_txdo1c.jpg",
+        "alt": "Rollout sticker"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740739349/1_zrwsni.jpg",
+        "alt": "Rollout sticker"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740739349/5_kyzakg.jpg",
+        "alt": "Rollout sticker"
+      },
+    ]
+  },
 ];
