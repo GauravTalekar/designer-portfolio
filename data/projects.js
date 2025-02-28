@@ -1107,7 +1107,7 @@ export const projects = [
     "type": "Print",
     "tools-used": ["Adobe Illustrator", "Adobe Photoshop", "Procreate"],
     "made-in": new Date(2024, 1),
-    "thumbnail": "https://res.cloudinary.com/du7prd881/image/upload/v1740741111/thumbnail_uu59c8.jpg",
+    "thumbnail": "https://res.cloudinary.com/du7prd881/image/upload/v1740743463/thumbnail_wr2uup.jpg",
     "images-list": [
       {
         "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740743463/1_lmyeku.jpg",
