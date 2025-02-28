@@ -175,4 +175,12 @@ export const images = [
     height: 1080,
     link: "slow-sunday",
   },
+  {
+    src: "https://res.cloudinary.com/du7prd881/image/upload/v1740743463/thumbnail_wr2uup.jpg",
+    alt: 'Geduld',
+    title: 'Geduld',
+    width: 1080,
+    height: 1080,
+    link: "geduld",
+  },
 ];

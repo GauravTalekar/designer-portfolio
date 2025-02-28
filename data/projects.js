@@ -123,7 +123,7 @@ export const projects = [
         text: "The visual identity of Nalini is rooted in the elegance and symbolism of the lotus. Nalini, represents the journey from darkness to light, from imperfection to self-acceptance, and from hesitation to confidence.",
       },
     ],
-    "type": "Print",
+    "type": "Branding and identity",
     "published-on": {
       "name": "Grinkin Magazine",
       "link": "https://www.griffingreen.org/"
@@ -1087,6 +1087,47 @@ export const projects = [
       {
         "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740741109/6_ld0mrw.jpg",
         "alt": "Cafe cup print"
+      },
+    ]
+  },
+  {
+    "project-name": "Geduld",
+    "link": "geduld",
+    lastModified: new Date(2025,2, 28),
+    "about": [
+      {
+        text: "Geduld, the German word for patience, serves as the inspiration for the project, which delves into the essence of patience through a series of thoughtful illustrations. The work embodies the serenity and calmness associated with patience, using a harmonious palette of neutral and soft tones to evoke a sense of tranquility.",
+        highlight: ["patience,pause,reflect"],
+      },
+      {
+        text: "Each illustration captures moments of stillness, reflection, and peaceful endurance, reinforcing the beauty found in waiting and resilience. The project is a reminder that patience is not just about stillness, but also about embracing the process of growth and transformation.",
+        underline: ["stillness,reflection,peaceful endurance"]
+      },
+    ],
+    "type": "Print",
+    "tools-used": ["Adobe Illustrator", "Adobe Photoshop", "Procreate"],
+    "made-in": new Date(2024, 1),
+    "thumbnail": "https://res.cloudinary.com/du7prd881/image/upload/v1740741111/thumbnail_uu59c8.jpg",
+    "images-list": [
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740743463/1_lmyeku.jpg",
+        "alt": "Totilery cotton bag"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740743461/2_z5wg8a.jpg",
+        "alt": "Pink Tote bag"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740743462/3_bwqcm2.jpg",
+        "alt": "Light orange tote bag"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740743461/4_k9pfwn.jpg",
+        "alt": "Green Tote bag"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740743462/5_ddazyz.jpg",
+        "alt": "Green Tote bag"
       },
     ]
   },
