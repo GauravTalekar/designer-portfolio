@@ -167,4 +167,12 @@ export const images = [
     height: 1080,
     link: "inside-out",
   },
+  {
+    src: "https://res.cloudinary.com/du7prd881/image/upload/v1740741111/thumbnail_uu59c8.jpg",
+    alt: 'Slow Sunday',
+    title: 'Slow Sunday',
+    width: 1080,
+    height: 1080,
+    link: "slow-sunday",
+  },
 ];

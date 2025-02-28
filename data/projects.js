@@ -1041,4 +1041,53 @@ export const projects = [
       },
     ]
   },
+  {
+    "project-name": "Slow Sunday",
+    "link": "slow-sunday",
+    lastModified: new Date(2025,2, 28),
+    "about": [
+      {
+        text: "At the heart of the project SLOW SUNDAY is the idea that a café is not merely a place to grab a coffee but a dwelling where people pause, reflect, and enjoy life's simple pleasures. The project draws inspiration from the universal experience of coffee drinking—a ritual that brings warmth, solace, and a sense of belonging.",
+        highlight: ["SLOW SUNDAY,pause,reflect"],
+      },
+      {
+        text: "Whether one is surrounded by the gentle whisper of conversations in a café or enjoying a peaceful morning at home, the essence of the experience remains unchanged. The illustrations capture this sentiment by portraying individuals in different locations, yet sharing the same feeling of tranquility. This parallelism between café culture and home life highlights the brand identity of a café that extends beyond its walls.",
+        underline: ["café culture,home"]
+      },
+      {
+        text: "The imagery emphasizes how the café becomes an extension of one's personal space, fostering a feeling of connection even when people are apart. The name SLOW SUNDAY encapsulates the spirit of the project, inviting people to embrace a slower pace and appreciate life's simple pleasures.",
+        underline: ["slower pace,simple pleasures"]
+      },
+    ],
+    "type": "Branding and identity",
+    "tools-used": ["Adobe Illustrator", "Adobe Photoshop", "Procreate"],
+    "made-in": new Date(2024, 3),
+    "thumbnail": "https://res.cloudinary.com/du7prd881/image/upload/v1740741111/thumbnail_uu59c8.jpg",
+    "images-list": [
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740741101/1_jallnw.jpg",
+        "alt": "Cafe Stand"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740741103/2_arzq6x.jpg",
+        "alt": "Cafe Poster"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740741105/3_vz8dng.jpg",
+        "alt": "Tea bags print"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740741106/4_ydfuss.jpg",
+        "alt": "Cafe frame poster"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740741107/5_vdv2mh.jpg",
+        "alt": "Coasters sticker"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740741109/6_ld0mrw.jpg",
+        "alt": "Cafe cup print"
+      },
+    ]
+  },
 ];
