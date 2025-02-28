@@ -951,4 +951,53 @@ export const projects = [
       },
     ]
   },
+  {
+    "project-name": "Melody In Color",
+    "link": "melody-in-color",
+    lastModified: new Date(2025,02, 28),
+    "about": [
+      {
+        text: "Melody in Color is a branding and identity project that reimagines Spotify's advertising approach by blending bold illustrations and striking typography. The goal of this project is to create a visually dynamic campaign that embodies Spotify's vibrant and diverse musical experience.",
+        highlight: ["bold illustrations,striking typography"],
+      },
+      {
+        text: "By integrating design elements with the essence of sound, Melody in Color aims to reinforce Spotify's modern and innovative appeal, making it more engaging for a broad audience. The campaign harnesses the synergy between music and design, using a combination of illustrations, musical shapes, and expressive typography to reflect the energy and rhythm of sound",
+        underline: ["Melody in Color"]
+      },
+      {
+        text: "By using a rich and diverse color palette, the project aims to represent the multitude of emotions and experiences that Spotify delivers through its platform. Each color used in the campaign corresponds to a different musical mood or genre. This approach ensures that every visual element resonates with the musical diversity that defines Spotify. Melody in Color goes beyond being just a branding project; it represents the way people experience music.",
+        underline: ["Melody in Color"]
+      },
+    ],
+    "type": "Branding and identity",
+    "tools-used": ["Adobe Illustrator", "Procreate"],
+    "made-in": new Date(2024, 8),
+    "thumbnail": "https://res.cloudinary.com/du7prd881/image/upload/v1740734378/thumbnail_mqz9ox.jpg",
+    "images-list": [
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740734378/6_hna1rp.jpg",
+        "alt": "Advertising Banner"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740734377/5_cdg2j1.jpg",
+        "alt": "Advertising Banner"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740734377/4_q60mej.jpg",
+        "alt": "Subway Advertising Banner"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740734376/3_jm7974.jpg",
+        "alt": "Cassettes"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740734376/1_vnskaz.jpg",
+        "alt": "Disk and cover album"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740734376/2_vjptkx.jpg",
+        "alt": "Spotify app advertising"
+      },
+    ]
+  },
 ];

@@ -151,4 +151,12 @@ export const images = [
     height: 1080,
     link: "oscuridad",
   },
+  {
+    src: "https://res.cloudinary.com/du7prd881/image/upload/v1740734378/thumbnail_mqz9ox.jpg",
+    alt: 'Melody In Color',
+    title: 'Melody In Color',
+    width: 1080,
+    height: 1080,
+    link: "melody-in-color",
+  },
 ];

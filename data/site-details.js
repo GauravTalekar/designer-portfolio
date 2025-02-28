@@ -49,4 +49,5 @@ export const projectTypeFilter = [
   "Editorial Design",
   "Illustration",
   "Graphic Design",
+  "Branding and identity",
 ]
