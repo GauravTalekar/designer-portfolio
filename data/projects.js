@@ -954,7 +954,7 @@ export const projects = [
   {
     "project-name": "Melody In Color",
     "link": "melody-in-color",
-    lastModified: new Date(2025,02, 28),
+    lastModified: new Date(2025,2, 28),
     "about": [
       {
         text: "Melody in Color is a branding and identity project that reimagines Spotify's advertising approach by blending bold illustrations and striking typography. The goal of this project is to create a visually dynamic campaign that embodies Spotify's vibrant and diverse musical experience.",
