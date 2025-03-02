@@ -191,4 +191,12 @@ export const images = [
     height: 1080,
     link: "buchhandlung-leseecke",
   },
+  {
+    src: "https://res.cloudinary.com/du7prd881/image/upload/v1740918885/thumbnail_udj1hr.jpg",
+    alt: 'Textile Twirls',
+    title: 'TEXTILE TWIRLS',
+    width: 1080,
+    height: 1080,
+    link: "textile-twirls",
+  },
 ];

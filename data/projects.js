@@ -1184,4 +1184,53 @@ export const projects = [
       },
     ]
   },
+  {
+    "project-name": "TEXTILE TWIRLS",
+    "link": "textile-twirls",
+    lastModified: new Date(2025,3, 2),
+    "about": [
+      {
+        text: "Textile Twirls is an illustration project that merges the beauty of dance with the everlasting charm of Gingham patterns. The project explores the harmony between movement and pattern, honoring how visual textures intertwine with the rhythm of life. By depicting people in various dance poses dressed in Gingham-style clothing, the project highlights the nostalgia, simplicity, and vibrancy associated with this beloved pattern.",
+        highlight: ["Gingham patterns,Gingham-style"],
+      },
+      {
+        text: "The choice of Gingham is deeply personal, reminiscent of childhood memories tied to Vichy check shirts and playful moments. Beyond personal connections, Textile Twirls also delves into the historical origins of the word Gingham. The term is believed to have originated from the Malayan word genggang, meaning striped, and later evolved in Europe to represent the checkered fabric we recognize today.",
+        underline: ["Textile Twirls,genggang"]
+      },
+       {
+        text: "This project stands as a visual tribute to the patterns that shape our memories, identities, and expressions.",
+        underline: ["memories,identities,expressions"]
+      },
+    ],
+    "type": "Illustration",
+    "tools-used": ["Adobe Illustrator", "Procreate"],
+    "made-in": new Date(2024, 8),
+    "thumbnail": "https://res.cloudinary.com/du7prd881/image/upload/v1740918885/thumbnail_udj1hr.jpg",
+    "images-list": [
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740918883/1_a0vbvv.jpg",
+        "alt": "illustration T"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740918884/2_v5cezj.jpg",
+        "alt": "illustration W"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740918884/3_le8sgi.jpg",
+        "alt": "illustration I"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740918884/4_jebvgi.jpg",
+        "alt": "illustration R"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740918884/5_gqsmjx.jpg",
+        "alt": "illustration L"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740918884/6_pukz6o.jpg",
+        "alt": "illustration S"
+      },
+    ]
+  },
 ];
