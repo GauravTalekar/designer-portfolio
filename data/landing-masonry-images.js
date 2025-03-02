@@ -183,4 +183,12 @@ export const images = [
     height: 1080,
     link: "geduld",
   },
+  {
+    src: "https://res.cloudinary.com/du7prd881/image/upload/v1740911794/thumbnail_kjoxxs.jpg",
+    alt: 'Buchhandlung Leseecke',
+    title: 'Buchhandlung Leseecke',
+    width: 1080,
+    height: 1080,
+    link: "buchhandlung-leseecke",
+  },
 ];

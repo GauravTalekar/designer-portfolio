@@ -1131,4 +1131,57 @@ export const projects = [
       },
     ]
   },
+  {
+    "project-name": "BUCHHANDLUNG LESEECKE",
+    "link": "buchhandlung-leseecke",
+    lastModified: new Date(2025,3, 2),
+    "about": [
+      {
+        text: "This illustration BUCHHANDLUNG LESEECKE series captures the essence of local bookstores and the people who bring them to life. From book lovers lost in stories to bookstore helpers carefully arranging shelves, the work observes the magic of books and the cozy atmosphere of small, independent bookstores.",
+        highlight: ["BUCHHANDLUNG LESEECKE,local bookstores"],
+      },
+      {
+        text: "Each work portrays the emotions, dedication, and love for literature that create a welcoming space for readers. Through this series, I aim to emphasize the importance of supporting local bookstores—places where stories are cherished, communities gather, and knowledge is shared.",
+        underline: ["local bookstores"]
+      },
+    ],
+    "type": "Illustration",
+    "tools-used": ["Adobe Illustrator", "Procreate"],
+    "made-in": new Date(2024, 9),
+    "thumbnail": "https://res.cloudinary.com/du7prd881/image/upload/v1740911794/thumbnail_kjoxxs.jpg",
+    "images-list": [
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740911793/1_kawrzu.jpg",
+        "alt": "Bookstore glass window illustration"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740911793/2_bt0a5o.jpg",
+        "alt": "Bookstore glass window illustration"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740911793/3_dotvmm.jpg",
+        "alt": "Bookmarks"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740911793/4_ljzkzq.jpg",
+        "alt": "Bookstore Stand"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740911794/5_ycrytn.jpg",
+        "alt": "Bookstore glass window illustration"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740911793/6_dkvolg.jpg",
+        "alt": "illustrations"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740911793/7_qh1zaf.jpg",
+        "alt": "illustrations"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740911794/8_l1epgp.jpg",
+        "alt": "illustrations"
+      },
+    ]
+  },
 ];
