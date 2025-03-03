@@ -1290,4 +1290,49 @@ export const projects = [
       },
     ]
   },
+  {
+    "project-name": "DIGITAL GLITCHES",
+    "link": "digital-glitches",
+    lastModified: new Date(2025,3, 3),
+    "about": [
+      {
+        text: "The illustration series DIGITAL GLITCHES explores the often maddening yet oddly relatable world of computer error messages through a humorous lens. Each piece reimagines common errors, like the infamous 404 Not Found, Blue Screen of Death, or Low Disk Space, as playful, exaggerated scenarios.",
+        highlight: ["error messages,humorous lens,404 Not Found,Blue Screen of Death"],
+      },
+      {
+        text: "By personifying glitches and bringing them to life with visual comedy, the series highlights the universal experience of tech frustration in a way that's amusing. From mischievous pop-ups to existential crashes, this series turns digital headaches into laugh-out-loud moments.",
+        underline: ["visual comedy,tech frustration"]
+      },
+    ],
+    "type": "Illustration",
+    "tools-used": ["Adobe Illustrator", "Procreate"],
+    "made-in": new Date(2024, 4),
+    "thumbnail": "https://res.cloudinary.com/du7prd881/image/upload/v1741042624/thumbnail_lylsqy.jpg",
+    "images-list": [
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1741042623/1_caevhj.jpg",
+        "alt": "Payment failure"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1741042623/2_fskk6h.jpg",
+        "alt": "Three Error messages"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1741042623/3_bmhz5b.jpg",
+        "alt": "Connection Lost Error"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1741042623/4_ms64wq.jpg",
+        "alt": "Something went wrong"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1741042623/5_b6ek3h.jpg",
+        "alt": "Unsubscribe"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1741042624/7_zl643n.jpg",
+        "alt": "digital glitches"
+      },
+    ]
+  },
 ];

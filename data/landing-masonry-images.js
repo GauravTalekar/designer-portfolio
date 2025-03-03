@@ -207,4 +207,12 @@ export const images = [
     height: 1080,
     link: "mas-espacio",
   },
+  {
+    src: "https://res.cloudinary.com/du7prd881/image/upload/v1741042624/thumbnail_lylsqy.jpg",
+    alt: 'Digital Glitches',
+    title: 'DIGITAL GLITCHES',
+    width: 1080,
+    height: 1080,
+    link: "digital-glitches",
+  },
 ];
