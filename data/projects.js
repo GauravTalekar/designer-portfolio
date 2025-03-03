@@ -1235,15 +1235,15 @@ export const projects = [
   },
   {
     "project-name": "MÁS ESPACIO",
-    "link": "más-espacio",
+    "link": "mas-espacio",
     lastModified: new Date(2025,3, 3),
     "about": [
       {
-        text: "Mas espacio is an expressive illustration series that deals with a pressing contemporary issue — the ever shrinking living spaces that define the lives of many urban dwellers. The visual exploration reflects the gradual erosion of personal space over time, capturing how the rapid pace of urbanization and the demands of modern life are reducing the physical boundaries within which people live.",
+        text: "Mas espacio is an expressive illustration series that deals with a pressing contemporary issue, the ever shrinking living spaces that define the lives of many urban dwellers. The visual exploration reflects the gradual erosion of personal space over time, capturing how the rapid pace of urbanization and the demands of modern life are reducing the physical boundaries within which people live.",
         highlight: ["personal space,urbanization,physical boundaries"],
       },
       {
-        text: "The concept behind Mas espacio is built on the notion that, as the years progress, individuals find themselves increasingly confined, not just by walls, but by the pressures of housing markets, environmental concerns, and technological advancements. Each illustration in the series draws attention to the juxtaposition between the idealized notion of vast living areas and the reality of smaller, more cramped environments. By focusing on the subtle transformations — tiny apartments gradually shrinking, furniture becoming more compact, and the rooms blending into one another. ",
+        text: "The concept behind Mas espacio is built on the notion that, as the years progress, individuals find themselves increasingly confined, not just by walls, but by the pressures of housing markets, environmental concerns, and technological advancements. Each illustration in the series draws attention to the juxtaposition between the idealized notion of vast living areas and the reality of smaller, more cramped environments. By focusing on the subtle transformations, tiny apartments gradually shrinking, furniture becoming more compact, and the rooms blending into one another.",
         underline: ["Mas espacio,juxtaposition"]
       },
        {

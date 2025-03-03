@@ -205,6 +205,6 @@ export const images = [
     title: 'MÁS ESPACIO',
     width: 1080,
     height: 1080,
-    link: "más-espacio",
+    link: "mas-espacio",
   },
 ];
