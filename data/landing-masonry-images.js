@@ -199,4 +199,12 @@ export const images = [
     height: 1080,
     link: "textile-twirls",
   },
+  {
+    src: "https://res.cloudinary.com/du7prd881/image/upload/v1741040042/thumbnail_wtma1x.jpg",
+    alt: 'Más Espacio',
+    title: 'MÁS ESPACIO',
+    width: 1080,
+    height: 1080,
+    link: "más-espacio",
+  },
 ];

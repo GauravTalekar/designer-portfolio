@@ -1233,4 +1233,61 @@ export const projects = [
       },
     ]
   },
+  {
+    "project-name": "MÁS ESPACIO",
+    "link": "más-espacio",
+    lastModified: new Date(2025,3, 3),
+    "about": [
+      {
+        text: "Mas espacio is an expressive illustration series that deals with a pressing contemporary issue — the ever shrinking living spaces that define the lives of many urban dwellers. The visual exploration reflects the gradual erosion of personal space over time, capturing how the rapid pace of urbanization and the demands of modern life are reducing the physical boundaries within which people live.",
+        highlight: ["personal space,urbanization,physical boundaries"],
+      },
+      {
+        text: "The concept behind Mas espacio is built on the notion that, as the years progress, individuals find themselves increasingly confined, not just by walls, but by the pressures of housing markets, environmental concerns, and technological advancements. Each illustration in the series draws attention to the juxtaposition between the idealized notion of vast living areas and the reality of smaller, more cramped environments. By focusing on the subtle transformations — tiny apartments gradually shrinking, furniture becoming more compact, and the rooms blending into one another. ",
+        underline: ["Mas espacio,juxtaposition"]
+      },
+       {
+        text: "Yet, in this process of reduction, the series also points to human adaptability and innovation, suggesting that the concept of space is not merely about physical dimensions, but about how we adapt our lives, behaviors, and interactions within these changing environments.",
+        underline: ["human adaptability,innovation,concept of space"]
+      },
+    ],
+    "type": "Illustration",
+    "tools-used": ["Adobe Illustrator", "Procreate"],
+    "made-in": new Date(2024, 3),
+    "thumbnail": "https://res.cloudinary.com/du7prd881/image/upload/v1741040042/thumbnail_wtma1x.jpg",
+    "images-list": [
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1741040040/1_ynkc8e.jpg",
+        "alt": "Canvas illustration"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1741040040/2_ogoacj.jpg",
+        "alt": "Canvas illustration"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1741040040/3_ufziwn.jpg",
+        "alt": "wooden frame"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1741040041/4_qya58t.jpg",
+        "alt": "wooden frame"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1741040041/5_z5epkx.jpg",
+        "alt": "Outdoor advertising"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1741040043/6_z82hp9.jpg",
+        "alt": "wooden frame"
+      },
+       {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1741040041/7_cvc5r7.jpg",
+        "alt": "wooden coaster"
+      },
+       {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1741040041/8_mvzbsw.jpg",
+        "alt": "small canvases"
+      },
+    ]
+  },
 ];
