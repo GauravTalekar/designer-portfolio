@@ -725,10 +725,6 @@ export const projects = [
         "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740217932/6_rqlvau.jpg",
         "alt": "Book Print"
       },
-      {
-        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1740217931/7_ecu7wi.jpg",
-        "alt": "Book Print"
-      },
     ]
   },
   {
