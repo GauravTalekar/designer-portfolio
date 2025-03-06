@@ -215,4 +215,12 @@ export const images = [
     height: 1080,
     link: "digital-glitches",
   },
+  {
+    src: "https://res.cloudinary.com/du7prd881/image/upload/v1741273967/1_iofpwn.jpg",
+    alt: 'Rúa do Comercio',
+    title: 'RÚA DO COMERCIO',
+    width: 1080,
+    height: 1080,
+    link: "rúa-do-comercio",
+  },
 ];

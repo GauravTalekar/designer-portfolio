@@ -1331,4 +1331,51 @@ export const projects = [
       },
     ]
   },
+  {
+    "project-name": "Rúa do Comercio",
+    "link": "rúa-do-comercio",
+    lastModified: new Date(2025,3, 6),
+    "about": [
+      {
+        text: "The project Rúa do Comercio focuses on a seamless and engaging user experience, combining clean typography, bold colors, and contemporary flat illustrations. The landing pages are carefully crafted to convey a sense of excitement, ease of use, and reliability, ensuring that customers feel both intrigued and comfortable while shopping online.",
+        highlight: ["Rúa do Comercio"],
+      },
+      {
+        text: "One of the primary goals of Rúa do Comercio is to emphasize shopping discounts in a visually compelling manner. To achieve this, discount labels and tags are incorporated into the design in creative ways. Rather than simply placing static discount banners, the design integrates them with the visual elements of the page, making them feel like an inherent part of the shopping experience.",
+      },
+      {
+        text: "The interplay between type and abstract forms adds a sense of movement and fluidity to the design, reinforcing the idea that shopping is an evolving, personalized journey rather than a rigid, linear process.",
+      },
+    ],
+    "type": "Website",
+    "tools-used": ["Figma", "Adobe Illustrator", "Procreate"],
+    "made-in": new Date(2024, 6),
+    "thumbnail": "https://res.cloudinary.com/du7prd881/image/upload/v1741273967/1_iofpwn.jpg",
+    "images-list": [
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1741273923/1_xtreeu.jpg",
+        "alt": "Compra fácil, paga menos"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1741273925/2_mnssih.jpg",
+        "alt": "Descuentos que están de pelos, y envíos rapiditos"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1741273923/3_o5mnis.jpg",
+        "alt": "Precios de locura que te dejan flipando"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1741273923/4_l1varx.jpg",
+        "alt": "Todo lo que quieres, sin mover la chancla"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1741273925/5_o7tx4f.jpg",
+        "alt": "Compra y ahorra, a la de ya"
+      },
+      {
+        "src": "https://res.cloudinary.com/du7prd881/image/upload/v1741273923/6_nbjxw9.jpg",
+        "alt": "Precios rifados, calidad garantizada"
+      },
+    ]
+  },
 ];
