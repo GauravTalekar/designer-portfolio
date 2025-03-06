@@ -221,6 +221,6 @@ export const images = [
     title: 'RÚA DO COMERCIO',
     width: 1080,
     height: 1080,
-    link: "rúa-do-comercio",
+    link: "rua-do-comercio",
   },
 ];
