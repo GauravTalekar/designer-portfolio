@@ -1333,7 +1333,7 @@ export const projects = [
   },
   {
     "project-name": "Rúa do Comercio",
-    "link": "rúa-do-comercio",
+    "link": "rua-do-comercio",
     lastModified: new Date(2025,3, 6),
     "about": [
       {
