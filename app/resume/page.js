@@ -99,7 +99,7 @@ const ResumePage = () => {
             <h3 className="font-montserrat"><strong className="font-semibold">Master in Digital Media</strong>, University of Bremen & University of the Arts Bremen, Bremen, Germany, 2018-2024</h3>
           </div>
           <div className="mt-6 text-lg fade-in transition-all ease-out duration-500 delay-200">
-            <h3 className="font-montserrat"><strong className="font-semibold">Bachelor in Information Technology</strong>, University of Mumbai, Bombay, India, 2008-2011</h3>
+            <h3 className="font-montserrat"><strong className="font-semibold">Bachelor in Information Technology</strong>, University of Mumbai, Mumbai, India, 2008-2011</h3>
           </div>
         </div>
 
@@ -109,20 +109,16 @@ const ResumePage = () => {
           </h2>
           {/* Experience Section */}
           <div className="mt-6 text-lg fade-in transition-all ease-out duration-500 delay-200">
-            <h3 className="font-montserrat"><strong className="font-semibold capitalize">UI/UX Designer</strong>, Contact Software, Bremen, Germany, August 2019–August 2023</h3>
+            <h3 className="font-montserrat"><strong className="font-semibold capitalize">Design intern</strong>, CONTACT Software, Bremen, Germany, August 2019–August 2023</h3>
             <ul className="list-inside list-disc">
               <li>
-                Assisted in creating website wireframes and mock-ups, working closely with senior designers to refine
-                and finalize designs.
+                Created high-fidelity wireframes and mockups in Figma to support website design.
               </li>
               <li>
-                {"Conducted research and developed a plugin for Adobe XD, resulting in a 15% increase in design workflow efficiency; successfully packaged the plugin, reducing design time."}
+                {"Conducted user research and developed an Adobe XD plug-in."}
               </li>
               <li>
-                {"Conducting research and implementing solutions to improve the company's documentation site."}
-              </li>
-              <li>
-                Engaged in continuous learning and application of new design technologies and methodologies.
+                {"Designed scalable vector icons using Adobe Illustrator."}
               </li>
             </ul>
           </div>
