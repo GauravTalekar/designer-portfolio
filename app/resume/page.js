@@ -157,34 +157,34 @@ const ResumePage = () => {
             <h3 className="font-montserrat font-semibold">Design Tools</h3>
             <ul className="list-inside list-disc">
               <li>
-                {"Adobe Creative Suite (Photoshop, Illustrator, InDesign, XD, After effects), Figma, Unity, Blender, Sketchbook, Procreate"}
+                {"Adobe Creative Suite (Photoshop, Illustrator, InDesign, XD, After effects), Figma, Unity, Blender, Sketch, Procreate"}
               </li>
             </ul>
           </div>
           <div className="mt-6 text-lg fade-in transition-all ease-out duration-500 delay-200">
-            <h3 className="font-montserrat font-semibold">Web Development</h3>
+            <h3 className="font-montserrat font-semibold">Web</h3>
             <ul className="list-inside list-disc">
               <li>
-                {"HTML5, CSS3, JavaScript, ReactJS, AngularJS, SASS, Bootstrap, jQuery, Node.js, Git, Agile"}
+                {"HTML5, CSS3, JavaScript, ReactJS, Node.js, Git, Agile"}
               </li>
             </ul>
           </div>
-          <div className="mt-6 text-lg fade-in transition-all ease-out duration-500 delay-200">
+          {/* <div className="mt-6 text-lg fade-in transition-all ease-out duration-500 delay-200">
             <h3 className="font-montserrat font-semibold">Databases</h3>
             <ul className="list-inside list-disc">
               <li>
                 {"SQL, MySQL"}
               </li>
             </ul>
-          </div>
-          <div className="mt-6 text-lg fade-in transition-all ease-out duration-500 delay-200">
+          </div> */}
+          {/* <div className="mt-6 text-lg fade-in transition-all ease-out duration-500 delay-200">
             <h3 className="font-montserrat font-semibold">Prototyping & Wireframing</h3>
             <ul className="list-inside list-disc">
               <li>
                 {"Adobe XD, Figma, Balsamiq, Sketch, Miro, Axure RP"}
               </li>
             </ul>
-          </div>
+          </div> */}
           <div className="mt-6 text-lg fade-in transition-all ease-out duration-500 delay-200">
             <h3 className="font-montserrat font-semibold">UI/UX Design</h3>
             <ul className="list-inside list-disc">
