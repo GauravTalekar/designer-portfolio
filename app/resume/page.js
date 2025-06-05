@@ -186,29 +186,29 @@ const ResumePage = () => {
             </ul>
           </div> */}
           <div className="mt-6 text-lg fade-in transition-all ease-out duration-500 delay-200">
-            <h3 className="font-montserrat font-semibold">UI/UX Design</h3>
+            <h3 className="font-montserrat font-semibold">Other skills</h3>
             <ul className="list-inside list-disc">
               <li>
-                {"User research, Wireframing, Interaction Design, Usability Testing"}
+                {"Storytelling, Web design, Animation, UX UI design, Illustration, Editorial design, Typography, Print design, Prototyping, Layout and design, Communication, Agile"}
               </li>
             </ul>
           </div>
-          <div className="mt-6 text-lg fade-in transition-all ease-out duration-500 delay-200">
+          {/* <div className="mt-6 text-lg fade-in transition-all ease-out duration-500 delay-200">
             <h3 className="font-montserrat font-semibold">Content Management Systems</h3>
             <ul className="list-inside list-disc">
               <li>
                 {"Contao, Joomla"}
               </li>
             </ul>
-          </div>
-          <div className="mt-6 text-lg fade-in transition-all ease-out duration-500 delay-200">
+          </div> */}
+          {/* <div className="mt-6 text-lg fade-in transition-all ease-out duration-500 delay-200">
             <h3 className="font-montserrat font-semibold">Soft Skills</h3>
             <ul className="list-inside list-disc">
               <li>
                 {"Teamwork, Problem-solving, Project Management, Work Ethic, Storytelling"}
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </SectionComponent>
     </>
