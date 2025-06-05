@@ -123,12 +123,11 @@ const ResumePage = () => {
             </ul>
           </div>
           <div className="mt-6 text-lg fade-in transition-all ease-out duration-500 delay-200">
-            <h3 className="font-montserrat"><strong className="font-semibold capitalize">UI designer</strong>, Webbrand, Kirchweyhe, Germany, April 2019–July 2019</h3>
+            <h3 className="font-montserrat"><strong className="font-semibold capitalize">Design internship</strong>, Webbrand, Kirchweyhe, Germany, April 2019–July 2019</h3>
             <ul className="list-inside list-disc">
-              <li>Designing and implementing web design utilizing the Adobe suite.</li>
-              <li>{"Gained hands-on experience with a content management system called 'Contao', managing content updates and website maintenance tasks."}</li>
-              <li>Collaborated closely with the development team to implement HTML and CSS code, ensuring seamless integration and functionality.</li>
-              <li>{"Designed and implemented responsive websites, focusing on UI/UX best practices to improve usability and aesthetics."}</li>
+              <li>Layout design using Adobe Photoshop for clients' websites.</li>
+              <li>{"Image research, editing and retouching of content updates and web shop."}</li>
+              <li>Practical experience with the content management system Contao.</li>
             </ul>
           </div>
           <div className="mt-6 text-lg fade-in transition-all ease-out duration-500 delay-200">
