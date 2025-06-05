@@ -165,7 +165,7 @@ const ResumePage = () => {
             <h3 className="font-montserrat font-semibold">Web</h3>
             <ul className="list-inside list-disc">
               <li>
-                {"HTML5, CSS3, JavaScript, ReactJS, Node.js, Git, Agile"}
+                {"HTML5, CSS3, JavaScript, ReactJS, Node.js, Git"}
               </li>
             </ul>
           </div>
