@@ -15,10 +15,10 @@ const links = [
         title: "Resume",
         url: "/resume"
     },
-    {
-        title: "Services",
-        url: "/services"
-    },
+    // {
+    //     title: "Services",
+    //     url: "/services"
+    // },
     {
         title: "Contact",
         url: "/contact"
