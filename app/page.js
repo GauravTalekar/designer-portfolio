@@ -19,8 +19,8 @@ export default function Home() {
       <HeroHeader />
       <AboutMe />
       <MasonryGridSection />
-      <ServicesSection />
-      <ContactSection />
+      {/* <ServicesSection />
+      <ContactSection /> */}
     </>
   );
 }
