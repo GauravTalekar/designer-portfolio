@@ -131,19 +131,19 @@ const ResumePage = () => {
             </ul>
           </div>
           <div className="mt-6 text-lg fade-in transition-all ease-out duration-500 delay-200">
-            <h3 className="font-montserrat"><strong className="font-semibold capitalize">Front-end developer</strong>, Tata Power SED, Bombay, India, July 2015–October 2018</h3>
+            <h3 className="font-montserrat"><strong className="font-semibold capitalize">UI Designer</strong>, Tata Power SED, Mumbai, India, July 2015–October 2018</h3>
             <ul className="list-inside list-disc">
               <li>
-                Developed comprehensive wireframes and screen designs for Border management system,
-                translating client requirements into visually appealing and user-friendly interfaces.
+                Designed and refined wireframes and screen interfaces to support the development of a Border Management System.
               </li>
               <li>
-                Conducted UI/UX audits and implemented improvements based on user feedback and
-                analytics, resulting in a 20% increase in user retention.
+                Translation of customer specifications into visually attractive and user-friendly interfaces.
               </li>
               <li>
-                Designed and developed responsive websites using Adobe Creative Suite, focusing on face
-                recognition.
+                Conducting UI/UX audits and implementing improvements based on user feedback and analysis.
+              </li>
+               <li>
+                Design and development of responsive websites using Adobe XD, with a focus on facial recognition.
               </li>
             </ul>
           </div>
