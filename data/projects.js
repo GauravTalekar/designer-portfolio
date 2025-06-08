@@ -586,17 +586,17 @@ export const projects = [
     lastModified: new Date(2025,1, 23),
     "about": [
       {
-        text: "'VEGANEN KOCHLÖFFEL' is a vibrant editorial issue dedicated to celebrating the benefits of a vegan lifestyle and highlighting its positive impact on the environment. 'VEGANEN KOCHLÖFFEL' goes beyond being just a collection of recipes and lifestyle tips—it is a call to action.",
+        text: "The magazine issue, 'VEGANEN KOCHLÖFFEL' focuses on celebrating the benefits of a vegan lifestyle and highlighting its positive impact on the environment. The purpose of the issue is to go beyond being just a collection of recipes and lifestyle tips - it is a call to action.",
         highlight: ["VEGANEN KOCHLÖFFEL"],
       },
       {
-        text: "The project's playful and approachable style, featuring oversized, flat designs and clean typography, aims to make the idea of veganism accessible and appealing to a wide audience. This editorial issue is crafted for a broad audience, from individuals already committed to veganism to those exploring plant-based alternatives for the first time.",
+        text: "The work uses playful and approachable style, featuring oversized, flat designs and clean typography, aiming to make the idea of veganism accessible and appealing to a wide audience. The magazine issue is crafted for a broad audience, from individuals already committed to veganism to those exploring plant-based alternatives for the first time.",
         underline: ["playful and approachable style, featuring oversized, flat designs and clean typography"],
       },
-      {
-        text: "Through the use of bold, flat, modern illustrations paired with bright, lively colors, the project seeks to capture attention and inspire action.",
-        underline: ["bold, flat, modern illustrations paired with bright, lively colors"],
-      },
+      // {
+      //   text: "Through the use of bold, flat, modern illustrations paired with bright, lively colors, the project seeks to capture attention and inspire action.",
+      //   underline: ["bold, flat, modern illustrations paired with bright, lively colors"],
+      // },
     ],
     "type": "Editorial Design",
     "tools-used": ["Procreate", "Adobe Photoshop", "Adobe Illustrator"],
