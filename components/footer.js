@@ -8,11 +8,11 @@ const Footer = () => {
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0 font-montserrat">
             <Link href="/" aria-label="Navigate to the home page" className="flex items-center">
-              <img
+              {/* <img
                 alt="GT"
                 src={data.logoLink}
                 className="h-10 me-3 rounded-md"
-              />
+              /> */}
               <span className="self-center text-2xl font-medium whitespace-nowrap">{data.title}</span>
             </Link>
           </div>

@@ -15,14 +15,14 @@ import Image from "next/image";
 const NavBrand = () => {
   return (
     <Link href="/" aria-label="Navigate to the home page" className="flex items-center space-x-2 text-lg font-montserrat font-medium">
-      <Image
+      {/* <Image
         alt="GT"
         src={data.logoLink}
         width={68}
         height={68}
         className="h-10 w-auto rounded-md"
         priority // Ensure the logo is loaded quickly for better SEO
-      />
+      /> */}
       <span>{data.title}</span>
     </Link>
   )
