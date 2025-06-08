@@ -1133,11 +1133,11 @@ export const projects = [
     lastModified: new Date(2025,3, 2),
     "about": [
       {
-        text: "This illustration BUCHHANDLUNG LESEECKE series captures the essence of local bookstores and the people who bring them to life. From book lovers lost in stories to bookstore helpers carefully arranging shelves, the work observes the magic of books and the cozy atmosphere of small, independent bookstores.",
+        text: "The illustration series BUCHHANDLUNG LESEECKE, captures the essence of local bookstores and the people who add life into the store. From book lovers lost in stories to bookstore helpers carefully arranging shelves, the work traces the activites revolving around the bookstores.",
         highlight: ["BUCHHANDLUNG LESEECKE,local bookstores"],
       },
       {
-        text: "Each work portrays the emotions, dedication, and love for literature that create a welcoming space for readers. Through this series, I aim to emphasize the importance of supporting local bookstores—places where stories are cherished, communities gather, and knowledge is shared.",
+        text: "Each work portrays the dedication, and love for literature that create a welcoming space for readers. Through this series, I aim to emphasize the importance of supporting local bookstores - places where stories are cherished, communities gather, and knowledge is shared.",
         underline: ["local bookstores"]
       },
     ],
