@@ -367,14 +367,14 @@ export const projects = [
     lastModified: new Date(2025,1, 23),
     "about": [
       {
-        text: "'Fix und Fertig' is an editorial design exploration project that explores various ways people experience exhaustion from digital work. Through a series of creative illustrations, the project depicts different forms of tiredness, burnout, and the impact of prolonged screen time on the mind and body.",
+        text: "Through a collection of office-themed illustrations, the project portrays the many faces of exhaustion - from burnout to the mental and physical toll of endless hours in front of a screen. 'Fix und Fertig' is a magazine issue that explores various ways people experience exhaustion from digital work.",
         highlight: ["Fix und Fertig"],
       },
+      // {
+      //   text: "Each illustration showcases a unique artistic style, reflecting the diverse ways digital fatigue can manifest, from physical exhaustion to emotional burnout.",
+      // },
       {
-        text: "Each illustration showcases a unique artistic style, reflecting the diverse ways digital fatigue can manifest, from physical exhaustion to emotional burnout.",
-      },
-      {
-        text: "The project uses humor and visual storytelling to capture the shared experience of feeling 'Fix und Fertig', a German phrase meaning completely worn out or exhausted.",
+        text: "The German phrase ‘Fix und Fertig’, which means completely worn out or exhausted, captures the expression humorously.",
         underline: ["a German phrase meaning completely worn out or exhausted"]
       }
     ],
