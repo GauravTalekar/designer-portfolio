@@ -635,14 +635,14 @@ export const projects = [
     lastModified: new Date(2025,1, 23),
     "about": [
       {
-        text: "The series 'Ironing Stories' is a celebration of the complex choreography involved in ironing clothes to perfection, highlighting the skills and patience that defines this profession. Each piece in 'Ironing Stories' tells a tale of resilience and dedication.",
+        text: "The series 'Ironing Stories' showcases complex choreography involved in ironing clothes to perfection, highlighting the skills and patience that defines this profession. Each piece in 'Ironing Stories' tells a tale of resilience and dedication.",
         highlight: ["Ironing Stories"],
       },
       {
-        text: "From the break of dawn to the quiet mumble of coal irons and the sound of fabric, the work brings to life the routines and realities of the Ironwallahs (a person who irons clothes, they collect, and delivery clothes entrusted to them for ironing). ",
+        text: "From the break of dawn to the mumble of coal irons, the work brings to life the routines and realities of the Ironwallahs (a person who irons clothes, they collect, and delivery clothes entrusted to them for ironing).",
       },
       {
-        text: "The work travels into the personal narratives behind this profession. It is stories of dreams pressed into every crease, and of the silent pride in delivering impeccable service. Ironing Stories captures the textures, the moments, and the soul of a profession that, though often overlooked, remains stitched into the fabric of daily existence. This is a tribute to the hands that smooth out the wrinkles of our lives—one press at a time.",
+        text: "The work travels into the personal narratives behind this profession. It is stories of dreams pressed into every crease, and of the silent pride in delivering impeccable service. Ironing Stories captures the moments, and the soul of a profession that, though often overlooked, remains stitched into the fabric of daily existence. This is a tribute to the hands that smooth out the wrinkles of our lives - one press at a time.",
       },
     ],
     "type": "Editorial Design",
