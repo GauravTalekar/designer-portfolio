@@ -535,7 +535,7 @@ export const projects = [
     "about": [
       {
         text: "Yellow, a color associated with royalty, happiness and warmth. It's also most often related to deities in many religions (Hinduism and Ancient Egypt) and a symbol for knowledge. But beyond its historical significance, yellow color holds a unique power -it captures attention, demands recognition, and shines light where shadows prevail. 'TARTA DE LIMÓN' is an magazine issue that does just the same.",
-        highlight: ["TARTA DE LIMÓN"],
+        highlight: ["TARTA DE LIMÓN", "Yellow"],
       },
       {
         text: "The issue sheds light on not-so-known occupations, that work behind the scenes to shed brightness in our lives. Whether through craftsmanship, service, or labor, their contributions often go unnoticed, yet they are indispensable. 'TARTA DE LIMÓN' serves as both a spotlight and an invitation to acknowledge, appreciate, and honor their work.",
