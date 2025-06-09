@@ -686,14 +686,14 @@ export const projects = [
     },
     "about": [
       {
-        text: "The project 'THE RED STUHL' celebrates the cultural richness, warmth, and communal spirit of street food through the symbolic representation of The Red Stuhl.",
+        text: "The work 'THE RED STUHL' rejoices the cultural richness, warmth, and communal spirit of street food through the symbolic representation of the RED STUHL.",
         highlight: ["THE RED STUHL"],
       },
       {
-        text: "The red chair, however, was more than simply a piece of furniture or a food vendor to those who knew it well. It served as a symbol of the neighborhood and a place where people from all walks of life could come together to share a love of fine cuisine. It was also a source of warmth on chilly winter nights, its vibrant hues shining out against the city's gloomy backdrop. But it was not just the physical comforts of the red chair that made it so beloved. It was the people behind it, the tireless chefs and servers who worked tirelessly to create dishes that not only satisfied hunger but also lifted the spirits.",
+        text: "The red chair acts as more than simply a piece of furniture. It serves as a symbol of the neighborhood and a place where people from all walks of life could come together to share a space. The vibrant red hues of the stuhl shines out against the city's backdrop providing a source of comfort. Beyond the physical comfort of the Red Stuhl are chefs and servers who are working tirelessly  to create dishes that not only satisfy hunger but also lift spirits.",
       },
       {
-        text: "By blending visual storytelling with thought-provoking narratives, this project aims to pay tribute to the humble yet powerful presence of The Red Stuhl, reminding us that food is not just livelihood—it is a language of connection, joy, and heritage.",
+        text: "By blending visual storytelling with thought-provoking narratives, this project aims to pay tribute to the presence of the Red Stuhl, reminding us that food is not just livelihood - but it is a language of connection.",
       },
     ],
     "type": "Editorial Design",
