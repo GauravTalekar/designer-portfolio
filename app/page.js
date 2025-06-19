@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <>
       <FadeInObserver />
-      <HeroHeader />
+      {/* <HeroHeader /> */}
       <AboutMe />
       <MasonryGridSection />
       {/* <ServicesSection />
