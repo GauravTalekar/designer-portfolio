@@ -61,14 +61,14 @@ export const projects = [
     lastModified: new Date(2025,1, 23),
     "about": [
       {
-        text: "Die Katze, is a Sticker series that captures the unique personality of cat's through their playful and quirky poses.",
+        text: "Die Katze, is a Sticker series that captures the personality of cat's through their playful and quirky poses.",
         highlight: ["Die Katze"],
       },
       {
-        text: "Each illustration captures a cat’s distinct character-be it the relaxed stretch, the curious tilt, or the elegant bearing in bold, minimalist forms and vibrant hues.",
+        text: "Each illustration captures cat’s distinct character-be it the relaxed stretch, the curious tilt, or the elegant bearing in bold.",
       },
       {
-        text: "Perfect for decorating phone cases, laptops, journals, or any surface needing a touch of playfulness, Katze stickers bring joy to everyday moments. As part of the presentation, these designs are showcased on phone case mockups to emphasize their appeal as a lifestyle accessory.",
+        text: "The Sticker series is perfect for adding a touch of playfulness, and bringing joy to everyday moments. As part of the presentation, these designs are showcased on phone case mockups to emphasize their appeal as a lifestyle accessory.",
         underline: ["decorating phone cases, laptops, journals, or any surface"],
       },
     ],
