@@ -593,7 +593,7 @@ export const projects = [
         highlight: ["VEGANEN KOCHLÖFFEL"],
       },
       {
-        text: "The work uses playful and approachable style, featuring oversized, flat designs and clean typography, aiming to make the idea of veganism accessible and appealing to a wide audience. The magazine issue is crafted for a broad audience, from individuals already committed to veganism to those exploring plant-based alternatives for the first time.",
+        text: "The work uses vibrant style, featuring oversized, flat designs and clean typography, aiming to make the idea of veganism accessible and appealing to a wide audience. The magazine issue is crafted for a broad audience, from individuals already committed to veganism to those exploring plant-based alternatives for the first time.",
         underline: ["playful and approachable style, featuring oversized, flat designs and clean typography"],
       },
       // {
@@ -690,7 +690,7 @@ export const projects = [
     "about": [
       {
         text: "The work 'THE RED STUHL' rejoices the cultural richness, warmth, and communal spirit of street food through the symbolic representation of the RED STUHL.",
-        highlight: ["THE RED STUHL"],
+        // highlight: ["THE RED STUHL"],
       },
       {
         text: "The red chair acts as more than simply a piece of furniture. It serves as a symbol of the neighborhood and a place where people from all walks of life could come together to share a space. The vibrant red hues of the stuhl shines out against the city's backdrop providing a source of comfort. Beyond the physical comfort of the Red Stuhl are chefs and servers who are working tirelessly  to create dishes that not only satisfy hunger but also lift spirits.",
