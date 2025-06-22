@@ -42,7 +42,7 @@ export const about = [
     underline: ["typography, design, animation, and print"]
   },
   {
-    text: "He has worked as a Graphic and as a UI/UX designer in India and in Germany.",
+    text: "He has worked as a Graphic and as a UX/UI-designer in India and in Germany.",
   },
 ]
 
