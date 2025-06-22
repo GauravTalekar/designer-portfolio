@@ -1,8 +1,8 @@
 const links = [
-    {
-        title: "Home",
-        url: "/"
-    },
+    // {
+    //     title: "Home",
+    //     url: "/"
+    // },
     {
         title: "Work",
         url: "/work"
