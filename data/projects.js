@@ -690,7 +690,7 @@ export const projects = [
     "about": [
       {
         text: "The work 'Der Rote Stuhl' rejoices the cultural richness, warmth, and communal spirit of street food through the symbolic representation of the red chair.",
-        // highlight: ["THE RED STUHL"],
+        highlight: ["Der Rote Stuhl"],
       },
       {
         text: "The red chair acts as more than simply a piece of furniture. It serves as a symbol of the neighborhood and a place where people from all walks of life could come together to share a space. The vibrant red hues of the chair shines out against the city's backdrop providing a source of comfort. Beyond the physical comfort of the red chair are chefs and servers who are working tirelessly  to create dishes that not only satisfy hunger but also lift spirits.",
