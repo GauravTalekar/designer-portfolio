@@ -1005,7 +1005,7 @@ export const projects = [
     lastModified: new Date(2025,2, 28),
     "about": [
       {
-        text: "Inside Out is a sticker-based project that offers a unique perspective on daily life, creating a visual lens through which viewers can observe human activities from a window-like viewpoint. Each sticker illustration captures relatable moments—whether it's self-care, reflection, or simple acts of daily living—framing them as scenes from within personal spaces.",
+        text: "Inside Out is a sticker-based project that offers a perspective on daily life, creating a visual lens through which viewers can observe human activities from a window-like viewpoint. Each sticker illustration captures relatable moments—whether it's self-care, reflection, or simple acts of daily living—framing them as scenes from within personal spaces.",
         highlight: ["sticker illustration,visual lens,self-care"],
       },
       {

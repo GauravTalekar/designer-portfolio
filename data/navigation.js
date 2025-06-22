@@ -11,10 +11,10 @@ const links = [
         title: "About",
         url: "/about"
     },
-    {
-        title: "Resume",
-        url: "/resume"
-    },
+    // {
+    //     title: "Resume",
+    //     url: "/resume"
+    // },
     // {
     //     title: "Services",
     //     url: "/services"
