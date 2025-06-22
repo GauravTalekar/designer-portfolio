@@ -31,14 +31,14 @@ export const socials = [
 
 export const about = [
   {
-    text: "Gaurav Talekar is a Bremen, Germany-based designer who was born in Mumbai, India.",
+    text: "Gaurav Talekar, an illustrator, graphic and UX/UI-designer based in Bremen, Germany-based designer who was born in Mumbai, India.",
     highlight: ["Bremen, Germany-based designer", "Mumbai, India"],
   },
   {
     text: "His work oscillates between substantial usage of colors and illustrations, creating a playful and optimistic style. It always starts with paper sketches and culminates in the digital space. His work is an exploration of different forms of shapes and emphasizes the connotations behind color.",
   },
   {
-    text: "Gaurav draws inspiration from his own cultural thread, using abundant colors to tell stories. He's passionate about typography, design, animation, and print. When he's not designing, you might find him in a ceramic studio, shaping clay.",
+    text: "Gaurav draws inspiration from his own cultural thread, using abundant colors to tell stories. He's passionate about typography, design, animation, and print. When he's not designing, you might find him in a ceramic studio, shaping clay. He has worked as a Graphic and as a UI/UX designer in India and in Germany.",
     underline: ["typography, design, animation, and print"]
   },
 ]
