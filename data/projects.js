@@ -680,7 +680,7 @@ export const projects = [
     ]
   },
   {
-    "project-name": "THE RED STUHL",
+    "project-name": "Der Rote Stuhl",
     "link": "the-red-stuhl",
     lastModified: new Date(2025,1, 23),
     "published-on": {
@@ -689,14 +689,14 @@ export const projects = [
     },
     "about": [
       {
-        text: "The work 'THE RED STUHL' rejoices the cultural richness, warmth, and communal spirit of street food through the symbolic representation of the RED STUHL.",
+        text: "The work 'Der Rote Stuhl' rejoices the cultural richness, warmth, and communal spirit of street food through the symbolic representation of the red chair.",
         // highlight: ["THE RED STUHL"],
       },
       {
-        text: "The red chair acts as more than simply a piece of furniture. It serves as a symbol of the neighborhood and a place where people from all walks of life could come together to share a space. The vibrant red hues of the stuhl shines out against the city's backdrop providing a source of comfort. Beyond the physical comfort of the Red Stuhl are chefs and servers who are working tirelessly  to create dishes that not only satisfy hunger but also lift spirits.",
+        text: "The red chair acts as more than simply a piece of furniture. It serves as a symbol of the neighborhood and a place where people from all walks of life could come together to share a space. The vibrant red hues of the chair shines out against the city's backdrop providing a source of comfort. Beyond the physical comfort of the red chair are chefs and servers who are working tirelessly  to create dishes that not only satisfy hunger but also lift spirits.",
       },
       {
-        text: "By blending visual storytelling with thought-provoking narratives, this project aims to pay tribute to the presence of the Red Stuhl, reminding us that food is not just livelihood - but it is a language of connection.",
+        text: "By blending visual storytelling with thought-provoking narratives, this project aims to pay tribute to the presence of the red chair, reminding us that food is not just livelihood - but it is a language of connection.",
       },
     ],
     "type": "Editorial Design",
