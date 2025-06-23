@@ -68,10 +68,15 @@ export default async function ProjectPage({ params }) {
     <>
       <FadeInObserver />
       <SectionComponent id="project-section" aria-label="Project Overview Section" bgColor="bg-white">
-        <SectionHeader
+        {/* <SectionHeader
           headingLevel="h1"
           title={project["project-name"]}
           clx={"flex justify-center items-center text-center text-shark-800 font-montserrat font-bold"}
+        /> */}
+        <SectionHeader
+          headingLevel="h1"
+          title={project["project-name"]}
+          clx={"flex justify-center items-center text-center font-montserrat font-bold"}
         />
         <div className="flex flex-col md:flex-row gap-8 md:gap-16 mt-12">
           <div className="md:w-2/3 fade-in transition-all ease-out duration-500 delay-200 text-xl">
