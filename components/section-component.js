@@ -10,10 +10,18 @@ const SectionComponent = ({
   ...props
 }) => {
   return (
+    // <section
+    //   id={id}
+    //   className={clsx(
+    //     `py-12 lg:py-20 text-shark-800 font-nunito ${bgColor} ${border}`,
+    //     clx
+    //   )}
+    //   {...props}
+    // >
     <section
       id={id}
       className={clsx(
-        `py-12 lg:py-20 text-shark-800 font-nunito ${bgColor} ${border}`,
+        `py-12 lg:py-20 font-nunito ${bgColor} ${border}`,
         clx
       )}
       {...props}
