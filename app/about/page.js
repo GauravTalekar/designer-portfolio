@@ -79,10 +79,12 @@ const AboutPage = () => {
               />
             </div>
           </div>
-          <hr className="my-6 border-gray-300 sm:mx-auto lg:my-8" />
+          
         </div>
       </SectionComponent>
-
+      <SectionComponent id="about-divider" >
+              <hr className="my-6 border-gray-300 sm:mx-auto lg:my-8" />
+      </SectionComponent>
       <SectionComponent id="about-image-section" aria-label="About Image Section" bgColor="bg-white">
         {/* <SectionHeader
           title={"Who I am beyond the pixels"}
@@ -90,7 +92,7 @@ const AboutPage = () => {
         /> */}
         <SectionHeader
           title={"Life beyond the pixels"}
-          clx={"text-shark-400 font-montserrat"}
+          clx={"text-shark-900 font-montserrat"}
         />
         <div className="flex flex-col lg:flex-row gap-4 text-lg font-nunito fade-in transition-all ease-out duration-500 delay-100">
           <p>
