@@ -63,7 +63,7 @@ export default function RootLayout({ children }) {
           <NavBar />
         </header>
         {/* <main className="bg-bone-white-50 relative"> */}
-        <main className="bg-bone-white relative">
+        <main className="bg-white relative">
           {children}
         </main>
         <Footer />
