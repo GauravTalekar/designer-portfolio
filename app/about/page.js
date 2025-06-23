@@ -88,15 +88,10 @@ const AboutPage = () => {
           title={"Who I am beyond the pixels"}
           clx={"text-shark-800 font-montserrat font-bold"}
         /> */}
-        {/* <SectionHeader
+        <SectionHeader
           title={"Life beyond the pixels"}
           clx={"text-shark-900 font-montserrat"}
-        /> */}
-        <div className="text-shark-900 font-montserrat">
-          <p>
-            Life beyond the pixels
-          </p>
-        </div>
+        />
         <div className="flex flex-col lg:flex-row gap-4 text-lg font-nunito fade-in transition-all ease-out duration-500 delay-100">
           <p>
             As I step away from the digital canvas, my hands find their way to clay and soil. Unconsciously the process of shaping clay inspires me to appreciate form, texture, and flow in design—lessons I often bring back to my digital work.
