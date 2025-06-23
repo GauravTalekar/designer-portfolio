@@ -62,6 +62,7 @@ export default function RootLayout({ children }) {
         <header className="h-20">
           <NavBar />
         </header>
+        {/* <main className="bg-bone-white-50 relative"> */}
         <main className="bg-bone-white-50 relative">
           {children}
         </main>
